@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>A.H. NDG H.W.</title>
+
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   <!--  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'> --> 
+    <!-- My Custom fonts -->
+    <link href="../" rel="stylehseet" type="text/css">
+
+    <!-- Theme CSS -->
+    <link href="css/creative.min.css" rel="stylesheet">
+
+
+    <!-- My custom css sheet -->
+    <link href="css/bfarm.css" rel="stylesheet">
+    <link href="css/bfarm-extra.css" rel="stylesheet">
+
+
+</head>
+
+<body id="page-top">
+	<nav id="mainNav" class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Atelier D'histoire <span style="color:black">NDG</span> History Workshop</a>
+            </div>
+
+           
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">About Us</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+   <!-- ___________________________________  2nd nav topbar _____________________  -->
+   <!-- ___________________________________  2nd nav topbar _____________________  -->
+   <!-- ___________________________________  2nd nav topbar _____________________  -->
+
+
+<!-- added a wrapper to the 2ndary nav, so it stays under the main nav. (wrapper has top margin, not the 2nd nav)  Once screen scrolls past main nav, 2nd nav sticks to top via JS
+ -->
+    <div class="nav-wrapper">
+        <nav id="nav2" class="navbar navbar2-default">
+        	<div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="#page-top"><span style="color:black" class="glyphicon glyphicon-home"></span></a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav" id="nav2-items">
+                        <li>
+                            <a class="page-scroll" href="#">The Farm</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#">Veterans Life</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#">The Decline</a>
+                        </li>
+                          <li>
+                            <a class="page-scroll" href="#">Demolition</a>
+                        </li>
+                          <li>
+                            <a class="page-scroll" href="#">Options</a>
+                        </li>  <li>
+                            <a class="page-scroll" href="#">The Resolution</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>  
+    </div>
+<!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< header >>>>>>>>>>>>>>>>>> -->
+<!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< header >>>>>>>>>>>>>>>>>> -->
+<!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< header >>>>>>>>>>>>>>>>>> -->
+
+	<header>
+		<div class="background-image"> 
+		</div>
+		<div class="background-cover"> 
+		</div>
+		<div class="header-content">
+            <div class="header-content-inner">
+	            <div class="header-content-title"> 
+	                <h1 id="homeHeading">Benny Farm</h1><br>
+	                <h2>A community oral history</h2>
+	            </div>
+	            <div class="header-content-blurb"> 
+	                <p>The intriguing development of a neighbourhood in western Montreal.</p>
+                </div>
+            </div>
+        </div>
+	</header>
+
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  central splash >>>>>>>>>>>>>>>>>>>>>>> -->
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  central splash >>>>>>>>>>>>>>>>>>>>>>> -->
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  central splash >>>>>>>>>>>>>>>>>>>>>>> -->
+	<br>
+    <div class="container-fluid">
+		<div class="row">
+
+          <!--   <audio controls>
+                <source src="audio/Louis-CK_20YearOlds.mp3" type="audio/mp3">
+                <p>Can't find files. no play!</p>
+            </audio>
+            <audio controls>
+                <source src="audio/On Your Love Light.mp4" type="audio/mp4">
+                <p>Can't find files. no play!</p>
+            </audio> -->
+            <br>
+
+            <div class="col-md-6 offset-md-2">
+                <a>
+                    <img id="benFarm" class="hov" src="img/bFarm1.jpg" onClick="showId(this.id)"></img>
+                </a>
+                <a id="benFarmStop" class="hov" onClick="showStop(this.id)"> Stop</a>
+            </div>
+            <div class="col-md-6 offset-md-4">
+
+                 <a>
+                    <img id="benPor" class="hov" onClick="showId(this.id)" src="img/BennyPortrait.jpg"></img>
+                </a>
+                <a id="benPorStop"  class="hov" onClick="showStop(this.id)"> Stop</a>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-md-6 offset-md-2">
+                <a>
+                    <img id="benLogo" class="hov" onClick="showId(this.id)" src="img/bFarmLogo2.jpg" ></img>
+                </a>
+                <a id="benLogoStop"  class="hov" onClick="showStop(this.id)"> Stop</a>
+            </div>
+            <div class="col-md-6 offset-md-4">
+                 <a>
+                    <img id="benHouse" class="hov" onClick="showId(this.id)" src="img/farmHouse.jpg" ></img>
+                    
+                </a>
+                <a id="benHouseStop" class="hov" onClick="showStop(this.id)"> Stop</a>
+            </div>
+        </div>
+
+    </div>
+
+
+            <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
+            <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
+            <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
+            <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
+
+            <a><img src="img/farmHouse.jpg">house</img>
+            </a>
+        </div>
+
+
+
+	</div>
+
+
+	<div id="tester">
+
+	</div>
+
+	<footer class="footer center-on-small-only text-muted">
+		<!-- Footer sponsrs and links -->
+		<div class="container-fluid">
+			<div class="row">
+	       		<div class="col-md-6">
+	       			<h5>Sponsors</h5>
+		   			<p>Place footer content here.</p>
+		       		<p>Name of sponsor</p>
+	        	</div>
+	        	<div class="col-md-6">
+	       			<h5>Links</h5>
+		   			<ul>
+		   				<li><a href="#!">link 1</a></li>
+		   				<li><a href="#!">link 2</a></li>
+	        	</div>
+	        </div>	
+        </div>
+        <!-- Footer sponsors and links -->
+		 <!--Copyright-->
+	    <div class="footer-copyright">
+	        <div class="container-fluid">
+	            © 2015 Copyright: <a href="https://www.MDBootstrap.com"> takenFrom"MDBootstrap.com" ooohh ya! </a>
+
+	        </div>
+	    </div>
+	    <!--/.Copyright-->
+
+
+
+	</footer>
+
+
+<audio id="playBenPor" src="audio/Louis-CK_20YearOlds.mp3" type="audio/mp3">
+ <audio id="playBenFarm" src="audio/Bill Burr-Bush.mp3" type="audio/mp3">
+<audio id="playBenLogo" src="audio/Louis CK - When I Was A Kid.mp3" type="audio/mp3">
+ <audio id="playBenHouse" src="audio/Bill Burr - Rednecks.mp3" type="audio/mp3">
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/bennyfarm-JS.js"></script>
+<script>
+
+	// (function($) {
+ //    "use strict"; // Start of use strict
+// });
+
+// ----------------------   this is for a sticky 2nd navbar ------------------
+ 
+    var nav2 = document.getElementById("nav2");
+
+    window.onscroll = function() {
+        var win = window.pageYOffset;
+
+/*  The classList.add // remove  methods as desribed in:
+https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
+*/
+        if (win > 50) {
+            nav2.classList.add("stuck");
+        } else {
+            nav2.classList.remove("stuck");
+        }
+
+    };
+
+
+// ------------------------------     for audio playback / controls -----------
+//   .loud / .play  etc are methods from html5
+
+    // var benFarm= document.getElementById("benFarm"),
+    //     cue = document.getElementById("playBenFarm"),
+    //     stopCue = document.getElementById("benFarmStop");
+
+    // function playAudio() {
+    //     cue.load();
+    //     cue.play();
+    // };
+
+    // function stopAudio() {
+    //     cue.pause();
+
+    // };
+
+    // benFarm.addEventListener("click", playAudio, false);
+    // stopCue.addEventListener("click", stopAudio, false);
+
+
+
+    //  var audio = [audio1, audio2, audio3, audio4];
+    
+    
+
+    
+
+
+   
+
+
+
+
+        
+
+		
+	
+
+</script>
+
+</body>
+</html>
+
+
+
+
