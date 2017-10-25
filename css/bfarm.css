@@ -327,8 +327,9 @@ header .header-content .header-content-inner p {
     margin-top: -4.5%;
   }
   header .header-content .header-content-inner .header-content-title {
-    position: absolute;
+    position: relative;
     margin-left: 7%;
+    margin-top: 1%;
   }
   header .header-content .header-content-inner h1 {
     font-size: 50px;
@@ -339,8 +340,9 @@ header .header-content .header-content-inner p {
     margin-right: 40%;
   }
    header .header-content .header-content-inner .header-content-blurb {
-    position: absolute;
-    margin-left: 35%;
+    position: relative;
+    margin-left: 41%;
+    margin-top: -10%;
   }
   header .header-content .header-content-inner p {
     font-size: 18px;
