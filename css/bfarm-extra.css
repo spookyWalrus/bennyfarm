@@ -11,7 +11,7 @@ bfarm custom styles!
     position: fixed;
     width: 100%;
     top: 0px;
-    z-index: 1;
+    z-index: 3;
   }
 
 .navbar2-default {
@@ -21,6 +21,7 @@ bfarm custom styles!
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
+  z-index: 3;
 }
 .navbar2-default .navbar-header .navbar-brand {
   color: #F05F40;
@@ -60,6 +61,8 @@ bfarm custom styles!
 }
 
 
+
+
 /* ---------------------------------- min 768  ------------------------------  */
 /* ---------------------------------- min 768  ------------------------------  */
 /* ---------------------------------- min 768  ------------------------------  */
@@ -85,6 +88,11 @@ bfarm custom styles!
   #nav2-items ul li a {
     padding: 0px 5px 0px 5px !important;
   }
+
+.splash { 
+
+
+}
 
 /*--------------------   image detailing -----------*/
 /*-------------- ---------  image detailing -----------*/
@@ -119,7 +127,7 @@ bfarm custom styles!
   }
 
 
-}
+}  /*-------------------------- > end of min 768*/
 
 
 /* ---------------------------------- min 992 ------------------------------  */

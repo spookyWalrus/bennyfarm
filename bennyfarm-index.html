@@ -22,12 +22,15 @@
     <link href="../" rel="stylehseet" type="text/css">
 
     <!-- Theme CSS -->
-    <link href="css/creative.min.css" rel="stylesheet">
+    <link href="css/creativz.min.css" rel="stylesheet">
 
 
     <!-- My custom css sheet -->
     <link href="css/bfarm.css" rel="stylesheet">
     <link href="css/bfarm-extra.css" rel="stylesheet">
+    <link href="css/bfarm-timeline.css" rel="stylesheet">
+    <link href="css/bfarm-content.css" rel="stylesheet">
+
 
 
 </head>
@@ -79,26 +82,88 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav" id="nav2-items">
                         <li>
-                            <a class="page-scroll" href="#">The Farm</a>
+                            <a class="chapter" href="#farmWrapID">The Farm</a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="#">Veterans Life</a>
+                            <a class="chapter" href="#vetLifeWrapID">Veterans Life</a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="#">The Decline</a>
+                            <a class="chapter" href="#declineWrapID">The Decline</a>
                         </li>
                           <li>
-                            <a class="page-scroll" href="#">Demolition</a>
+                            <a class="chapter" href="#">Demolition</a>
                         </li>
                           <li>
-                            <a class="page-scroll" href="#">Options</a>
+                            <a class="chapter" href="#">Options</a>
                         </li>  <li>
-                            <a class="page-scroll" href="#">The Resolution</a>
+                            <a class="chapter" href="#">The Resolution</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>  
+    </div>
+
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>   timeline navbar   >>>>>>>>>>>>>>>> -->
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>   timeline navbar   >>>>>>>>>>>>>>>> -->
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>   timeline navbar   >>>>>>>>>>>>>>>> -->
+
+
+<!-- added a wrapper to the 2ndary nav, so it stays under the main nav. (wrapper has top margin, not the 2nd nav)  Once screen scrolls past main nav, 2nd nav sticks to top via JS
+ -->
+    <div class="timeline" id="timelineID">
+
+            <div class="timeline-header timelineTop" id="topDate"><h4>1838</h4></div>
+            <!-- <div class="timeline-scrollbox"><p>*</p></div> -->
+            <div class="timeline-box ">
+                <div class="timeline-scrollbox">
+                    <div class="timeline-pointer"></div>
+                </div>
+                <ul class= "time-list" >
+
+                    <li>
+                        <a class="timeline-dates dates"  href="#" >1838 -</a>
+                        <div class="tiptext">Eight threes </div>
+
+                    </li>
+                    <li>
+                        <a class="timeline-dates dates" href="#">1890 -</a>
+                        <div class="tiptext">blah blah</div>
+                    </li>
+                    <li>
+                        <a class="timeline-dates dates"  href="#">Horses! -</a>
+                        <div class="tiptext">Horses ate the grass</div>
+                    </li>
+                      <li>
+                        <a class="timeline-dates" href="#">  -</a>
+                    </li>
+                      <li>
+                        <a class="timeline-dates" href="#">  -</a>
+                    </li>  <li>
+                        <a class="timeline-dates" href="#">Planting olives  -</a>
+                        <div class="tiptext">Eat them olives</div>
+                    </li>
+                    <li>
+                        <a class="timeline-dates" href="#">The Barn  -</a>
+                        <div class="tiptext">Farmin in the Barn</div>
+                    </li>
+                    <li>
+                        <a class="timeline-scroll" href="#">  -</a>
+                    </li>
+                    <li>
+                        <a class="timeline-scroll" href="#">  -</a>
+                    </li>
+                      <li>
+                        <a class="timeline-scroll" href="#">Milk the cows -</a>
+                    </li>
+                      <li>
+                        <a class="timeline-scroll" href="#">  -</a>
+                    </li>  <li>
+                        <a class="timeline-scroll" href="#"> -</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="timeline-header timelineBottom" id="bottomDate"><h4>1944</h4></div>
     </div>
 <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< header >>>>>>>>>>>>>>>>>> -->
 <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< header >>>>>>>>>>>>>>>>>> -->
@@ -125,8 +190,7 @@
 <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  central splash >>>>>>>>>>>>>>>>>>>>>>> -->
 <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  central splash >>>>>>>>>>>>>>>>>>>>>>> -->
 <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  central splash >>>>>>>>>>>>>>>>>>>>>>> -->
-	<br>
-    <div class="container-fluid">
+    <div class="container-fluid splash">
 		<div class="row">
 
           <!--   <audio controls>
@@ -172,24 +236,96 @@
 
     </div>
 
-
-            <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
-            <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
-            <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
-            <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
-
-            <a><img src="img/farmHouse.jpg">house</img>
-            </a>
+    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  content: Farm >>>>>>>>>>>>>>>>>>>>>>>> -->
+    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  content: Farm >>>>>>>>>>>>>>>>>>>>>> -->
+    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  content: Farm  >>>>>>>>>>>>>>>>>>>>>>> -->
+    <div class="farmWrap" id="farmWrapID">
+        <div class="farm" >
+            <div id="farmID" class="farmIDfixed" >
+                <div class="bennyText">
+                    <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
+                    <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
+            
+                    <div>
+                       <a>
+                        <img id="benHouse" class="hov farmImage" onClick="showId(this.id)" src="img/farmHouse.jpg" ></img> </a>
+                        
+                        
+                        <a id="benHouseStop" class="hov" onClick="showStop(this.id)"> Stop</a>
+                    </div>
+                     <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
+                    <div>
+                        <a>
+                        <img id="benLogo" class="hov farmImage2" onClick="showId(this.id)" src="img/bFarmLogo2.jpg" ></img>
+                        </a><br>
+                           <a id="benLogoStop"  class="hov" onClick="showStop(this.id)"> Stop</a>
+                    </div>
+                     <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p> <br>
+                      <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
+                  
+            
+                </div>
+            </div>
         </div>
+    </div>
+
+	<div class="vetLifeWrap" id="vetLifeWrapID">
+        <div id="vetLife">
+            <div class="vetLife" id="vetLifeID" >
+                <div class="vetLifeText">
+                    <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
+                    <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
+                        <div>
+                           <a>
+                            <img id="benHouse" class="hov farmImage" onClick="showId(this.id)" src="img/farmHouse.jpg" ></img>
+                            
+                             </a>
+                            <a id="benHouseStop" class="hov" onClick="showStop(this.id)"> Stop</a>
+                        </div>
+                    <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
+                        <div>
+                            <a>
+                            <img id="benLogo" class="hov farmImage2" onClick="showId(this.id)" src="img/bFarmLogo2.jpg" ></img>
+                            </a><br>
+                               <a id="benLogoStop"  class="hov" onClick="showStop(this.id)"> Stop</a>
+                        </div>
+                    <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
 
 
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+	
+    <div class="declineWrap" id="declineWrapID">
+        <div id="decline">
+            <div class="vetLife" id="declineID" >
+                <div class="declineText">
+                    <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
+                    <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
+                        <div>
+                           <a>
+                            <img id="benHouse" class="hov declineImage" onClick="showId(this.id)" src="img/farmHouse.jpg" ></img>
+                            
+                             </a>
+                            <a id="benHouseStop" class="hov" onClick="showStop(this.id)"> Stop</a>
+                        </div>
+                    <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
+                        <div>
+                            <a>
+                            <img id="benLogo" class="hov declineImage2" onClick="showId(this.id)" src="img/bFarmLogo2.jpg" ></img>
+                            </a><br>
+                               <a id="benLogoStop"  class="hov" onClick="showStop(this.id)"> Stop</a>
+                        </div>
+                    <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
+                    
 
-	</div>
-
-
-	<div id="tester">
-
-	</div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
 
 	<footer class="footer center-on-small-only text-muted">
 		<!-- Footer sponsrs and links -->
@@ -239,21 +375,21 @@
 
 // ----------------------   this is for a sticky 2nd navbar ------------------
  
-    var nav2 = document.getElementById("nav2");
+    // var nav2 = document.getElementById("nav2");
 
-    window.onscroll = function() {
-        var win = window.pageYOffset;
+    // window.onscroll = function() {
+    //     var win = window.pageYOffset;
 
 /*  The classList.add // remove  methods as desribed in:
 https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
 */
-        if (win > 50) {
-            nav2.classList.add("stuck");
-        } else {
-            nav2.classList.remove("stuck");
-        }
+    //     if (win > 50) {
+    //         nav2.classList.add("stuck");
+    //     } else {
+    //         nav2.classList.remove("stuck");
+    //     }
 
-    };
+    // };
 
 
 // ------------------------------     for audio playback / controls -----------

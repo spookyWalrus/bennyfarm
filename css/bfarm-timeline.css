@@ -1,0 +1,127 @@
+
+.timeline {
+	 display: inline-block;
+  position: fixed;
+  float: right;
+  height: 74%;
+  width: 8%;
+  margin-left: 89%;
+  margin-bottom: 10%;
+  z-index: 99;
+  /*background-color: yellow;*/
+  visibility: hidden;
+
+   background: -webkit-linear-gradient(left, rgba(255,255,255,0), rgba(163,162,159,0)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, rgba(255,255,255,0), rgba(163,162,159,0)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, rgba(255,255,255,0), rgba(163,162,159,0)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, rgba(255,255,255,0), rgba(163,162,159,0)); /* Standard syntax (must be last) */*/*/*/
+}
+
+
+
+	
+.timeline-box {
+  border-right: 5px solid black;
+  height: 75%;
+  visibility: hidden;
+}
+
+.timeline-scrollbox {
+  display: inline-block;
+  float: right;
+  width: 15%;
+  height: 100%;
+  padding: 0px;
+  margin-right: -20%;
+  margin-top: 3%;
+  background-color: yellow;
+  z-index: 2;
+  position: relative;
+}
+
+.timeline-pointer{
+  position: absolute;
+ width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent; 
+  border-right:10px solid blue; 
+}
+
+/*.timeline-box {
+  border-right: 5px solid black;
+  height: 75%;
+}*/
+.time-list {
+  text-align: right;
+  text-decoration: none;
+  list-style: none; 
+  padding-left: 0px;
+  /*background-color: #ffffff;*/
+
+}
+
+.time-list > li {
+	height: 25px;
+  color: #000;
+}
+.timeline-dates {
+  transition: all 0.35s;
+  transition-property: all;
+  transition-duration: 0.35s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  color: #000000;
+  /*font-size: 14px;*/
+  /*visibility: hidden !important;*/
+
+}
+.timeline-header {
+   text-align: right;
+   font-weight: bold;
+  padding-left: 0px;
+  padding-right: 3%;
+  margin-right: -10%;
+  margin-left: 10%;
+  /*background-color: yellow;*/
+  font-size: 18px !important;
+}/*
+.timeline-header:hover .timeline-dates {
+  visibility: visible;
+}
+.timeline-box:hover .timeline-dates {
+  visibility: visible;
+}
+*/
+
+#topDate{
+	color: #000000;
+}
+
+.tiptext {
+    visibility: hidden;
+   position: relative;
+   display: inline-block;
+    /*width: 190px;*/
+    background-color: #c0b099;
+    color: black;
+    text-align: right;
+    border-radius: 6px;
+    padding-left: 5px;
+    padding-right: 10px;
+    margin-right: 10px;
+    font-size: 13px;
+    z-index: 1;
+    /*top: px;*/
+    right: 55%;
+    top: -20px;
+}
+
+.timeline-dates:hover .tiptext {
+    visibility: visible;
+    /*color: blue;*/
+}
+
+.dates {
+
+}

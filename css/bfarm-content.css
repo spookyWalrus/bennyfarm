@@ -1,0 +1,255 @@
+/*------------  splash page styles --------------------*/
+/*------------  splash page styles --------------------*/
+/*------------  splash page styles --------------------*/
+
+
+.splash { 
+  position: relative;
+  height: 660px;
+  /*background-color: green;*/
+
+}
+
+
+/*--------------------  content: Farm ---------*/
+/*--------------------  content: Farm ---------*/
+/*-------------------- content: Farm ---------*/
+
+/*.stuck {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 3;
+  }*/
+
+.bennyText {
+  position: relative;
+  font-size: 16px;
+  display: inline-block;
+  z-index: 99;
+  margin-right: 9%;
+
+}
+
+.farmWrap {
+  position: fixed;  
+  width: 100%;
+  /*height: 600px;*/
+  /*padding: 10px;*/
+  /*margin-top: 28px;*/
+  top: -51px;
+
+
+}
+#farmWrapID {
+    position: relative;  
+  padding-top: 51px;
+
+}
+.farm {
+  /*position: relative;
+  z-index: 2;
+  /*background-color: rgba(169, 239, 192, 0.25);*/
+
+/*
+  background: -webkit-linear-gradient(270deg, #ffffff 5%, #a9efc0 35%);
+  background: -moz-linear-gradient(270deg, #ffffff 5%,  #a9efc0 35%);
+  padding: 3%;*/
+
+
+}
+
+#farmID {
+  position: relative;
+  z-index: 2;
+  /*background-color: rgba(169, 239, 192, 0.25);*/
+
+
+  background: -webkit-linear-gradient(270deg, #ffffff 5%, #a9efc0 25%);
+  background: -moz-linear-gradient(270deg, #ffffff 5%,  #a9efc0 25%);
+
+
+/*
+ background: -webkit-linear-gradient(270deg, white 1%, green 65%);
+  background: -moz-linear-gradient(270deg, white 1%,  green 65%;  */
+
+
+  padding: 3%;
+}
+
+/*.backScroll {
+  position: absolute;
+background-attachment: scroll;
+}*/
+
+#farmID:before  {
+
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /*z-index: 0;*/
+    background-image: url('../img/placeHolderPics/randomFarmHouse.jpg');
+   opacity: 0.2;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+.farmImage {
+  display: inline-block;
+  width: 30%;
+  height: auto;
+  float: left;
+  margin: 1%;
+  z-index: 99;
+}
+.farmImage2 {
+  display: inline-block;
+  width: 30%;
+  height: auto;
+  float: right;
+  margin: 1%;
+  z-index: 99;
+}
+
+/*-------------------  content styles: vet life -----------*/
+/*-------------------  content styles: vet life -----------*/
+/*-------------------  content styles: vet life -----------*/
+
+
+.vetLifeText {
+  position: relative;
+  font-size: 16px;
+  display: inline-block;
+  z-index: 99;
+  color: #ffffff;
+  margin-right: 9%;
+}
+
+#vetLife {
+
+}
+
+.vetLifeWrap {
+  /*position: relative;  */
+  width: 100%;
+  /*padding: 10px;*/
+  /*margin-top: 28px;*/
+  top: -51px;
+}
+#vetLifeWrapID {
+    position: relative;  
+  padding-top: 51px;
+}
+#vetLifeID {
+  position: relative;
+  z-index: 2;
+
+  background: -webkit-linear-gradient(270deg,  #a9efc0 1%, #36728c 20%);
+  background: -moz-linear-gradient(270deg,  #a9efc0 1%, #36728c 20%);
+  padding: 3%;
+}
+#vetLifeID:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    background-image: url('../img/placeHolderPics/randomFarmHouse2.jpg');
+   opacity: 0.2;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+.vetLifeImage {
+  display: inline-block;
+  width: 30%;
+  height: auto;
+  float: left;
+  margin: 1%;
+  z-index: 99;
+}
+.vetLifeImage2 {
+  display: inline-block;
+  width: 30%;
+  height: auto;
+  float: right;
+  margin: 1%;
+  z-index: 99;
+}
+
+
+/*-------------------  content styles: the decline -----------*/
+/*-------------------  content styles: the decline -----------*/
+/*-------------------  content styles: the decline -----------*/
+
+
+.declineText {
+  position: relative;
+  font-size: 16px;
+  display: inline-block;
+  z-index: 99;
+  color: #ffffff;
+  margin-right: 9%;
+}
+
+#decline {
+
+}
+
+.declineWrap {
+  /*position: relative;  */
+  width: 100%;
+  /*padding: 10px;*/
+  /*margin-top: 28px;*/
+  top: -51px;
+}
+#declineWrapID {
+    position: relative;  
+  padding-top: 51px;
+}
+#declineID {
+  position: relative;
+  z-index: 2;
+
+  background: -webkit-linear-gradient(270deg,  #36728c 1%, #8a8505 20%);
+  background: -moz-linear-gradient(270deg,  #36728c 1%, #8a8505 20%);
+  padding: 3%;
+}
+#declineID:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    background-image: url('../img/placeHolderPics/randomFarmHouse2.jpg');
+   opacity: 0.2;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+.declineImage {
+  display: inline-block;
+  width: 30%;
+  height: auto;
+  float: left;
+  margin: 1%;
+  z-index: 99;
+}
+.declineImage2 {
+  display: inline-block;
+  width: 30%;
+  height: auto;
+  float: right;
+  margin: 1%;
+  z-index: 99;
+}
