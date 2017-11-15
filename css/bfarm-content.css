@@ -1,16 +1,10 @@
-/*------------  splash page styles --------------------*/
-/*------------  splash page styles --------------------*/
-/*------------  splash page styles --------------------*/
 
 
-.splash { 
-  position: relative;
-  height: 660px;
-  /*background-color: green;*/
+/*--------- generic class for all images in content section ---*/
+        /*this is referred to for JS Animation script*/
+.thisImage {   
 
 }
-
-
 /*--------------------  content: Farm ---------*/
 /*--------------------  content: Farm ---------*/
 /*-------------------- content: Farm ---------*/
@@ -22,35 +16,28 @@
     z-index: 3;
   }*/
 
-.bennyText {
-  position: relative;
-  font-size: 16px;
-  display: inline-block;
-  z-index: 99;
-  margin-right: 9%;
+
+
+#farmWrapID {
+    position: relative;  
+  padding-top: 51px;
+  /*top: -51px;*/
 
 }
-
 .farmWrap {
-  position: fixed;  
+  /*position: fixed;  */
   width: 100%;
   /*height: 600px;*/
   /*padding: 10px;*/
   /*margin-top: 28px;*/
   top: -51px;
-
-
 }
-#farmWrapID {
-    position: relative;  
-  padding-top: 51px;
 
-}
 .farm {
+  /*margin-right: 9%;*/
   /*position: relative;
   z-index: 2;
   /*background-color: rgba(169, 239, 192, 0.25);*/
-
 /*
   background: -webkit-linear-gradient(270deg, #ffffff 5%, #a9efc0 35%);
   background: -moz-linear-gradient(270deg, #ffffff 5%,  #a9efc0 35%);
@@ -62,25 +49,12 @@
 #farmID {
   position: relative;
   z-index: 2;
-  /*background-color: rgba(169, 239, 192, 0.25);*/
-
-
   background: -webkit-linear-gradient(270deg, #ffffff 5%, #a9efc0 25%);
   background: -moz-linear-gradient(270deg, #ffffff 5%,  #a9efc0 25%);
-
-
-/*
- background: -webkit-linear-gradient(270deg, white 1%, green 65%);
-  background: -moz-linear-gradient(270deg, white 1%,  green 65%;  */
-
-
-  padding: 3%;
+  padding-left: 5%;
+  padding-right: 8%;
+  padding-top: 4%;
 }
-
-/*.backScroll {
-  position: absolute;
-background-attachment: scroll;
-}*/
 
 #farmID:before  {
 
@@ -97,14 +71,24 @@ background-attachment: scroll;
    background-size: cover;
    background-attachment: fixed;
 }
+.farmContent {
+  position: relative;
+  font-size: 16px;
+  display: inline;
+  z-index: 10;
+  margin-right: 9%;
 
-.farmImage {
+}
+
+
+
+.farmImage1 {
   display: inline-block;
   width: 30%;
   height: auto;
   float: left;
   margin: 1%;
-  z-index: 99;
+  z-index: 10;
 }
 .farmImage2 {
   display: inline-block;
@@ -112,25 +96,30 @@ background-attachment: scroll;
   height: auto;
   float: right;
   margin: 1%;
-  z-index: 99;
+  z-index: 10;
 }
-
-/*-------------------  content styles: vet life -----------*/
-/*-------------------  content styles: vet life -----------*/
-/*-------------------  content styles: vet life -----------*/
-
-
-.vetLifeText {
-  position: relative;
-  font-size: 16px;
+.farmImage3 {
   display: inline-block;
-  z-index: 99;
-  color: #ffffff;
-  margin-right: 9%;
+  width: 30%;
+  height: auto;
+  float: none;
+  margin: 1%;
+  z-index: 10;
 }
+
+/*-------------------  content styles: vet life -----------*/
+/*-------------------  content styles: vet life -----------*/
+/*-------------------  content styles: vet life -----------*/
+
+
+
 
 #vetLife {
 
+}
+#vetLifeWrapID {
+    position: relative;  
+  padding-top: 51px;
 }
 
 .vetLifeWrap {
@@ -140,22 +129,22 @@ background-attachment: scroll;
   /*margin-top: 28px;*/
   top: -51px;
 }
-#vetLifeWrapID {
-    position: relative;  
-  padding-top: 51px;
-}
+
 #vetLifeID {
   position: relative;
   z-index: 2;
-
   background: -webkit-linear-gradient(270deg,  #a9efc0 1%, #36728c 20%);
   background: -moz-linear-gradient(270deg,  #a9efc0 1%, #36728c 20%);
-  padding: 3%;
+  padding-left: 5%;
+  padding-right: 8%;
+    padding-top: 4%;
+
 }
+
 #vetLifeID:before {
     content: "";
     position: absolute;
-    top: 0;
+    top: 0px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -164,16 +153,25 @@ background-attachment: scroll;
    opacity: 0.2;
    background-repeat: no-repeat;
    background-size: cover;
+   background-attachment: fixed;
 }
 
+.vetLifeContent {
+  position: relative;
+  font-size: 16px;
+  display: inline;
+  z-index: 10;
+  margin-right: 9%;
+  color: #fff;
+}
 
-.vetLifeImage {
+.vetLifeImage1 {
   display: inline-block;
   width: 30%;
   height: auto;
   float: left;
   margin: 1%;
-  z-index: 99;
+  z-index: 10;
 }
 .vetLifeImage2 {
   display: inline-block;
@@ -181,27 +179,26 @@ background-attachment: scroll;
   height: auto;
   float: right;
   margin: 1%;
-  z-index: 99;
+  z-index: 10;
 }
-
-
-/*-------------------  content styles: the decline -----------*/
-/*-------------------  content styles: the decline -----------*/
-/*-------------------  content styles: the decline -----------*/
-
-
-.declineText {
-  position: relative;
-  font-size: 16px;
+.vetLifeImage3 {
   display: inline-block;
-  z-index: 99;
-  color: #ffffff;
-  margin-right: 9%;
+  width: 30%;
+  height: auto;
+  float: none;
+  margin: 1%;
+  z-index: 10;
 }
 
-#decline {
 
+/*-------------------  content styles: the decline -----------*/
+/*-------------------  content styles: the decline -----------*/
+/*-------------------  content styles: the decline -----------*/
+#declineWrapID {
+    position: relative;  
+  padding-top: 51px;
 }
+
 
 .declineWrap {
   /*position: relative;  */
@@ -210,40 +207,56 @@ background-attachment: scroll;
   /*margin-top: 28px;*/
   top: -51px;
 }
-#declineWrapID {
-    position: relative;  
-  padding-top: 51px;
+
+
+.decline {
+
 }
+
+
 #declineID {
   position: relative;
   z-index: 2;
-
   background: -webkit-linear-gradient(270deg,  #36728c 1%, #8a8505 20%);
   background: -moz-linear-gradient(270deg,  #36728c 1%, #8a8505 20%);
-  padding: 3%;
+  padding-left: 5%;
+  padding-right: 8%;
+  padding-top: 4%;
 }
 #declineID:before {
     content: "";
     position: absolute;
-    top: 0;
+    top: 0px;
     bottom: 0;
     left: 0;
     right: 0;
     z-index: 0;
-    background-image: url('../img/placeHolderPics/randomFarmHouse2.jpg');
+    background-image: url('../img/placeHolderPics/cornFieldBarn.jpeg');
    opacity: 0.2;
    background-repeat: no-repeat;
    background-size: cover;
+    background-attachment: fixed;
+
 }
 
 
-.declineImage {
+.declineContent {
+  position: relative;
+  font-size: 16px;
+  display: inline;
+  z-index: 99;
+  margin-right: 9%;
+  color: #fff;
+
+}
+
+.declineImage1 {
   display: inline-block;
   width: 30%;
   height: auto;
   float: left;
   margin: 1%;
-  z-index: 99;
+  z-index: 10;
 }
 .declineImage2 {
   display: inline-block;
@@ -251,5 +264,5 @@ background-attachment: scroll;
   height: auto;
   float: right;
   margin: 1%;
-  z-index: 99;
+  z-index: 10;
 }

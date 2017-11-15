@@ -30,6 +30,7 @@
     <link href="css/bfarm-extra.css" rel="stylesheet">
     <link href="css/bfarm-timeline.css" rel="stylesheet">
     <link href="css/bfarm-content.css" rel="stylesheet">
+    <link href="css/bfarm-splashpage.css" rel="stylesheet">
 
 
 
@@ -111,59 +112,66 @@
 
 <!-- added a wrapper to the 2ndary nav, so it stays under the main nav. (wrapper has top margin, not the 2nd nav)  Once screen scrolls past main nav, 2nd nav sticks to top via JS
  -->
-    <div class="timeline" id="timelineID">
+    <div class="row"> 
+        <div class="col col-md-10" > </div>
+            <div class=".col col-md-2">
+                <div class="timeline" id="timelineID">
+                    <div class="timeline-header timelineTop" id="topDate"><h4>1838</h4></div>
+                    <!-- <div class="timeline-scrollbox"><p>*</p></div> -->
+                    <div class="timeline-box ">
+                        <div class="timelineScrollbox" id="scrollBox">
+                            <div id="timeline-pointer"></div>
+                        </div>
+                        <ul class= "time-list" >
+                            <li>
+                                <a class="timeline-dates dates"  >1838 -</a>
+                                <div class="tiptext">Eight threes </div>
 
-            <div class="timeline-header timelineTop" id="topDate"><h4>1838</h4></div>
-            <!-- <div class="timeline-scrollbox"><p>*</p></div> -->
-            <div class="timeline-box ">
-                <div class="timeline-scrollbox">
-                    <div class="timeline-pointer"></div>
-                </div>
-                <ul class= "time-list" >
+                            </li>
+                            <li>
+                                <a class="timeline-dates dates" >1890 -</a>
+                                <div class="tiptext">blah blah</div>
+                            </li>
+                            <!-- <div id="timeline-pointer"></div> -->
 
-                    <li>
-                        <a class="timeline-dates dates"  href="#" >1838 -</a>
-                        <div class="tiptext">Eight threes </div>
-
-                    </li>
-                    <li>
-                        <a class="timeline-dates dates" href="#">1890 -</a>
-                        <div class="tiptext">blah blah</div>
-                    </li>
-                    <li>
-                        <a class="timeline-dates dates"  href="#">Horses! -</a>
-                        <div class="tiptext">Horses ate the grass</div>
-                    </li>
-                      <li>
-                        <a class="timeline-dates" href="#">  -</a>
-                    </li>
-                      <li>
-                        <a class="timeline-dates" href="#">  -</a>
-                    </li>  <li>
-                        <a class="timeline-dates" href="#">Planting olives  -</a>
-                        <div class="tiptext">Eat them olives</div>
-                    </li>
-                    <li>
-                        <a class="timeline-dates" href="#">The Barn  -</a>
-                        <div class="tiptext">Farmin in the Barn</div>
-                    </li>
-                    <li>
-                        <a class="timeline-scroll" href="#">  -</a>
-                    </li>
-                    <li>
-                        <a class="timeline-scroll" href="#">  -</a>
-                    </li>
-                      <li>
-                        <a class="timeline-scroll" href="#">Milk the cows -</a>
-                    </li>
-                      <li>
-                        <a class="timeline-scroll" href="#">  -</a>
-                    </li>  <li>
-                        <a class="timeline-scroll" href="#"> -</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="timeline-header timelineBottom" id="bottomDate"><h4>1944</h4></div>
+                            <li>
+                                <a class="timeline-dates dates" >Horses! -</a>
+                                <div class="tiptext">Horses ate the grass</div>
+                            </li>
+                          <!--     <li>
+                                <a class="timeline-dates" href="#">  -</a>
+                            </li>
+                              <li>
+                                <a class="timeline-dates" href="#">  -</a>
+                            </li>  <li>
+                                <a class="timeline-dates" href="">Planting olives  -</a>
+                                <div class="tiptext">Eat them olives</div>
+                            </li>
+                            <li>
+                                <a class="timeline-dates" href="">The Barn  -</a>
+                                <div class="tiptext">Farmin in the Barn</div>
+                            </li>
+                            <li>
+                                <a class="timeline-scroll" href="#">  -</a>
+                            </li>
+                            <li>
+                                <a class="timeline-scroll" href="#">  -</a>
+                            </li>
+                              <li>
+                                <a class="timeline-scroll" href="#">Milk the cows -</a>
+                            </li>
+                              <li>
+                                <a class="timeline-scroll" href="#">  -</a>
+                            </li>  <li>
+                                <a class="timeline-scroll" href="#"> -</a>
+                            </li> -->
+                        </ul>
+                    </div>
+                      <div class="timeline-header timelineBottom" id="bottomDate"><h4>1944</h4>
+                      </div>
+                </div> 
+            </div>   
+        </div>
     </div>
 <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< header >>>>>>>>>>>>>>>>>> -->
 <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< header >>>>>>>>>>>>>>>>>> -->
@@ -190,8 +198,8 @@
 <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  central splash >>>>>>>>>>>>>>>>>>>>>>> -->
 <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  central splash >>>>>>>>>>>>>>>>>>>>>>> -->
 <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  central splash >>>>>>>>>>>>>>>>>>>>>>> -->
-    <div class="container-fluid splash">
-		<div class="row">
+    <div class="container-fluid splashWrap">
+		<div class="splashBox">
 
           <!--   <audio controls>
                 <source src="audio/Louis-CK_20YearOlds.mp3" type="audio/mp3">
@@ -201,15 +209,17 @@
                 <source src="audio/On Your Love Light.mp4" type="audio/mp4">
                 <p>Can't find files. no play!</p>
             </audio> -->
-            <br>
 
-            <div class="col-md-6 offset-md-2">
-                <a>
-                    <img id="benFarm" class="hov" src="img/bFarm1.jpg" onClick="showId(this.id)"></img>
-                </a>
-                <a id="benFarmStop" class="hov" onClick="showStop(this.id)"> Stop</a>
-            </div>
-            <div class="col-md-6 offset-md-4">
+            <a id="benFarmStop" class="hov" onClick="showStop(this.id)"> Stop</a>
+            <br>
+            <div id="benFarm" class="hov" onClick="showId(this.id)"></div>
+            <div id="benPor" class="hov" onClick="showId(this.id)"></div>
+            <a id="benPorStop"  class="hov" onClick="showStop(this.id)"> Stop</a>
+            <div id="benLogo1" class="hov" onClick="showId(this.id)" ></div>
+            <a id="benLogoStop1"  class="hov" onClick="showStop(this.id)"> Stop</a>
+            <div id="benHouse1" class="hov" onClick="showId(this.id)" ></div>
+            <a id="benHouse1Stop" class="hov" onClick="showStop(this.id)"> Stop</a>
+            <!-- <div class="col-md-6 offset-md-4">
 
                  <a>
                     <img id="benPor" class="hov" onClick="showId(this.id)" src="img/BennyPortrait.jpg"></img>
@@ -231,8 +241,8 @@
                     
                 </a>
                 <a id="benHouseStop" class="hov" onClick="showStop(this.id)"> Stop</a>
-            </div>
-        </div>
+            </div>-->
+        </div> 
 
     </div>
 
@@ -241,27 +251,33 @@
     <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  content: Farm  >>>>>>>>>>>>>>>>>>>>>>> -->
     <div class="farmWrap" id="farmWrapID">
         <div class="farm" >
-            <div id="farmID" class="farmIDfixed" >
-                <div class="bennyText">
-                    <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
-                    <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
+            <div id="farmID">
+                <div class="farmContent">
+                    <p >Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
             
                     <div>
                        <a>
-                        <img id="benHouse" class="hov farmImage" onClick="showId(this.id)" src="img/farmHouse.jpg" ></img> </a>
+                        <img id="farmPic1" class="hov farmImage1 thisImage" onClick="showId(this.id)" src="img/placeHolderPics/mountainBarn.jpg" ></img> </a>
                         
                         
-                        <a id="benHouseStop" class="hov" onClick="showStop(this.id)"> Stop</a>
+                        <a id="farmPic1Stop" class="hov" onClick="showStop(this.id)"> Stop</a>
                     </div>
-                     <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
+                     <p >Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
                     <div>
                         <a>
-                        <img id="benLogo" class="hov farmImage2" onClick="showId(this.id)" src="img/bFarmLogo2.jpg" ></img>
+                        <img id="farmPic2" class="hov farmImage2 thisImage" onClick="showId(this.id)" src="img/placeHolderPics/cornFieldBarn.jpeg" ></img>
                         </a><br>
-                           <a id="benLogoStop"  class="hov" onClick="showStop(this.id)"> Stop</a>
+                           <a id="farmPic2Stop"  class="hov" onClick="showStop(this.id)"> Stop</a>
                     </div>
                      <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p> <br>
-                      <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
+                     <div>
+                        <a>
+                        <img id="farmPic3" class="hov farmImage1 thisImage" onClick="showId(this.id)" src="img/placeHolderPics/randomField.jpeg" ></img>
+                        </a><br>
+                           <a id="farmPic3Stop"  class="hov" onClick="showStop(this.id)"> Stop</a>
+                    </div>
+                     <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p> <br>
+                    
                   
             
                 </div>
@@ -271,13 +287,19 @@
 
 	<div class="vetLifeWrap" id="vetLifeWrapID">
         <div id="vetLife">
-            <div class="vetLife" id="vetLifeID" >
-                <div class="vetLifeText">
-                    <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
+            <div id="vetLifeID" >
+                <div class="vetLifeContent">
+                    <div>
+                           <a>
+                            <img id="benHouse" class="hov vetLifeImage2 thisImage" onClick="showId(this.id)" src="img/farmHouse.jpg" ></img>
+                            
+                             </a>
+                            <a id="benHouseStop" class="hov" onClick="showStop(this.id)"> Stop</a>
+                        </div>
                     <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
                         <div>
                            <a>
-                            <img id="benHouse" class="hov farmImage" onClick="showId(this.id)" src="img/farmHouse.jpg" ></img>
+                            <img id="benHouse" class="hov vetLifeImage1 thisImage" onClick="showId(this.id)" src="img/farmHouse.jpg" ></img>
                             
                              </a>
                             <a id="benHouseStop" class="hov" onClick="showStop(this.id)"> Stop</a>
@@ -285,7 +307,7 @@
                     <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
                         <div>
                             <a>
-                            <img id="benLogo" class="hov farmImage2" onClick="showId(this.id)" src="img/bFarmLogo2.jpg" ></img>
+                            <img id="benLogo" class="hov vetLifeImage2 thisImage" onClick="showId(this.id)" src="img/bFarmLogo2.jpg" ></img>
                             </a><br>
                                <a id="benLogoStop"  class="hov" onClick="showStop(this.id)"> Stop</a>
                         </div>
@@ -301,12 +323,12 @@
     <div class="declineWrap" id="declineWrapID">
         <div id="decline">
             <div class="vetLife" id="declineID" >
-                <div class="declineText">
+                <div class="declineContent">
                     <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
                     <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
                         <div>
                            <a>
-                            <img id="benHouse" class="hov declineImage" onClick="showId(this.id)" src="img/farmHouse.jpg" ></img>
+                            <img id="benHouse" class="hov declineImage1 thisImage" onClick="showId(this.id)" src="img/farmHouse.jpg" ></img>
                             
                              </a>
                             <a id="benHouseStop" class="hov" onClick="showStop(this.id)"> Stop</a>
@@ -314,7 +336,7 @@
                     <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
                         <div>
                             <a>
-                            <img id="benLogo" class="hov declineImage2" onClick="showId(this.id)" src="img/bFarmLogo2.jpg" ></img>
+                            <img id="benLogo" class="hov declineImage2 thisImage" onClick="showId(this.id)" src="img/bFarmLogo2.jpg" ></img>
                             </a><br>
                                <a id="benLogoStop"  class="hov" onClick="showStop(this.id)"> Stop</a>
                         </div>
@@ -367,6 +389,8 @@
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
 <script src="js/jquery-3.2.1.js"></script>
 <script src="js/bennyfarm-JS.js"></script>
+<script src="js/bennyAnim-js.js"></script>
+
 <script>
 
 	// (function($) {

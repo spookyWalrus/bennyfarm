@@ -5,11 +5,11 @@
   float: right;
   height: 74%;
   width: 8%;
-  margin-left: 89%;
+  margin-left: 4%;
   margin-bottom: 10%;
   z-index: 99;
   /*background-color: yellow;*/
-  visibility: hidden;
+  /*visibility: hidden;*/
 
    background: -webkit-linear-gradient(left, rgba(255,255,255,0), rgba(163,162,159,0)); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(right, rgba(255,255,255,0), rgba(163,162,159,0)); /* For Opera 11.1 to 12.0 */
@@ -26,26 +26,55 @@
   visibility: hidden;
 }
 
-.timeline-scrollbox {
+.timelineScrollbox {
   display: inline-block;
   float: right;
   width: 15%;
   height: 100%;
   padding: 0px;
   margin-right: -20%;
-  margin-top: 3%;
-  background-color: yellow;
+  margin-top: 0%;
+  /*background-color: yellow;*/
   z-index: 2;
   position: relative;
 }
 
-.timeline-pointer{
+#timeline-pointer{
   position: absolute;
  width: 0; 
   height: 0; 
+  top: 0px;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent; 
   border-right:10px solid blue; 
+  /*background-color: red;*/
+}
+
+.timeline-header {
+   text-align: right;
+   font-weight: bold;
+  padding-left: 0px;
+  padding-right: 3%;
+  margin-right: -10%;
+  margin-left: 10%;
+  /*background-color: yellow;*/
+  font-size: 18px !important;
+  visibility: hidden;
+}/*
+.timeline-header:hover .timeline-dates {
+  visibility: visible;
+}
+.timeline-box:hover .timeline-dates {
+  visibility: visible;
+}
+*/
+
+#topDate{
+	color: #000000;
+}
+
+#bottomDate {
+	color: #000000;
 }
 
 /*.timeline-box {
@@ -76,27 +105,6 @@
   /*visibility: hidden !important;*/
 
 }
-.timeline-header {
-   text-align: right;
-   font-weight: bold;
-  padding-left: 0px;
-  padding-right: 3%;
-  margin-right: -10%;
-  margin-left: 10%;
-  /*background-color: yellow;*/
-  font-size: 18px !important;
-}/*
-.timeline-header:hover .timeline-dates {
-  visibility: visible;
-}
-.timeline-box:hover .timeline-dates {
-  visibility: visible;
-}
-*/
-
-#topDate{
-	color: #000000;
-}
 
 .tiptext {
     visibility: hidden;
@@ -122,6 +130,4 @@
     /*color: blue;*/
 }
 
-.dates {
 
-}

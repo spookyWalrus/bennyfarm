@@ -5,8 +5,9 @@ bfarm custom styles!
 /* ---------------------  navbar 2  !! ----- */
 
 .nav-wrapper{
-  height: 51px;
+  height: 51px;  /* DO NOT ERASE */
 }
+
 .stuck {
     position: fixed;
     width: 100%;
@@ -98,7 +99,7 @@ bfarm custom styles!
 /*-------------- ---------  image detailing -----------*/
 /*-------------- -----------  image detailing -----------*/
 
-  .hov:hover {
+ /* .hov:hover {
   	cursor: pointer;
   	box-shadow: 0 0 5px 3px rgba(0, 140, 186, 0.5);
 
@@ -106,17 +107,17 @@ bfarm custom styles!
   }
   #benFarm, #benHouse, #benLogo {
   	width: 400px;
-  	border-radius: 5px;
+  	border-radius: 5px;*/
   	/*background-size: 20px 20px;*/
   	/*cursor: pointer;*/
-
+/*
   }
  #benPor {
   	width: 200px;
-  	border-radius: 5px;
+  	border-radius: 5px;*/
   	/*background-size: 20px 20px;*/
   	/*cursor: pointer;*/
-
+/*
   }
 
   #benHouse {
@@ -124,7 +125,7 @@ bfarm custom styles!
   }
   #benLogo {
 
-  }
+  }*/
 
 
 }  /*-------------------------- > end of min 768*/
