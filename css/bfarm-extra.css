@@ -6,13 +6,14 @@ bfarm custom styles!
 
 .nav-wrapper{
   height: 51px;  /* DO NOT ERASE */
+  z-index: 50;
 }
 
 .stuck {
     position: fixed;
     width: 100%;
     top: 0px;
-    z-index: 3;
+    z-index: 50;
   }
 
 .navbar2-default {
@@ -22,7 +23,7 @@ bfarm custom styles!
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  z-index: 3;
+  z-index: 50;
 }
 .navbar2-default .navbar-header .navbar-brand {
   color: #F05F40;
@@ -61,7 +62,7 @@ bfarm custom styles!
   background-color: transparent;
 }
 
-
+.nav2chapter{}
 
 
 /* ---------------------------------- min 768  ------------------------------  */

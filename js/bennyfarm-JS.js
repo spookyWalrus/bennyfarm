@@ -64,8 +64,35 @@ var nav2 = document.getElementById("nav2");
 	 	}
 	};
 
-// --------------  scroll on link click -----
-// --------------  scroll on link click -----
+// -------  reset pointer only once ----
+// -------  reset pointer only once ----
+
+var section1, section2, section3 = true;  //default state for all sections
+
+var resetPointer = function() {
+ 	 var win = window.pageYOffset;
+
+
+	if  ((win >= farmPos && win < vetPos) && (section1 == true)) {
+		endPoint = 0;
+		movePointer();
+		section1 = false;
+		section2 = true;
+		section3 = true;
+	} else if ((win >= vetPos && win < decPos) && (section2 == true)) {
+		endPoint = 0;
+		movePointer();
+		section1 = true;
+		section2 = false;
+		section3 = true;
+	} else if ((win > decPos) && (section3 == true)) {
+		endPoint = 0;
+		movePointer();
+		section1 = true;
+		section2 = true;
+		section3 = false;
+	}
+}
 
 
 
@@ -80,33 +107,44 @@ var nav2 = document.getElementById("nav2");
 var farmWrap = document.getElementById("farmWrapID"),
 	bodyRect = document.body.getBoundingClientRect(),
 	farmRect = farmWrap.getBoundingClientRect(),
-    farmPos   = farmRect.top - bodyRect.top; //position of farm section
+    farmPos   = farmRect.top - bodyRect.top - 51; //position of farm section with offset for nav2
     // alert('Element is ' + farmPos + ' vertical pixels from <body>');
 var vetWrap = document.getElementById("vetLifeWrapID"),
 	vetRect = vetWrap.getBoundingClientRect(),
-	vetPos = vetRect.top - bodyRect.top;//position of vet section
+	vetPos = vetRect.top - bodyRect.top - 51;//position of vet section
     // alert('Element is ' + vetPos + ' vertical pixels from <body>');
 	 
 
 var decWrap = document.getElementById("declineWrapID"),
 	decRect = decWrap.getBoundingClientRect(),
-	 decPos = decRect.top - bodyRect.top;//position of decline section
+	 decPos = decRect.top - bodyRect.top - 51;//position of decline section
     // alert('Element is ' + decPos + ' vertical pixels from <body>');
 
 
     // ---- variables for changeTimeline function below  --------
-var vet = document.getElementById("farmWrapID"),
- 	timeline = document.getElementsByClassName("timeline"),
+var timeline = document.getElementsByClassName("timeline"),
  	timelinebox = document.getElementsByClassName("timeline-box"),
-	// timeHeader = document.getElementById("topDate"),
-	timelist = document.getElementsByClassName("time-list"),
+	
 	tiptext = document.getElementsByClassName("tiptext"),
-	bubbletext = document.getElementsByClassName("tiptext"),
+	// tiptext2 = document.getElementsByClassName("tiptext2"),
+
+	// bubbletext = document.getElementsByClassName("tiptext"),
+	pointer = document.getElementById('timeline-pointer'),
 	chapter = document.getElementsByClassName("chapter"),
 	date = document.getElementsByClassName("timeline-dates"),
+	date2 = document.getElementsByClassName("timeline-dates2"),
 	timeHeader = document.getElementsByClassName("timeline-header");
 
+var	sectionNum; // variable to offset image scrolling function 
+				// The offset always corresponds to the # of imagse that are present in the HTML Doc
+	// e.g. farm section = 3 images, offset is 0
+	//  vet section = 4 images, offset is 3
+	// decline section = 5 images, offset is 7
 
+// variables to set timeline pointer up/down arrows
+var pointerUp = document.getElementById("timeline-goUp"),
+	 pointerDown = document.getElementById("timeline-goDown"),
+	section = document.getElementsByClassName("contentWrap");
 
 
  		// ---  on scroll, change content------
@@ -114,6 +152,7 @@ var vet = document.getElementById("farmWrapID"),
     function changeTimeLine() {
     	// var win = winPos;
         var win = window.pageYOffset; // detect window position
+        var imageNum;  //set variable so each anchor has corresponding image href reference
 
 	    	// !!make sure initial dates + bubble text here is same as original
         	// html DOC.
@@ -128,9 +167,36 @@ var vet = document.getElementById("farmWrapID"),
 	    	timeHeader[1].style.visibility = "hidden";
 
 	    	// topbottomdates[1].style.visibility = "hidden";
+	    	section1 = true;
+			section2 = true;
+			section3 = true;
+
+			pointerUp.style.visibility = "hidden",
+			pointerDown.style.visibility = "hidden";
 
 
-        }	else if	(win >= (farmPos - 3) && win < vetPos ) {  // farm section
+        }	else if	(win >= (farmPos) && win < vetPos ) {  // farm section
+
+        	sectionNum = 0;
+        	// section1 = true;
+
+        	// this matches each timeline date link with corresponding image id
+        	// need it so timeline links actually scrolls to where you want to go.
+        	// * REMEMBER to make sure your images set in the HTML.DOC has 
+        	// startic image id in sequential order
+        	// ** need this for-Loop for each section in your content area below 
+        	for (n = 0; n < date.length; n++){
+        	imageNum = parseInt([n]) + parseInt(sectionNum);
+        	date[n].setAttribute("href", "#image" + imageNum);
+        	}
+
+			pointerUp.style.visibility="visible",
+			pointerDown.style.visibility = "visible";
+			pointerUp.setAttribute("href", "#")
+			pointerDown.setAttribute("href", "#vetLifeWrapID")
+        	// for (n = 0; n < section.length; n++){
+        	// section[n].style.visibility = "visible";
+        	// }
 
 
 	    	timeline[0].style.visibility = "visible";
@@ -140,25 +206,42 @@ var vet = document.getElementById("farmWrapID"),
 
 	    	// timelist.style.color = "#000";
 
+	    	// makeDateFarm();
+
 			timeHeader[0].style.color = "#000";
 			timeHeader[1].style.color = "#000";
         	timeHeader[0].innerHTML = "1883";
         	timeHeader[1].innerHTML = "1913";
 
-
-        	for (x = 0;x < date.length; x++){
-        		date[x].style.color = "#000";
-        	}
+			
 
         	date[0].innerHTML = "1883 -";
 			tiptext[0].innerHTML = "The Benny Farm";
 			date[1].innerHTML = "1890 -";
 			tiptext[1].innerHTML = "blah blah";
 			date[2].innerHTML = "Horses!  -";
+			// date[2].setAttribute("href", "#declineWrapID");
 			tiptext[2].innerHTML = "Horses ate the grass";
+
+			for (x = 0;x < date.length; x++){
+        		date[x].style.color = "#000";
+        	}
+
+        	resetPointer();
          
         }	else if	((win >= vetPos) && (win < decPos))	{ // veterans section
 
+        	sectionNum = 3;
+        	// section2 = true;
+
+        	// this matches each timeline date link with corresponding image id
+        	for (n = 0; n < date.length; n++){
+        	imageNum = parseInt([n]) + parseInt(sectionNum);
+        	date[n].setAttribute("href", "#image" + imageNum);
+        	}
+
+			pointerUp.setAttribute("href", "#farmWrapID")
+			pointerDown.setAttribute("href", "#declineWrapID")
 
 	    	timeline[0].style.visibility = "visible";
 	    	timelinebox[0].style.visibility = "visible";
@@ -174,6 +257,9 @@ var vet = document.getElementById("farmWrapID"),
         		date[x].style.color = "#fff";
         	}
 
+    		
+
+
         	date[0].innerHTML = "1607 -";
 			tiptext[0].innerHTML = "golfing in the afternoon";
 
@@ -183,13 +269,27 @@ var vet = document.getElementById("farmWrapID"),
 			date[2].innerHTML = "Cows!  -";
 			tiptext[2].innerHTML = "Cows drank the water";
 
+        	resetPointer();
+
+
         }	else if (win >= decPos)  { // decline section
+
+        	// section3 = true;
+        	sectionNum = 6;
+        	for (n = 0; n < date.length; n++){
+        	imageNum = parseInt([n]) + parseInt(sectionNum);
+        	date[n].setAttribute("href", "#image" + imageNum);
+        	}
+
+			pointerUp.setAttribute("href", "#vetLifeWrapID")
+			pointerDown.setAttribute("href", "#declineWrapID")
+
 			timeline[0].style.visibility = "visible";
 	    	timelinebox[0].style.visibility = "visible";
 	    	timeHeader[0].style.visibility = "visible",
 	    	timeHeader[1].style.visibility = "visible";
 
-	    	
+
 			timeHeader[0].style.color = "#fff";
 			timeHeader[1].style.color = "#fff";
         	timeHeader[0].innerHTML = "1945";
@@ -208,10 +308,92 @@ var vet = document.getElementById("farmWrapID"),
 			date[2].innerHTML = "CHickens!  -";
 			tiptext[2].innerHTML = "The Pigs stood in the mud and contemplated their existence while the rain splashed the stinky slop up to their knees";
 
+			resetPointer();
+
         }	
    
 
     };
+
+// ---------- vvvvvv attempt at dynamically changing cntent 
+// ---------- vvvvvv attempt at dynamically changing cntent 
+// ---------- vvvvvv attempt at dynamically changing cntent 
+
+
+
+
+// var timeParent = document.getElementById("time-listId");
+
+
+// function makeDateFarm() {
+
+
+
+// 	var list = document.createElement("li");  // create list element
+// 	var anchor = document.createElement("a"); // create anchor element
+// 	var nuDate = document.createTextNode("2018  -"); //create date 
+
+// 	anchor.appendChild(nuDate); //append nuDate as text for anchor
+
+// 	var nuTipTextDiv = document.createElement("div");
+// 	var nuTipText = document.createTextNode("twenty eighteen");
+
+// 	nuTipTextDiv.appendChild(nuTipText); //append TipText as text for TipTextDiv
+
+// 	list.appendChild(anchor); // add anchor inside list
+// 	list.appendChild(nuTipTextDiv); // add tiptext
+
+
+// 	anchor.className = "timeline-dates";
+// 	nuTipTextDiv.className = "tiptext";
+
+// 	timeParent.appendChild(list);
+
+
+// }
+
+// function makeDateVet() {
+
+// 	timeParent.removeChild(list);
+
+// 	var list = document.createElement("li");  // create list element
+// 	var anchor = document.createElement("a"); // create anchor element
+// 	var nuDate = document.createTextNode("2018  -"); //create date 
+// 	anchor.classList.add("timeline-dates");
+
+// 	anchor.appendChild(nuDate); //append nuDate as text for anchor
+
+// 	var nuTipTextDiv = document.createElement("div");
+// 	var nuTipText = document.createTextNode("twenty eighteen");
+
+
+// 	nuTipTextDiv.appendChild(nuTipText); //append TipText as text for TipTextDiv
+
+// 	list.appendChild(anchor); // add anchor inside list
+// 	list.appendChild(nuTipTextDiv); // add tiptext
+
+// 	timeParent.appendChild(list);
+
+// 	anchor.classList.add("timeline-dates");
+// 	nuTipTextDiv.classList.add("tiptext");
+
+// }
+
+// document.body.onload = addElement;
+
+// function addElement () { 
+//   // create a new div element 
+//   // and give it some content 
+//   var newDiv = document.createElement("div"); 
+//   var newContent = document.createTextNode("Hi there and greetings!"); 
+//   newDiv.appendChild(newContent); //add the text node to the newly created div. 
+
+//   // add the newly created element and its content into the DOM 
+//   var currentDiv = document.getElementById("div1"); 
+//   document.body.insertBefore(newDiv, currentDiv); 
+// }
+
+
 
 
 
@@ -254,7 +436,7 @@ for(var i = 0;i < date.length; i++){
              	// For every match, pass through index number on to 
              	// look up index item of 'bubbletext'.  Then, change attribute
              	// value for 'bubbletext' item.
- 				bubbletext[j].style.visibility = "visible";
+ 				tiptext[j].style.visibility = "visible";
  			// 	pointerRect = pointer.getBoundingClientRect(),
 				// pointerPos = pointerRect.top;
  			// 	alert(pointerPos + 'is the pointer position');
@@ -269,7 +451,7 @@ for(var i = 0;i < date.length; i++){
      date[i].onmouseout = function(){
         for(var j=0;j<date.length;j++){
              if(date[j]==this) {
- 				bubbletext[j].style.visibility = "hidden";
+ 				tiptext[j].style.visibility = "hidden";
                  // index = j; 
                  // alert(index);//console.log(j), etc
                  break;

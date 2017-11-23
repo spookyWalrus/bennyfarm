@@ -11,7 +11,7 @@ body {
   width: 100%;
 }
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  /*font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;*/
 }
 hr {
   border-color: #F05F40;
@@ -46,7 +46,7 @@ p {
 }
 .bg-primary {
   background-color: #F05F40;
-  background-image: url('../fez_pics/egypt-wall.jpg');
+  /*background-image: url('../fez_pics/egypt-wall.jpg');*/
 }
 .bg-dark {
   background-color: #222222;
@@ -248,11 +248,12 @@ header {
   /*background-image: url('../img/bFarm1.jpg');*/
   text-align: center;
   color: white;
+  z-index: 3;
 }
 header .background-image {
   position: relative;
   width: 100%;
-  min-height: 135px;
+  min-height: 145px;
   top: 7%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -267,16 +268,16 @@ header .background-cover {
   position: relative;
   display: block;
   width: 100%;
-  min-height: 135px;
-  margin-top: -135px;
+  min-height: 145px;
+  margin-top: -145px;
   background-color: #ffffff;
-  opacity: 0.5;  
+  opacity: 0.73;  
 }
 
 header .header-content {
   position: relative;
   text-align: center;
-  padding: 100px 15px 100px;
+  /*padding: 100px 15px 100px;*/
   width: 100%;
 }
 header .header-content .header-content-inner h1 {
@@ -316,21 +317,24 @@ header .header-content .header-content-inner p {
   header .header-content {
     position: absolute;
     top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-20%);
-    padding: 0 50px;
+    /*-webkit-transform: translateY(-50%);*/
+    /*-ms-transform: translateY(-50%);*/
+    /*transform: translateY(-20%);*/
+    /*padding: 0 50px;*/
+    height: 135px;
   }
   header .header-content .header-content-inner {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -4.5%;
+    margin-top: -1.8%;
+    height: 135px;
+    top: 50px;
   }
   header .header-content .header-content-inner .header-content-title {
     position: relative;
-    margin-left: 7%;
-    margin-top: 1%;
+    /*margin-left: 7%;*/
+    /*margin-top: 1%;*/
   }
   header .header-content .header-content-inner h1 {
     font-size: 50px;

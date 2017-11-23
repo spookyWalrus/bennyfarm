@@ -3,8 +3,30 @@
 /*--------- generic class for all images in content section ---*/
         /*this is referred to for JS Animation script*/
 .thisImage {   
+  padding-right: 1%;
+  padding-left: 1%;
+  padding-top: 2%;
+  padding-bottom: 1%;
 
 }
+
+.contentWrap {
+  width: 100%;
+  top: -51px;
+  margin-top: 3%;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+
+}
+
+
+.glow {
+      box-shadow: 0 0 5px 3px rgba(255, 145, 36, 0.96);
+
+}
+
+
+
+
 /*--------------------  content: Farm ---------*/
 /*--------------------  content: Farm ---------*/
 /*-------------------- content: Farm ---------*/
@@ -20,17 +42,18 @@
 
 #farmWrapID {
     position: relative;  
-  padding-top: 51px;
+  /*padding-top: 51px;*/
   /*top: -51px;*/
 
 }
 .farmWrap {
   /*position: fixed;  */
-  width: 100%;
+  /*width: 100%;*/
   /*height: 600px;*/
   /*padding: 10px;*/
   /*margin-top: 28px;*/
   top: -51px;
+
 }
 
 .farm {
@@ -119,15 +142,15 @@
 }
 #vetLifeWrapID {
     position: relative;  
-  padding-top: 51px;
+  /*padding-top: 51px;*/
 }
 
 .vetLifeWrap {
   /*position: relative;  */
-  width: 100%;
+  /*width: 100%;*/
   /*padding: 10px;*/
   /*margin-top: 28px;*/
-  top: -51px;
+  /*top: -51px;*/
 }
 
 #vetLifeID {
@@ -196,16 +219,16 @@
 /*-------------------  content styles: the decline -----------*/
 #declineWrapID {
     position: relative;  
-  padding-top: 51px;
+  /*padding-top: 51px;*/
 }
 
 
 .declineWrap {
   /*position: relative;  */
-  width: 100%;
+  /*width: 100%;*/
   /*padding: 10px;*/
   /*margin-top: 28px;*/
-  top: -51px;
+  /*top: -51px;*/
 }
 
 

@@ -16,10 +16,11 @@
     
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Mrs+Sheppards" rel="stylesheet"> -->
    <!--  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'> --> 
     <!-- My Custom fonts -->
-    <link href="../" rel="stylehseet" type="text/css">
+    <!-- <link href="../" rel="stylehseet" type="text/css"> -->
 
     <!-- Theme CSS -->
     <link href="css/creativz.min.css" rel="stylesheet">
@@ -64,8 +65,6 @@
     </nav>
 
    <!-- ___________________________________  2nd nav topbar _____________________  -->
-   <!-- ___________________________________  2nd nav topbar _____________________  -->
-   <!-- ___________________________________  2nd nav topbar _____________________  -->
 
 
 <!-- added a wrapper to the 2ndary nav, so it stays under the main nav. (wrapper has top margin, not the 2nd nav)  Once screen scrolls past main nav, 2nd nav sticks to top via JS
@@ -83,21 +82,21 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav" id="nav2-items">
                         <li>
-                            <a class="chapter" href="#farmWrapID">The Farm</a>
+                            <a class="chapter page-scroll nav2chapter" href="">The Farm</a>
                         </li>
                         <li>
-                            <a class="chapter" href="#vetLifeWrapID">Veterans Life</a>
+                            <a class="chapter page-scroll nav2chapter" >Veterans Life</a>
                         </li>
                         <li>
-                            <a class="chapter" href="#declineWrapID">The Decline</a>
+                            <a class="chapter page-scroll nav2chapter"  href="">The Decline</a>
                         </li>
                           <li>
-                            <a class="chapter" href="#">Demolition</a>
+                            <a class="chapter page-scroll nav2chapter" href="">Demolition</a>
                         </li>
                           <li>
-                            <a class="chapter" href="#">Options</a>
+                            <a class="chapter page-scroll nav2chapter" href="">Options</a>
                         </li>  <li>
-                            <a class="chapter" href="#">The Resolution</a>
+                            <a class="chapter page-scroll nav2chapter" href="">The Resolution</a>
                         </li>
                     </ul>
                 </div>
@@ -105,7 +104,6 @@
         </nav>  
     </div>
 
-<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>   timeline navbar   >>>>>>>>>>>>>>>> -->
 <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>   timeline navbar   >>>>>>>>>>>>>>>> -->
 <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>   timeline navbar   >>>>>>>>>>>>>>>> -->
 
@@ -116,34 +114,34 @@
         <div class="col col-md-10" > </div>
             <div class=".col col-md-2">
                 <div class="timeline" id="timelineID">
+                    <a id="timeline-goUp" href=""><div id="goUp" href=""></div></a>
                     <div class="timeline-header timelineTop" id="topDate"><h4>1838</h4></div>
                     <!-- <div class="timeline-scrollbox"><p>*</p></div> -->
                     <div class="timeline-box ">
                         <div class="timelineScrollbox" id="scrollBox">
                             <div id="timeline-pointer"></div>
                         </div>
-                        <ul class= "time-list" >
+                        <ul class= "time-list" id="time-listId">
                             <li>
-                                <a class="timeline-dates dates"  >1838 -</a>
+                                <a class="timeline-dates dates page-scroll"  >1838 -</a>
                                 <div class="tiptext">Eight threes </div>
+                                
 
                             </li>
                             <li>
-                                <a class="timeline-dates dates" >1890 -</a>
+                                <a class="timeline-dates dates page-scroll" >1890 -</a>
                                 <div class="tiptext">blah blah</div>
+                                
                             </li>
-                            <!-- <div id="timeline-pointer"></div> -->
 
                             <li>
-                                <a class="timeline-dates dates" >Horses! -</a>
+                                <a class="timeline-dates dates page-scroll" >Horses! -</a>
                                 <div class="tiptext">Horses ate the grass</div>
+                                 
                             </li>
-                          <!--     <li>
-                                <a class="timeline-dates" href="#">  -</a>
-                            </li>
-                              <li>
-                                <a class="timeline-dates" href="#">  -</a>
-                            </li>  <li>
+                        </ul>
+                        <!-- <ul class="timeline-dates" id="time-listId2">   
+                            <li>
                                 <a class="timeline-dates" href="">Planting olives  -</a>
                                 <div class="tiptext">Eat them olives</div>
                             </li>
@@ -152,28 +150,30 @@
                                 <div class="tiptext">Farmin in the Barn</div>
                             </li>
                             <li>
-                                <a class="timeline-scroll" href="#">  -</a>
+                                <a class="timeline-dates" href="#">Boopee  -</a>
+                                <div class="tiptext">Badoo pa wooobaa!!</div>
+
                             </li>
                             <li>
-                                <a class="timeline-scroll" href="#">  -</a>
+                                <a class="timeline-dates" href="#">  -</a>
                             </li>
                               <li>
-                                <a class="timeline-scroll" href="#">Milk the cows -</a>
+                                <a class="timeline-dates" href="#">Milk the cows -</a>
                             </li>
-                              <li>
-                                <a class="timeline-scroll" href="#">  -</a>
-                            </li>  <li>
-                                <a class="timeline-scroll" href="#"> -</a>
-                            </li> -->
-                        </ul>
+                        </ul> -->
+
                     </div>
-                      <div class="timeline-header timelineBottom" id="bottomDate"><h4>1944</h4>
-                      </div>
+                    <div class="timeline-header timelineBottom" id="bottomDate">
+                        <h4>1944</h4>
+                    </div>
+                    <a id="timeline-goDown" href="">
+                        <div id="goDown" href=""> </div>
+                    </a>
+
                 </div> 
             </div>   
         </div>
     </div>
-<!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< header >>>>>>>>>>>>>>>>>> -->
 <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< header >>>>>>>>>>>>>>>>>> -->
 <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< header >>>>>>>>>>>>>>>>>> -->
 
@@ -184,9 +184,9 @@
 		</div>
 		<div class="header-content">
             <div class="header-content-inner">
-	            <div class="header-content-title"> 
-	                <h1 id="homeHeading">Benny Farm</h1><br>
-	                <h2>A community oral history</h2>
+	            <div class="header-content-title" id="bootstrap-overrides"> 
+	                <h3 id="mainHeading">Benny Farm</h3><br>
+	                <h4 id="subHeading">A community oral history</h4>
 	            </div>
 	            <div class="header-content-blurb"> 
 	                <p>The intriguing development of a neighbourhood in western Montreal.</p>
@@ -195,8 +195,6 @@
         </div>
 	</header>
 
-<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  central splash >>>>>>>>>>>>>>>>>>>>>>> -->
-<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  central splash >>>>>>>>>>>>>>>>>>>>>>> -->
 <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  central splash >>>>>>>>>>>>>>>>>>>>>>> -->
     <div class="container-fluid splashWrap">
 		<div class="splashBox">
@@ -210,18 +208,23 @@
                 <p>Can't find files. no play!</p>
             </audio> -->
 
-            <a id="benFarmStop" class="hov" onClick="showStop(this.id)"> Stop</a>
-            <br>
-            <div id="benFarm" class="hov" onClick="showId(this.id)"></div>
-            <div id="benPor" class="hov" onClick="showId(this.id)"></div>
-            <a id="benPorStop"  class="hov" onClick="showStop(this.id)"> Stop</a>
-            <div id="benLogo1" class="hov" onClick="showId(this.id)" ></div>
-            <a id="benLogoStop1"  class="hov" onClick="showStop(this.id)"> Stop</a>
             <div id="benHouse1" class="hov" onClick="showId(this.id)" ></div>
-            <a id="benHouse1Stop" class="hov" onClick="showStop(this.id)"> Stop</a>
-            <!-- <div class="col-md-6 offset-md-4">
 
-                 <a>
+            <div id="benAerial1" class="hov" onClick="show(this.id)"></div>
+            <!-- <a id="benFarmStop" class="hov" onClick="showStop(this.id)"> Stop</a>
+            <!-- <br> -->
+            <!-- <div id="benFarm" class="hov" onClick="showId(this.id)"></div> -->
+            <div id="benPor" class="hov" onClick="showId(this.id)"></div>
+            <!-- <a id="benPorStop"  class="hov" onClick="showStop(this.id)"> Stop</a> -->
+            <div id="benAerial2" class="hov" onClick="show(this.id)"></div>
+
+            <div id="benLogo1" class="hov" onClick="showId(this.id)" ></div>
+            <!-- <a id="benLogoStop1"  class="hov" onClick="showStop(this.id)"> Stop</a> -->
+            <!-- <div id="benHouse1" class="hov" onClick="showId(this.id)" ></div>
+            <a id="benHouse1Stop" class="hov" onClick="showStop(this.id)"> Stop</a> -->
+            <!-- <div class="col-md-6 offset-md-4"> -->
+
+             <!--     <a>
                     <img id="benPor" class="hov" onClick="showId(this.id)" src="img/BennyPortrait.jpg"></img>
                 </a>
                 <a id="benPorStop"  class="hov" onClick="showStop(this.id)"> Stop</a>
@@ -241,40 +244,49 @@
                     
                 </a>
                 <a id="benHouseStop" class="hov" onClick="showStop(this.id)"> Stop</a>
-            </div>-->
+            </div> -->
         </div> 
+
 
     </div>
 
-    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  content: Farm >>>>>>>>>>>>>>>>>>>>>>>> -->
-    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  content: Farm >>>>>>>>>>>>>>>>>>>>>> -->
     <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  content: Farm  >>>>>>>>>>>>>>>>>>>>>>> -->
-    <div class="farmWrap" id="farmWrapID">
+    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  content: Farm  >>>>>>>>>>>>>>>>>>>>>>> -->
+    <div class="contentWrap" id="farmWrapID">
+        <!-- <button onclick="enableControls()" type="button">Enable controls</button>
+        <button onclick="disableControls()" type="button">Disable controls</button>
+        <audio id="audio1" src="audio/champ.mp3" type="audio/mp3">
+ -->
+        <audio id="yourAudio" preload='none'>
+            <source src='audio/champ.mp3' type='audio/mp3' />
+        </audio>
+        <a href="#" id="audioControl">play!</a>
         <div class="farm" >
             <div id="farmID">
                 <div class="farmContent">
                     <p >Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
             
-                    <div>
+                    <div class="image">
                        <a>
-                        <img id="farmPic1" class="hov farmImage1 thisImage" onClick="showId(this.id)" src="img/placeHolderPics/mountainBarn.jpg" ></img> </a>
+                            <img id="image0" class="hov farmImage1 thisImage" onClick="showId(this.id)" src="img/placeHolderPics/mountainBarn.jpg" ></img> 
+                        </a>
                         
                         
                         <a id="farmPic1Stop" class="hov" onClick="showStop(this.id)"> Stop</a>
                     </div>
                      <p >Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
-                    <div>
+                    <div class="image">
                         <a>
-                        <img id="farmPic2" class="hov farmImage2 thisImage" onClick="showId(this.id)" src="img/placeHolderPics/cornFieldBarn.jpeg" ></img>
+                            <img id="image1" class="hov farmImage2 thisImage" onClick="showId(this.id)" src="img/placeHolderPics/cornFieldBarn.jpeg" ></img>
                         </a><br>
-                           <a id="farmPic2Stop"  class="hov" onClick="showStop(this.id)"> Stop</a>
+                        <a id="farmPic2Stop"  class="hov" onClick="showStop(this.id)"> Stop</a>
                     </div>
                      <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p> <br>
-                     <div>
+                     <div class="image">
                         <a>
-                        <img id="farmPic3" class="hov farmImage1 thisImage" onClick="showId(this.id)" src="img/placeHolderPics/randomField.jpeg" ></img>
+                            <img id="image2" class="hov farmImage1 thisImage"  onClick="showId(this.id)" src="img/placeHolderPics/randomField.jpeg" ></img>
                         </a><br>
-                           <a id="farmPic3Stop"  class="hov" onClick="showStop(this.id)"> Stop</a>
+                        <a id="farmPic3Stop"  class="hov" onClick="showStop(this.id)"> Stop</a>
                     </div>
                      <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p> <br>
                     
@@ -285,13 +297,13 @@
         </div>
     </div>
 
-	<div class="vetLifeWrap" id="vetLifeWrapID">
+	<div class="contentWrap" id="vetLifeWrapID">
         <div id="vetLife">
             <div id="vetLifeID" >
                 <div class="vetLifeContent">
                     <div>
                            <a>
-                            <img id="benHouse" class="hov vetLifeImage2 thisImage" onClick="showId(this.id)" src="img/farmHouse.jpg" ></img>
+                                <img id="image3" class="hov vetLifeImage2 thisImage" onClick="showId(this.id)" src="img/farmHouse.jpg" ></img>
                             
                              </a>
                             <a id="benHouseStop" class="hov" onClick="showStop(this.id)"> Stop</a>
@@ -299,7 +311,7 @@
                     <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
                         <div>
                            <a>
-                            <img id="benHouse" class="hov vetLifeImage1 thisImage" onClick="showId(this.id)" src="img/farmHouse.jpg" ></img>
+                                <img id="image4" class="hov vetLifeImage1 thisImage" onClick="showId(this.id)" src="img/farmHouse.jpg" ></img>
                             
                              </a>
                             <a id="benHouseStop" class="hov" onClick="showStop(this.id)"> Stop</a>
@@ -307,7 +319,7 @@
                     <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
                         <div>
                             <a>
-                            <img id="benLogo" class="hov vetLifeImage2 thisImage" onClick="showId(this.id)" src="img/bFarmLogo2.jpg" ></img>
+                                <img id="image5" class="hov vetLifeImage2 thisImage" onClick="showId(this.id)" src="img/bFarmLogo2.jpg" ></img>
                             </a><br>
                                <a id="benLogoStop"  class="hov" onClick="showStop(this.id)"> Stop</a>
                         </div>
@@ -320,7 +332,7 @@
         </div>
     </div>
 	
-    <div class="declineWrap" id="declineWrapID">
+    <div class="contentWrap" id="declineWrapID">
         <div id="decline">
             <div class="vetLife" id="declineID" >
                 <div class="declineContent">
@@ -328,7 +340,7 @@
                     <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
                         <div>
                            <a>
-                            <img id="benHouse" class="hov declineImage1 thisImage" onClick="showId(this.id)" src="img/farmHouse.jpg" ></img>
+                                <img id="image6" class="hov declineImage1 thisImage" onClick="showId(this.id)" src="img/farmHouse.jpg" ></img>
                             
                              </a>
                             <a id="benHouseStop" class="hov" onClick="showStop(this.id)"> Stop</a>
@@ -336,12 +348,18 @@
                     <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
                         <div>
                             <a>
-                            <img id="benLogo" class="hov declineImage2 thisImage" onClick="showId(this.id)" src="img/bFarmLogo2.jpg" ></img>
+                                 <img id="image7" class="hov declineImage2 thisImage" onClick="showId(this.id)" src="img/bFarmLogo2.jpg" ></img>
                             </a><br>
                                <a id="benLogoStop"  class="hov" onClick="showStop(this.id)"> Stop</a>
                         </div>
                     <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
-                    
+                        <div>
+                            <a>
+                                <img id="image8" class="hov declineImage1 thisImage" onClick="showId(this.id)" src="img/bFarmLogo2.jpg" ></img>
+                            </a><br>
+                               <a id="benLogoStop"  class="hov" onClick="showStop(this.id)"> Stop</a>
+                        </div>
+                    <br>
 
                     
                 </div>
@@ -363,6 +381,7 @@
 		   			<ul>
 		   				<li><a href="#!">link 1</a></li>
 		   				<li><a href="#!">link 2</a></li>
+                    </ul>
 	        	</div>
 	        </div>	
         </div>
@@ -386,10 +405,27 @@
 <audio id="playBenLogo" src="audio/Louis CK - When I Was A Kid.mp3" type="audio/mp3">
  <audio id="playBenHouse" src="audio/Bill Burr - Rednecks.mp3" type="audio/mp3">
 
+<!--  <audio id="audio1" src="audio/champ.mp3" type="audio/mp3">
+ -->
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
 <script src="js/jquery-3.2.1.js"></script>
 <script src="js/bennyfarm-JS.js"></script>
 <script src="js/bennyAnim-js.js"></script>
+<script src="js/bennyAudio-JS.js"></script>
+
+
+<!-- Plugin JavaScript -->
+    <!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script> -->
+<!-- <script src="../js/jquery.easing.1.3.js"></script>  -->
+     <!-- in case there's no internets, above plug-in is available locally -->
+    <!-- Theme JavaScript -->
+<!-- <script src="js/creative.min.js"></script> -->
+     <script>
+     $(document).ready(function(){
+        $('html').animate({scrollTop:0}, 1);
+        $('body').animate({scrollTop:0}, 1);
+    });
+     </script>
 
 <script>
 

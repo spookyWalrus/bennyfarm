@@ -3,13 +3,16 @@
 	 display: inline-block;
   position: fixed;
   float: right;
-  height: 74%;
+  height: 70%;
   width: 8%;
   margin-left: 4%;
   margin-bottom: 10%;
   z-index: 99;
   /*background-color: yellow;*/
-  /*visibility: hidden;*/
+  visibility: hidden;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+
+
 
    background: -webkit-linear-gradient(left, rgba(255,255,255,0), rgba(163,162,159,0)); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(right, rgba(255,255,255,0), rgba(163,162,159,0)); /* For Opera 11.1 to 12.0 */
@@ -22,7 +25,7 @@
 	
 .timeline-box {
   border-right: 5px solid black;
-  height: 75%;
+  height: 90%;
   visibility: hidden;
 }
 
@@ -47,7 +50,60 @@
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent; 
   border-right:10px solid blue; 
+  z-index: 2;
+
   /*background-color: red;*/
+}
+
+#timeline-goUp {
+  position: absolute;
+ width: 0; 
+  height: 0; 
+  top: -17px;
+  right: -5px;
+  visibility: hidden;
+  z-index: 3;
+}
+
+#goUp {
+  cursor: pointer;
+  width: 5px;
+  height: 5px;
+  margin-left: -25px;
+  border-bottom: 15px solid black; 
+  border-right:15px solid transparent; 
+  border-left: 15px solid transparent;
+  z-index: 2;
+
+}
+#timeline-goDown {
+  position: absolute;
+ width: 0; 
+  height: 0; 
+  bottom: -8px;
+  right: -6px;
+  visibility: hidden;
+  z-index: 3;
+  /*border-top: 10px solid black;
+  border-bottom: 0px solid black; 
+  border-right:10px solid transparent; 
+  border-left: 10px solid transparent;
+   background-color: yellow;
+     cursor: pointer;*/
+
+}
+
+#goDown {
+  cursor: pointer;
+  width: 5px;
+  height: 5px;
+  margin-left: -25px;
+ border-top: 15px solid black;
+  border-bottom: 0px solid black; 
+  border-right:15px solid transparent; 
+  border-left: 15px solid transparent;
+  /*background-color: yellow;*/
+
 }
 
 .timeline-header {
@@ -101,6 +157,19 @@
   transition-timing-function: ease;
   transition-delay: 0s;
   color: #000000;
+  cursor: pointer;
+  /*font-size: 14px;*/
+  /*visibility: hidden !important;*/
+
+}
+
+.timeline-dates2 {
+  transition: all 0.35s;
+  transition-property: all;
+  transition-duration: 0.35s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  color: #000000;
   /*font-size: 14px;*/
   /*visibility: hidden !important;*/
 
@@ -128,6 +197,37 @@
 .timeline-dates:hover .tiptext {
     visibility: visible;
     /*color: blue;*/
+}
+
+.tiptext2 {
+    visibility: hidden;
+   position: relative;
+   display: inline-block;
+    /*width: 190px;*/
+    background-color: #c0b099;
+    color: black;
+    text-align: right;
+    border-radius: 6px;
+    padding-left: 5px;
+    padding-right: 10px;
+    margin-right: 10px;
+    font-size: 13px;
+    z-index: 1;
+    /*top: px;*/
+    right: 55%;
+    top: -20px;
+}
+.timeline-dates2:hover .tiptext2 {
+    visibility: visible;
+    /*color: blue;*/
+}
+
+#time-listId {
+  /*visibility: visible;*/
+}
+
+#time-listId2 {
+  /*visibility: visible;*/
 }
 
 
