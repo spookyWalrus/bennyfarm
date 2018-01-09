@@ -1,0 +1,127 @@
+/*.contentTitles {*/
+
+    /*font-family: 'Nautilus', 'Sofia', cursive;*/
+/*    position: relative;
+    display: block;
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-top: 10%;
+    font-style: normal;
+    font-size: 52px;
+    color: rgba(228, 70, 2, 1);
+    text-shadow: 1.5px 1px 0px #fff;
+    bottom: 0px;
+}*/
+
+.contentTitles {
+    /*font-family: 'Nautilus', 'Sofia', cursive;*/
+    font-size: 39px;
+    text-align: left;
+     position: absolute;
+    display: block;
+    margin-left: 54%;
+    margin-right: 0%;
+    height: 66px;
+    width: 46%;
+    padding: 10px 0px 15px 15px;
+    /*left: 0%;*/
+    /*font-style: bold;*/
+    /*color: rgba(224, 122, 0, 1);*/
+    color: rgba(255, 112, 10, 1);
+    /*color: rgba(230, 0, 0, 1);*/
+
+    /*text-shadow: 1.5px 1px 0px #fff;*/
+    z-index: 5;
+    /*background-color: rgba(234, 217, 67, 0.8);*/
+  /*  background: -webkit-linear-gradient(270deg, transparent 9%, #4a3512 149%);
+    background: -moz-linear-gradient(270deg, transparent 9%, #4a3512 149%);*/
+    /*background: -webkit-linear-gradient(270deg, transparent 9%, #4a3512 149%);*/
+
+
+}
+
+
+/*<<<<<<<<<<<<<<<<<<<<<<< content: 1838 - 1944 >>>>>>>>>>>>>*/
+/*<<<<<<<<<<<<<<<<<<<<<<< content: 1838 - 1944 >>>>>>>>>>>>>*/
+
+
+
+
+#theBeginning {
+    position: relative;  
+	padding: 0px;
+
+}
+
+
+.farm {
+
+}
+
+#farmID {
+  position: relative;
+  z-index: 2;
+  background: -webkit-linear-gradient(270deg, #ffffff 5%, #a9efc0 25%);
+  background: -moz-linear-gradient(270deg, #ffffff 5%,  #a9efc0 25%);
+/*  padding-left: 5%;
+  padding-right: 8%;
+  padding-top: 4%;*/
+}
+
+#farmID:before  {
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /*z-index: 0;*/
+    background-image: url('../img/1833-1944/farmHouse.jpg');
+   opacity: 0.08;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+.farmContent {
+  position: relative;
+  font-size: 17px;
+  display: inline-block;
+  z-index: 1;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 7%;
+  padding-top:10px;
+
+}
+
+.italStyle {
+	font-style: italic;
+	font-size: 15px;
+}
+.farmImage1 {
+  display: inline-block;
+  width: 27%;
+  height: auto;
+  float: left;
+  padding: 13px 15px 15px 5px;
+  z-index: 2;
+}
+.farmImage2 {
+  display: inline-block;
+  width: 30%;
+  padding: 10px;
+  height: auto;
+  float: right;
+  /*margin: 1%;*/
+  z-index: 2;
+}
+.farmImage3 {
+  display: inline-block;
+  width: 50%;
+  height: auto;
+  float: none;
+  margin-right: 50%;
+  margin: 1%;
+  z-index: 5;
+}
+
