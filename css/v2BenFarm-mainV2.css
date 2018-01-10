@@ -84,6 +84,7 @@ font-family: 'Mrs Sheppards', cursive;
     /*color:rgba(200, 96, 24, 1);*/
     background-color: rgba(165, 113, 24, 0.7);
     width: 20%;
+    font-size: 16px;
 }
 
 .navBarItemLeft {
@@ -99,6 +100,11 @@ font-family: 'Mrs Sheppards', cursive;
   text-align: right;
 }
 
+.bennyChev {
+  font-size: 36px;
+  color: #ffda05;
+}
+
 #navbarItemRight1 {
   text-align:right;
   background-color: rgba(255, 113, 24, 0.7);
@@ -108,7 +114,14 @@ font-family: 'Mrs Sheppards', cursive;
   text-align:right;
   background-color: rgba(235, 113, 24, 0.7);
 } 
-
+#navbarItemRight3 {
+  text-align:right;
+  background-color: rgba(215, 113, 24, 0.7);
+} 
+#navbarItemRight4 {
+  text-align:right;
+  background-color: rgba(195, 113, 24, 0.7);
+} 
 /*.navbar-nav .open .dropdown-menu {
     background-color: white;
 }*/

@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>v2 of Benny Farms website</title>
+    <title>History of Benny Farms</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -40,6 +40,10 @@
     <link href="https://fonts.googleapis.com/css?family=Grand+Hotel|Molle:400|Mrs+Sheppards|Norican|Sofia" rel="stylesheet">
     <link href="fonts/" rel="stylesheet">
 
+    <!-- font awesome CDN -->
+    <script src="https://use.fontawesome.com/5a9923c611.js"></script>
+
+
 
 
   </head>
@@ -65,6 +69,8 @@
           <ul class="nav navbar-nav " id="customNavbarNav">
               <li id="navbarItemRight1"><a href="#playersWrapper">Community voices</a></li>
               <li id="navbarItemRight2"><a href="#theBeginning">The beginning: 1833 - 1947</a></li>
+              <li id="navbarItemRight3"><a href="#vetCommunity">The Veterans' Community<br>1947 - 1990</a></li>
+              <li id="navbarItemRight4"><a href="#struggle">The struggle to redevelop <br>Benny Farm 1991-2000</a></li>
               <li class="navbarItemLeft"><a href="#about">About us</a></li>
              <li class="navbarItemLeft"><a href="#contact">Contact</a></li>
           </ul>
@@ -75,11 +81,11 @@
     <!-- ================  splash page carousel ===============  -->
     <div id="myCarousel" class="carousel slide bennyCarousel" data-ride="carousel" >
       <!-- Indicators -->
-      <ol class="carousel-indicators" id="bennyCarouselIndic">
+      <!-- <ol class="carousel-indicators" id="bennyCarouselIndic">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li> -->
         <!-- <li data-target="#myCarousel" data-slide-to="2"></li> -->
-      </ol>
+      <!-- </ol> -->
 
       <!-- Wrapper for slides -->
       <div class="carousel-inner" id="carouselPageWrapper">
@@ -107,11 +113,12 @@
 
       <!-- Left and right controls -->
       <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="glyphicon glyphicon-chevron-left bennyChev"></span>
+        <!-- <span class="fa fa-chevron-left"></span> -->
         <span class="sr-only">Previous</span>
       </a>
       <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="glyphicon glyphicon-chevron-right bennyChev"></span>
         <span class="sr-only">Next</span>
       </a>
     </div>
@@ -160,48 +167,116 @@
     </div>
 
     <!-- =============== content: 1833-1944 ============== -->
-    <div class="container" id="theBeginning">
-      <div class="contentTitles">The beginning: 1833 - 1947 </div>
-      <div class="farm" >
-        <div id="farmID">
-          <div class="farmContent">
-            <img class="farmImage1" src="img/1833-1944/BennyPortrait.jpg" ></img>
-            <h4>
-              <strong>1833: </strong><span class="italStyle"> Farmland owned by Benny Family. There was at least one house on the property.</span>
-            </h4>
-
-            <p> British immigrant Thomas Benny began his career in Montreal as a Master-Baker and soon became involved in milling, banking, hardware and other concerns. As a member of the city’s wealthy merchant-class, he owned many properties, including this building on St-Joseph Street in Old Montreal that still bears his name. In 1838, he purchased a parcel of land that stretched from the St-Jacques escarpment to Cote-Saint-Luc Road</p>
-            <br><br>
-          
-            <div class="col-md-4 offset-md-4">
-              <h4><strong>1944: </strong><span class="italStyle"> Benny Farm land purchased by Minister of Pensions and National Health.</span>
-              </h4>
-              
-              <p>Intending to build a veterans’ hospital, the MPNH buys the remaining undeveloped farmland from the Benny family. </p>
-            </div>
-            <div class="col-md-3 offset-md-3">
-              <img class="farmImage2 col-md-3 offset-md-3" src="img/1833-1944/bFarmLogo2.jpg" ></img>
-            </div>
-             <p>Responding to growing anger over a housing crisis for returning veterans, the government opts to build housing instead.</p>
-            <br><br><br>
-            <h4><strong>1946 - 1947: </strong><span class="italStyle"> MPNH sells land to Housing Enterprises of Canada Limited, a consortium of insurance companies, who builds Benny Farm complex as a model for post-war housing.</span>
-            </h4>
-            
-            <p> Federal Government asks private enterprise to get involved in solving veterans’ housing crisis</p>
-             <img class="farmImage3" src="img/1946-47/IMG_2646.jpg" ></img>
-             <h4 class="italStyle">Designed by architect Harold James Doran in  garden city  style with much common green space. Modernist and functional six-plexes are in contrast to surrounding neighbourhood housing stock</h4>
-            <p>In 1946, the newly created Central Mortgage and Housing Corporation (CMHC), took over</p>
-
-             <h4><strong>1947: </strong><span class="italStyle">The Farm is purchased by the CMHC in order to give priority to veterans’ families, responding to the general housing crisis in Montreal as well as to the promise the government had made to care for veterans after the war.</span></h4>
-             
-
-           
-
-
+    <div  class="contentWrapper" id="theBeginning">
+     <!--  <div class="contentTitles col-xs-6 col-xs-offset-6">The beginning: 1833 - 1947 </div> -->
+      <div class="row">
+        <div class="container">
+          <div class="contentTitles col-xs-6 col-xs-offset-6">The beginning: 1833 - 1947 
           </div>
         </div>
       </div>
+      <div id="benny1833">
+        <div class="mainContent container-fluid">
+         <div class="row">
+            <div class="col-xs-4">
+              <img class="farmImage1" src="img/1833-1944/BennyPortrait.jpg" ></img>
+            </div>
+            <div class="col-xs-8">
+              <h4><strong>1833</strong></h4>
+              <p> British immigrant Thomas Benny began his career in Montreal as a Master-Baker and soon became involved in milling, banking, hardware and other concerns. As a member of the city’s wealthy merchant-class, he owned many properties, including this building on St-Joseph Street in Old Montreal that still bears his name. In 1838, he purchased a parcel of land that stretched from the St-Jacques escarpment to Cote-Saint-Luc Road</p>
+            </div>
+            <div class="col-xs-6 col-xs-offset-1">
+              <h4><strong>1944</strong></h4>
+              <p>Intending to build a veterans’ hospital, the MPNH (Minister of Pensions and National Health) buys the remaining undeveloped farmland from the Benny family. </p>
+            </div>
+            <div class="col-xs-4 col-xs-offset-1">
+              <img class="farmImage2" src="img/1833-1944/mpnhLogo.jpg"></img>
+            </div>
+            <div class="col-xs-7 col-xs-offset-5"> 
+             <p>Responding to growing anger over a housing crisis for returning veterans, the government opts to build housing instead.</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="floatR">  
+              <h4 ><strong>1946 - 1947</strong></h4>
+            </div>
+            <div class="col-xs-5">
+              <img class="farmImage3" src="img/1946-47/farmHouse.jpg" >Photo1 of benny under construction</img>
+            </div>
+             <div class="col-xs-2">  
+              <p>Federal Government asks private enterprise to get involved in solving veterans’ housing crisis and sells land to Housing Enterprises of Canada Limited, a consortium of insurance companies, who builds Benny Farm complex as a model for post-war housing.</p>
+            </div>
+            <div class="col-xs-5">
+              <img class="farmImage3" src="img/1946-47/farmHouse.jpg" >Photo2 of Benny under construction</img>
+            </div>
+          </div>
+          
+          <br>
+
+          <div class="row">
+            <div class="col-xs-7">
+             <p>Designed by architect Harold James Doran in <span style="font-style: italic">garden city</span> style with much common green space. Modernist and functional six-plexes are in contrast to surrounding neighbourhood housing stock in the surrounding neighbourhood.</p>
+             <img class="farmImage4" src="img/1946-47/arch-draw.jpg" ></img>
+            </div>
+            <div class="col-xs-5">
+              <img class="farmImage3" src="img/1946-47/arch-aerial.jpg" ></img>
+            </div>
+          </div>
+      
+          <br>
+
+          <div class="row">
+            <p> In 1946, The Farm is purchased by the newly created Central Mortgage and Housing Corporation (CMHC). Veterans’ families are awarded apartments based on a military service point system.</p>
+          </div>
+
+        </div>
+      </div>
     </div>
+
+     <!-- ========== content: 1947-1991 veterans community ========= -->
+
+    <div  class="contentWrapper" id="vetCommunity">
+      <div class="row">
+        <div class="container-fluid">
+          <div class="contentTitles col-xs-6 col-xs-offset-5">The Veterans' Community 1947-1990
+          </div>
+        </div>
+      </div>
+      <div id="vetCommy">
+        <div class="mainContent container-fluid">
+
+          <div class="row">
+            <div class="col-xs-12">
+              <img class="vetImage" src="img/1947-1990/bennyFarmer.jpg"></img>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-7">
+              <img class="vetImage2" src="img/1947-1990/bennyHockey.jpg"></img>
+              <img class="vetImage3" src="img/1947-1990/bennyWinners.jpg"></img>
+            </div>
+            <div class="col-xs-5" >
+              <p id="vetCommText">For over 40 years, Benny Farm was home to a tight-knit community of families with similar backgrounds and shared experience. There were at one time over 1500 kids at Benny Farm, participating in the Farm’s sports teams, dance recitals, and community events. All of this was captured in  "The Benny Farmer."</p>
+              <img class="vetImage2a" src="img/1947-1990/bennyLadies.jpg"></img>
+            </div>
+          </div>
+
+        </div>
+      </div>
+ 
+
+ <!-- ==============  content: struggle to redevelop 1991 - 2000 ========= -->
+ 
+      <div  class="contentWrapper" id="struggle">
+        <div class="row">
+          <div class="container-fluid">
+            <div class="contentTitles col-xs-6 col-xs-offset-5">The struggle to redevelop 1991 - 2000
+            </div>
+          </div>
+        </div>
+        <div id="redevStrug">
+          <div class="mainContent container-fluid">
 
   <!-- ============   footer ==================== -->
 
