@@ -9,7 +9,7 @@
     padding-right: 5px;
 /*    margin-left: 0%;
     margin-right: 0%;*/
-    height: 66px;
+    height: 85px;
     width: auto;
     color: rgba(255, 112, 10, 1);
     /*text-shadow: 1.5px 1px 0px #fff;*/
@@ -26,7 +26,7 @@
 
 .floatR {
 	text-align: right;
-	padding: 10px;
+	/*padding: 10px;*/
 }
 .floatL{
 	text-align: left;
@@ -45,7 +45,7 @@
   z-index: 1;
   margin-right: 10%;
   margin-left: 10%;
-  margin-top: 7%;
+  /*margin-top: %;*/
   padding-top:10px;
 
 }
@@ -86,6 +86,7 @@
   display: inline-block;
   width: 100%;
   height: auto;
+  margin-top: 13%;
   /*float: left;*/
   z-index: 2;
 }
@@ -103,13 +104,27 @@
   height: auto;
   z-index: 2;
 }
+.farmImage3a {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: -13%;
+  z-index: 2;
+}
 .farmImage4 {
   display: block;
   width: 100%;
   height: auto;
   z-index: 2;
+  margin-top: 7%;
 }
-
+.farmImage4a {
+  display: block;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+  margin-top: 0%;
+}
 /*<<<<<<<<<<<<< veterans' community: 1947 - 1990 >>>>>>>>>>>*/
 /*<<<<<<<<<<<<< veterans' community: 1947 - 1990 >>>>>>>>>>>*/
 
@@ -144,6 +159,7 @@
 #vetCommText{
 	position: relative;
 	right: 23%;
+	color: #000;
 }
 
 .vetImage {
@@ -151,6 +167,14 @@
 	height: auto;
 	padding: 0px 0px 15px 0px;
 }
+
+.vetImage1 {
+  width: 100%;
+  height: auto;
+  padding: 0px 0px 15px 0px;
+  margin-top: 3%;
+}
+
 
 .vetImage2 {
 	width: 80%;
@@ -184,7 +208,7 @@
 /*  padding-left: 5%;
   padding-right: 8%;
   padding-top: 4%;*/
-  color: #fff;
+  color: #000;
   padding-bottom: 40px;
 }
 
@@ -201,4 +225,20 @@
    background-repeat: no-repeat;
    background-size: cover;
    background-attachment: fixed;
+}
+
+.redevTextItal {
+  font-style: italic;
+}
+
+.redevImage {
+  width: 100%;
+  height: auto;
+  padding: 0px 0px 15px 0px;
+}
+
+.redevImage {
+  width: 100%;
+  height: auto;
+  padding: 0px 0px 15px 0px;
 }

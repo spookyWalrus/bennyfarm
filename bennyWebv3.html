@@ -50,11 +50,44 @@
 
   <body>
 
+    <!-- ============   old navbar / toggle menu ============= -->
+<!-- 
     <nav class="navbar navbar-inverse navbar-static-top" id="customNavbar">
       <div class="container">
-        <div class="navbar-header">
-          <button type="button" id="customNavbarToggle" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <div class="navbar-header"> -->
+         <!--  <button type="button" id="customNavbarToggle" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button> -->
+         <!--  <a class="navbar-brand navbar-left" id="customNavbar-brand" href="#">
+            <img src="img/logo/NDGlogo1.png" id="logo"></img>
+            <div id="logoText">Atelier d'histoire<br>History workshop</div>
+            
+          </a>
+        </div> -->
+    <!--     <div id="navbar" class="collapse navbar-collapse customNavbarCollapsible">
+          <ul class="nav navbar-nav " id="customNavbarNav">
+              <li id="navbarItemRight1"><a href="#playersWrapper">Community voices</a></li>
+              <li id="navbarItemRight2"><a href="#theBeginning">The beginning: 1833 - 1947</a></li>
+              <li id="navbarItemRight3"><a href="#vetCommunity">The Veterans' Community<br>1947 - 1990</a></li>
+              <li id="navbarItemRight4"><a href="#struggle">The struggle to redevelop <br>Benny Farm 1991-2000</a></li>
+              <li class="navbarItemLeft"><a href="#about">About us</a></li>
+             <li class="navbarItemLeft"><a href="#contact">Contact</a></li>
+          </ul>
+        </div> --><!--/.nav-collapse -->
+   <!--    </div>
+    </nav> -->
+
+ <!-- =====================  new sideways nav menu =========== -->
+
+ 
+  <nav class="navbar navbar-inverse navbar-static-top" id="customNavbar">
+    <div class="container" >
+      <div class="newNavbar-header">
+          <button type="button" id="sideMenuToggle" onclick="openNav()" class="navbar-toggle collapsed" data-toggle="collapse"  aria-expanded="false" aria-controls="navbar">
+            <!-- <span class="sr-only">Toggle navigation</span> -->
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -65,18 +98,31 @@
             
           </a>
         </div>
-        <div id="navbar" class="collapse navbar-collapse customNavbarCollapsible">
-          <ul class="nav navbar-nav " id="customNavbarNav">
-              <li id="navbarItemRight1"><a href="#playersWrapper">Community voices</a></li>
-              <li id="navbarItemRight2"><a href="#theBeginning">The beginning: 1833 - 1947</a></li>
-              <li id="navbarItemRight3"><a href="#vetCommunity">The Veterans' Community<br>1947 - 1990</a></li>
-              <li id="navbarItemRight4"><a href="#struggle">The struggle to redevelop <br>Benny Farm 1991-2000</a></li>
-              <li class="navbarItemLeft"><a href="#about">About us</a></li>
-             <li class="navbarItemLeft"><a href="#contact">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
+    </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" id="closebtn" onclick="closeNav()">&times;</a>
+      <div id="sidenavLinks">
+        <a href="#playersWrapper" id="navbarItemRight1" >Community voices</a>
+        <a href="#theBeginning" id="navbarItemRight2">The beginning:<br> 1833 - 1947</a>
+        <a href="#vetCommunity" id="navbarItemRight3">The Veterans' Community 1947 - 1990</a>
+        <a href="#struggle" id="navbarItemRight4">The struggle to redevelop Benny Farm 1991-2000</a>
+        <a href="#" class="navbarItemLeft">About us</a>
+        <a href="#" class="navbarItemLeft">Contact</a>
       </div>
-    </nav>
+
+      <!-- <ul id="customNavbarNav">
+          <li id="navbarItemRight1"><a href="#playersWrapper">Community voices</a></li>
+          <li id="navbarItemRight2"><a href="#theBeginning">The beginning: 1833 - 1947</a></li>
+          <li id="navbarItemRight3"><a href="#vetCommunity">The Veterans' Community<br>1947 - 1990</a></li>
+          <li id="navbarItemRight4"><a href="#struggle">The struggle to redevelop <br>Benny Farm 1991-2000</a></li>
+          <li id="navbarItemRight4"><a href="#about">About us</a></li>
+         <li class="navbarItemLeft"><a href="#contact">Contact</a></li>
+      </ul> -->
+    </div>
+  </nav>
+
+
+
 
     <!-- ================  splash page carousel ===============  -->
     <div id="myCarousel" class="carousel slide bennyCarousel" data-ride="carousel" >
@@ -123,61 +169,96 @@
       </a>
     </div>
 
-    <!-- ===========    Biographies     ============== -->
+ <!-- =========================    Biographies     ============== -->
 
-    <div class="container" id="playersWrapper" >
-
-      <div class="bioTitles">Community voices</div>
-
-      <div class="row thePlayers"> 
-        <div id="player1" class="col-md-4">
-          <h5 class="playerType">Jason Hughes</h5>
-          <p class="playerBioR">Raised in Ville Saint-Laurent, Jason Hughes moved to NDG in the late 1980s to work at the NDG Food Depot. He later became the NDG Community Council’s community organiser for Benny Farm, working directly with the CCNDG’s Housing Committee. Hughes was a spokesman for the community-based response to the CMHC’s proposed plan to demolish Benny Farm and sell most of the land to developers. He worked actively on proposals to preserve low-cost housing at Benny Farm during the redevelopment and has remained involved with affordable housing initiatives in NDG. Hughes is currently the director of Project Tango, subsidized and supported housing for people with disabilities  at Benny Farm.</p>
-          <audio class="musicBox" controls>
-                <source src="audio/champ.mp3" type="audio/mpeg">
-          </audio>
-        </div>
-        <div id="player2" class="col-md-4">
-          <h5 class="playerType2">Helen Bolton Guy</h5>
-          <p class="playerBioR ">Helen Bolton Guy comes from a military family and chose a career in the Canadian Armed Forces. It was her military service that made her family eligible for an apartment at Benny Farm in 1965. With a soldierly sense of order, the tenants coordinated themselves by building and Bolton Guy was her building “Captain,” organising sports and social events and looking out for her neighbours. By 1972, Bolton Guy was head of the Benny Farm Tenants’ Association, advocating for tenants’ rights with The Farm’s landlord, the Canadian Mortgage and Housing Corporation (CMHC). She was a leading voice for veterans and Benny Farm tenants rights during the redevelopment and continues to be an organiser and advocate at Benny Farm and in the community.</p>
-          <audio class="musicBox" controls>
-                <source src="audio/champ.mp3" type="audio/mpeg">
-            </audio>
-        </div>
-      </div>
-
-<!--       <div class="bioTitles">Community voices</div>
- -->
-      <div class="row thePlayers"> 
-        <div id="player3" class="col-md-4">
-          <h5 class="playerType">Sam Boskey</h5>
-          <p class="playerBioR ">Born into a family of union organisers and social justice advocates, Sam Boskey was an early activist and community organiser who became a founding member of the progressive municipal party, the MCM (Montreal Citizens’ Movement). He was elected city councilor for the Décarie district from 1982 to 1998, first under the banner of the MCM and later as an independent. During his years in office and after, affordable housing and tenants’ rights were among his top priorities. Boskey’s involvement with Benny Farm began in the late 1980s, when the NDG Community Council’s Housing Committee became concerned about aging veterans in walk-up apartments, and continued through the years of its redevelopment. </p>
-          <audio class="musicBox" controls>
-                <source src="audio/Bill Burr-Bush.mp3" type="audio/mpeg">
-            </audio>
-        </div>
-        <div  id="player4" class="col-md-4">
-          <h5 class="playerType">Luba Serge</h5>
-          <p class="playerBioR">With a background in urban planning and experience with some of Montreal’s major social housing campaigns, including Milton-Parc, Serge came to the Benny Farm redevelopment as a consultant for the NDG Community Council’s Housing Committee in 1998. Along with other key community activists and organizations, she helped to create the Fonds Foncier Benny Farm in order to present a development plan for affordable homeownership and social housing to Canada Lands, which had taken over the property from the CMHC. Serge went on to write her PhD dissertation on Benny Farm and its redevelopment, and continues to be involved with issues of social housing, homelessness and social exclusion. She is currently a commissioner at the Office de consultation publique de Montréal and teaches at John Abbott College.</p>
-          <audio class="musicBox" controls>
-                <source src="audio/Bill Burr-Rednecks.mp3" type="audio/mpeg">
-            </audio>
-        </div>
-      </div>
-    </div>
-
-    <!-- =============== content: 1833-1944 ============== -->
-    <div  class="contentWrapper" id="theBeginning">
-     <!--  <div class="contentTitles col-xs-6 col-xs-offset-6">The beginning: 1833 - 1947 </div> -->
+    <div id="playersWrapper" class="container-fluid">
       <div class="row">
-        <div class="container">
-          <div class="contentTitles col-xs-6 col-xs-offset-6">The beginning: 1833 - 1947 
+        <div class="bioTitles col-xs-4 col-xs-offset-8">Community voices</div>
+      </div>
+
+      <!-- <div class="bioTitles">Community voices</div> -->
+
+      <div class="row thePlayers"> 
+        <div id="player1" class="col-xs-6 bioSpecs">
+          <div class="row">
+            <div class="col-xs-4">
+              <h5 class="playerType">Jason Hughes</h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6 col-xs-offset-6">
+              <p class="playerBio">Raised in Ville Saint-Laurent, Jason Hughes moved to NDG in the late 1980s to work at the NDG Food Depot. He later became the NDG Community Council’s community organiser for Benny Farm, working directly with the CCNDG’s Housing Committee. Hughes was a spokesman for the community-based response to the CMHC’s proposed plan to demolish Benny Farm and sell most of the land to developers. He worked actively on proposals to preserve low-cost housing at Benny Farm during the redevelopment and has remained involved with affordable housing initiatives in NDG. Hughes is currently the director of Project Tango, subsidized and supported housing for people with disabilities  at Benny Farm.</p>
+              <audio class="musicBox" controls>
+                    <source src="audio/champ.mp3" type="audio/mpeg">
+              </audio>
+            </div>
+          </div>
+        </div>
+
+        <div id="player2" class="col-xs-6 bioSpecs">
+          <div class="row">
+            <div class="col-xs-4">
+              <h5 class="playerType">Helen Bolton Guy</h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6 col-xs-offset-6">
+              <p class="playerBio">Helen Bolton Guy comes from a military family and chose a career in the Canadian Armed Forces. It was her military service that made her family eligible for an apartment at Benny Farm in 1965. With a soldierly sense of order, the tenants coordinated themselves by building and Bolton Guy was her building “Captain,” organising sports and social events and looking out for her neighbours. By 1972, Bolton Guy was head of the Benny Farm Tenants’ Association, advocating for tenants’ rights with The Farm’s landlord, the Canadian Mortgage and Housing Corporation (CMHC). She was a leading voice for veterans and Benny Farm tenants rights during the redevelopment and continues to be an organiser and advocate at Benny Farm and in the community.</p>
+              <audio class="musicBox" controls>
+                    <source src="audio/champ.mp3" type="audio/mpeg">
+              </audio>
+            </div>
           </div>
         </div>
       </div>
+
+      <div class="row thePlayers2"> 
+        <div id="player3" class="col-xs-6 bioSpecs">
+          <div class="row">
+            <div class="col-xs-4">
+              <h5 class="playerType">Sam Boskey</h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6 col-xs-offset-6">
+              <p class="playerBio2 ">Born into a family of union organisers and social justice advocates, Sam Boskey was an early activist and community organiser who became a founding member of the progressive municipal party, the MCM (Montreal Citizens’ Movement). He was elected city councilor for the Décarie district from 1982 to 1998, first under the banner of the MCM and later as an independent. During his years in office and after, affordable housing and tenants’ rights were among his top priorities. Boskey’s involvement with Benny Farm began in the late 1980s, when the NDG Community Council’s Housing Committee became concerned about aging veterans in walk-up apartments, and continued through the years of its redevelopment. </p>
+              <audio class="musicBox" controls>
+                <source src="audio/Bill Burr-Bush.mp3" type="audio/mpeg">
+              </audio>
+            </div>
+          </div>
+        </div>
+
+        <div id="player4" class="col-xs-6 bioSpecs">
+          <div class="row">
+            <div class="col-xs-4">
+              <h5 class="playerType">Luba Serge</h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6 col-xs-offset-6">
+              <p class="playerBio2">With a background in urban planning and experience with some of Montreal’s major social housing campaigns, including Milton-Parc, Serge came to the Benny Farm redevelopment as a consultant for the NDG Community Council’s Housing Committee in 1998. Along with other key community activists and organizations, she helped to create the Fonds Foncier Benny Farm in order to present a development plan for affordable homeownership and social housing to Canada Lands, which had taken over the property from the CMHC. Serge went on to write her PhD dissertation on Benny Farm and its redevelopment, and continues to be involved with issues of social housing, homelessness and social exclusion. She is currently a commissioner at the Office de consultation publique de Montréal and teaches at John Abbott College.</p>
+              <audio class="musicBox" controls>
+                    <source src="audio/Bill Burr-Rednecks.mp3" type="audio/mpeg">
+              </audio>
+            </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- =============== content: 1833-1944 ============== -->
+
+    <div  class="contentWrapper container-fluid" id="theBeginning">
+   
+      <div class="row">
+        <div class="contentTitles col-xs-6 col-xs-offset-6">The beginning: 1833 - 1947 
+        </div>
+      </div>
+
       <div id="benny1833">
-        <div class="mainContent container-fluid">
-         <div class="row">
+        <div class="mainContent">
+          <div class="row">
             <div class="col-xs-4">
               <img class="farmImage1" src="img/1833-1944/BennyPortrait.jpg" ></img>
             </div>
@@ -185,6 +266,17 @@
               <h4><strong>1833</strong></h4>
               <p> British immigrant Thomas Benny began his career in Montreal as a Master-Baker and soon became involved in milling, banking, hardware and other concerns. As a member of the city’s wealthy merchant-class, he owned many properties, including this building on St-Joseph Street in Old Montreal that still bears his name. In 1838, he purchased a parcel of land that stretched from the St-Jacques escarpment to Cote-Saint-Luc Road</p>
             </div>
+            <div class="col-xs-8">
+              <div class="row">
+                <div class="col-xs-6">
+                  <img class="farmImage3" src="img/1833-1944/bennyField.jpg" ></img>
+                </div>
+                <div class="col-xs-6">
+                  <img class="farmImage3" src="img/1833-1944/bennyTree.jpg" ></img>
+                </div>
+              </div>
+            </div>
+            <br>
             <div class="col-xs-6 col-xs-offset-1">
               <h4><strong>1944</strong></h4>
               <p>Intending to build a veterans’ hospital, the MPNH (Minister of Pensions and National Health) buys the remaining undeveloped farmland from the Benny family. </p>
@@ -196,38 +288,47 @@
              <p>Responding to growing anger over a housing crisis for returning veterans, the government opts to build housing instead.</p>
             </div>
           </div>
-
+          <br>
           <div class="row">
-            <div class="floatR">  
-              <h4 ><strong>1946 - 1947</strong></h4>
-            </div>
             <div class="col-xs-5">
-              <img class="farmImage3" src="img/1946-47/farmHouse.jpg" >Photo1 of benny under construction</img>
+              <img class="farmImage1" src="img/1946-47/bennyBridge.png" ></img>
             </div>
              <div class="col-xs-2">  
+              <div class="floatR">  
+                <h4 ><strong>1946 - 1947</strong></h4>
+              </div>
               <p>Federal Government asks private enterprise to get involved in solving veterans’ housing crisis and sells land to Housing Enterprises of Canada Limited, a consortium of insurance companies, who builds Benny Farm complex as a model for post-war housing.</p>
             </div>
             <div class="col-xs-5">
-              <img class="farmImage3" src="img/1946-47/farmHouse.jpg" >Photo2 of Benny under construction</img>
+              <img class="farmImage1" src="img/1946-47/bennyBridge.png" ></img>
             </div>
           </div>
           
           <br>
 
           <div class="row">
-            <div class="col-xs-7">
+            <div class="col-xs-7 floatR">
              <p>Designed by architect Harold James Doran in <span style="font-style: italic">garden city</span> style with much common green space. Modernist and functional six-plexes are in contrast to surrounding neighbourhood housing stock in the surrounding neighbourhood.</p>
-             <img class="farmImage4" src="img/1946-47/arch-draw.jpg" ></img>
+            </div>
+            <div class="col-xs-7">
+             <img class="farmImage3" src="img/1946-47/arch-draw.jpg" ></img>
             </div>
             <div class="col-xs-5">
-              <img class="farmImage3" src="img/1946-47/arch-aerial.jpg" ></img>
+              <img class="farmImage3a" src="img/1946-47/arch-aerial.jpg" ></img>
             </div>
           </div>
       
           <br>
 
           <div class="row">
-            <p> In 1946, The Farm is purchased by the newly created Central Mortgage and Housing Corporation (CMHC). Veterans’ families are awarded apartments based on a military service point system.</p>
+             <div class="col-xs-5">
+              <p> In 1946, The Farm is purchased by the newly created Central Mortgage and Housing Corporation (CMHC). Veterans’ families are awarded apartments based on a military service point system.</p>
+           
+              <img class="farmImage4" src="img/1946-47/firstBenny.png" ></img>
+            </div>
+            <div class="col-xs-7">
+              <img class="farmImage4a" src="img/1946-47/firstTent.png" ></img>
+            </div>
           </div>
 
         </div>
@@ -236,19 +337,16 @@
 
      <!-- ========== content: 1947-1991 veterans community ========= -->
 
-    <div  class="contentWrapper" id="vetCommunity">
+    <div  class="contentWrapper container-fluid" id="vetCommunity">
       <div class="row">
-        <div class="container-fluid">
-          <div class="contentTitles col-xs-6 col-xs-offset-5">The Veterans' Community 1947-1990
-          </div>
+        <div class="contentTitles col-xs-6 col-xs-offset-5">The Veterans' Community 1947-1990
         </div>
       </div>
       <div id="vetCommy">
-        <div class="mainContent container-fluid">
-
+        <div class="mainContent">
           <div class="row">
             <div class="col-xs-12">
-              <img class="vetImage" src="img/1947-1990/bennyFarmer.jpg"></img>
+              <img class="vetImage1" src="img/1947-1990/bennyFarmer.jpg"></img>
             </div>
           </div>
           <div class="row">
@@ -259,6 +357,16 @@
             <div class="col-xs-5" >
               <p id="vetCommText">For over 40 years, Benny Farm was home to a tight-knit community of families with similar backgrounds and shared experience. There were at one time over 1500 kids at Benny Farm, participating in the Farm’s sports teams, dance recitals, and community events. All of this was captured in  "The Benny Farmer."</p>
               <img class="vetImage2a" src="img/1947-1990/bennyLadies.jpg"></img>
+              <img class="vetImage2a" src="img/1947-1990/bennyVetBld.png"></img>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-5">
+              <img class="vetImage2a" src="img/1947-1990/ladyVet.jpg"></img>
+            </div>
+            <div class="col-xs-7">
+              <img class="vetImage" src="img/1947-1990/kingsbeer.jpg"></img>
             </div>
           </div>
 
@@ -267,16 +375,91 @@
  
 
  <!-- ==============  content: struggle to redevelop 1991 - 2000 ========= -->
- 
-      <div  class="contentWrapper" id="struggle">
-        <div class="row">
-          <div class="container-fluid">
-            <div class="contentTitles col-xs-6 col-xs-offset-5">The struggle to redevelop 1991 - 2000
+
+    <div  class="contentWrapper container-fluid" id="struggle">
+      <div class="row">
+        <div class="contentTitles col-xs-6 col-xs-offset-5">The struggle to redevelop 1991 - 2000
+        </div>
+      </div>
+      <div id="redevStrug">
+        <div class="mainContent container-fluid">
+          <div class="row">
+            <div class="col-xs-2">  
+              <h4 ><strong>1991</strong></h4>
             </div>
           </div>
+          <div class="row">
+            <div class="col-xs-8">
+              <img class="redevImage" src="img/1991/helenNews.png"></img>
+            </div>
+            <div class="col-xs-4">
+              <p>Canadian Mortgage and Housing Corporation, Benny Farm’s federal landlord, proposes to move veterans’ families to new buildings that would be financed by sale of most of the Benny Farm land to developers.<p><br>
+              <p>Benny Farm Tenants’ Association rejects the CMHC’s plan.</p>
+              <audio class="musicBox" controls>
+                    <source src="audio/champ.mp3" type="audio/mpeg">
+              </audio>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-2 col-xs-offset-1">  
+              <h4 ><strong>1992</strong></h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <p>The CMHC presents its Master Plan which proposed to demolish all 64 buildings on the site, build 6 story buildings for the veterans on 1/3 of the site, and sell the rest to developers to build market-value condominiums. The plan is criticized by Benny Farm Tenants’ Association, Neighbours of Benny Farm, CCNDG and some local politicians.<p>
+            </div>
+            <div class="col-xs-8">
+              <img class="redevImage" src="img/1992/masterPlan.jpg"></img>
+            </div>
+            <div class="col-xs-4">
+              <p>Architects Daniel Pearl and Mark Paddubiuk (L’OEUF) propose an anti-demolition Master Plan, where existing buildings are renovated using green technology and new low-cost residential buildings are added to the site.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <img class="redevImage" src="img/1992/newBennyPlan.jpg"></img>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-4">
+              <p>The NDG Community Council Housing Committee proposes making Benny Farm a Land Trust. </p>
+              <audio class="musicBox" controls>
+                    <source src="audio/champ.mp3" type="audio/mpeg">
+              </audio>
+            </div>
+            <div class="col-xs-8">
+              <p>Tensions rise between neighbours at the Farm as a group of veterans in favour of the CMHC project, The Benny Farm Veterans and Associates, speaks out at community meetings.</p>
+              <img class="redevImage" src="img/1992/nVSn.jpg"></img>
+            </div>
+          </div>
+          <br><br>
+          <div class="row">
+            <div class="col-xs-12">
+              <p><span class="redevTextItal">" Many tenants desperately need better access to their apartments [...] We are getting a little tired of younger, fitter people telling us what is good for us "</span><br> -Rosemary Bradley, Benny Farm tenant,  The Gazette, August 27, 1992<p><br>
+              <p><span class="redevTextItal">" Demolition in this case would be wasteful and environmentally destructive. These buildings should continue to serve the purpose of social housing. "</span> -Lucia Kowaluk, Coordinator of the NDG Community Council  The Gazette, April 16, 1992</span>
+            </div>
+          </div>
+          <br><br>
+          <div class="row">
+            <div class="col-xs-8 col-xs-offset-2">
+              <img class="redevImage" src="img/1992/bennyNewAerial.jpg"></img>
+              <audio class="musicBox" controls>
+                    <source src="audio/champ.mp3" type="audio/mpeg">
+              </audio>
+            </div>
+
+
+
+
+
+              
+
+          <!-- end of mainContent -->
         </div>
-        <div id="redevStrug">
-          <div class="mainContent container-fluid">
+      </div>
+
 
   <!-- ============   footer ==================== -->
 
@@ -293,13 +476,75 @@
       </div>
     </div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
+    <!-- ==========    Bootstrap core JavaScript ==================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+<!-- ======================  my own JS here ========= -->
+    <script>
+
+      // ==============   open or close side nav menu upon click
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "17%";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+
+  // ==================   change bg color of side menu toggle 'X' based on screen position
+
+          window.onscroll = doThisStuffOnScroll;
+
+
+        var didScroll = false;
+
+        function doThisStuffOnScroll() {
+            didScroll = true;
+          }
+
+        setInterval(function() {
+            if(didScroll) {
+                didScroll = false;
+                // alert('You scrolled');
+                chngBtnBg();
+            }
+        },50);
+
+        function bgBrown() {
+          document.getElementById("closebtn").style.backgroundColor = "rgba(186, 139, 63, 1)";
+        }
+
+        function bgWhite() {
+          document.getElementById("closebtn").style.backgroundColor = "#fff";
+        }
+
+      // var clBtn = document.getElementById("closebtn");
+
+      // this is to check if chngBtn function is fired once, then stop firing
+       var chngBtnBg = function() {
+         var win = window.pageYOffset,
+           fired = false;
+
+        if (win >= 84 && fired === false) 
+          {
+            // clBtn.style.backgroundColor("#fff");
+            bgWhite();
+            fired = true;
+            } 
+          else if (win < 84) {
+              // clBtn.style.backgroundColor("rgba(165, 113, 24, 0.7)");
+              bgBrown();
+              fired = false;
+          }
+        };
+
+
+
+    </script>
+
   </body>
 </html>
