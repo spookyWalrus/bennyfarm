@@ -115,20 +115,20 @@ font-family: 'Mrs Sheppards', cursive;
 
 #navbarItemRight1 {
   text-align:right;
-  background-color: rgba(255, 113, 24, 0.7);
+  background-color: rgba(255, 113, 24, 0.9);
 } 
 
 #navbarItemRight2 {
   text-align:right;
-  background-color: rgba(235, 113, 24, 0.7);
+  background-color: rgba(235, 113, 24, 0.9);
 } 
 #navbarItemRight3 {
   text-align:right;
-  background-color: rgba(215, 113, 24, 0.7);
+  background-color: rgba(215, 113, 24, 0.9);
 } 
 #navbarItemRight4 {
   text-align:right;
-  background-color: rgba(195, 113, 24, 0.7);
+  background-color: rgba(195, 113, 24, 0.9);
 } 
 /*.navbar-nav .open .dropdown-menu {
     background-color: white;
@@ -181,16 +181,16 @@ font-family: 'Mrs Sheppards', cursive;
 }
 
 .sidenav {
-    height: 80vh; /* 100% Full-height */
+    height: auto; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 6; /* Stay on top */
     top: 0; /* Stay at the top */
     right: 0;
-    background-color: #000; /* Black*/
+    /*background-color: #000;*/ /* Black*/
 
-    background: -moz-linear-gradient(180deg, transparent 15.2%, #000 1%);
-    background: -webkit-linear-gradient(180deg, transparent 15.2%, #000 1%);
+    /*background: -moz-linear-gradient(180deg, transparent 15.2%, #000 1%);
+    background: -webkit-linear-gradient(180deg, transparent 15.2%, #000 1%);*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.15s; /* 0.5 second transition effect to slide in the sidenav */
@@ -226,7 +226,7 @@ font-family: 'Mrs Sheppards', cursive;
   margin-right: 6%;
   padding-right: 10px;
   padding-left: 0px;
-  margin-top: 4%;
+  margin-top: 6%;
   margin-bottom: 8px;
   padding-top:0px;
   padding-bottom: 0px;
@@ -320,13 +320,14 @@ change the style of the sidenav (less padding and a smaller font size) */
 
 
 #splashPageText {
-    margin-left: 35%;
-    margin-right: 35%;
+    /*margin-left: 35%;
+    margin-right: 35%;*/
     z-index: 3;
     position: relative;
     display: inline-block;
-    top: -13%;
-    padding: 0px;
+    /*top: -13%;*/
+    bottom: 7%;
+    padding-left: 3%;
     text-align: center;
 }
 
@@ -378,6 +379,7 @@ change the style of the sidenav (less padding and a smaller font size) */
     top: 10px;
     text-align: center;
     font-size: 20px;
+    overflow: scroll;`
 }
 
 
