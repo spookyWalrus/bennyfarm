@@ -232,7 +232,8 @@ font-family: 'Mrs Sheppards', cursive;
   padding-bottom: 0px;
   padding-left: 15px;
   color: #000;
-  background-color: rgba(186, 139, 63, 1);
+  background-color: rgba(255, 255, 255, 0);
+  /*background-color: transparent;*/
     
 }
 

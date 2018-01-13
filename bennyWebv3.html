@@ -485,64 +485,64 @@
       // ==============   open or close side nav menu upon click
         function openNav() {
             document.getElementById("mySidenav").style.width = "17%";
+            document.getElementById("sideMenuToggle").style.visibility = "hidden";
         }
 
         function closeNav() {
             document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("sideMenuToggle").style.visibility = "visible";
+
         }
 
   // ==================   change bg color of side menu toggle 'X' based on screen position
 
-          window.onscroll = doThisStuffOnScroll;
+        //   window.onscroll = doThisStuffOnScroll;
 
 
-        var didScroll = false;
+        // var didScroll = false;
 
-        function doThisStuffOnScroll() {
-            didScroll = true;
-          }
+        // function doThisStuffOnScroll() {
+        //     didScroll = true;
+        //   }
 
-        setInterval(function() {
-            if(didScroll) {
-                didScroll = false;
-                // alert('You scrolled');
-                chngBtnBg();
-            }
-        },50);
+        // setInterval(function() {
+        //     if(didScroll) {
+        //         didScroll = false;
+        //         // alert('You scrolled');
+        //         chngBtnBg();
+        //     }
+        // },50);
 
-        function bgBrown() {
-          document.getElementById("closebtn").style.backgroundColor = "rgba(186, 139, 63, 1)";
-        }
+        // function bgBrown() {
+        //   document.getElementById("closebtn").style.backgroundColor = "rgba(186, 139, 63, 1)";
+        // }
 
-        function bgWhite() {
-          document.getElementById("closebtn").style.backgroundColor = "#fff";
-        }
+        // function bgWhite() {
+        //   document.getElementById("closebtn").style.backgroundColor = "#fff";
+        // }
 
       // var clBtn = document.getElementById("closebtn");
 
       // this is to check if chngBtn function is fired once, then stop firing
-       var chngBtnBg = function() {
-         var win = window.pageYOffset,
-           fired = false;
+       // var chngBtnBg = function() {
+       //   var win = window.pageYOffset,
+       //     fired = false;
 
-        if (win >= 84 && fired === false) 
-          {
+       //  if (win >= 84 && fired === false) 
+       //    {
             // clBtn.style.backgroundColor("#fff");
-            bgWhite();
-            fired = true;
-            } 
-          else if (win < 84) {
+          //   bgWhite();
+          //   fired = true;
+          //   } 
+          // else if (win < 84) {
               // clBtn.style.backgroundColor("rgba(165, 113, 24, 0.7)");
-              bgBrown();
-              fired = false;
-          }
-        };
+        //       bgBrown();
+        //       fired = false;
+        //   }
+        // };
 
-// ====================== hide sidemenu bar on click of link  ======
 
-      // $(document).ready(function () {
-      //   $("#sidenavLinks a").click(closeNav());
-      // });
+      
 
 
     </script>
