@@ -115,20 +115,20 @@ font-family: 'Mrs Sheppards', cursive;
 
 #navbarItemRight1 {
   text-align:right;
-  background-color: rgba(255, 113, 24, 0.9);
+  background-color: rgba(255, 139, 82, 0.9);
 } 
 
 #navbarItemRight2 {
   text-align:right;
-  background-color: rgba(235, 113, 24, 0.9);
+  background-color: rgba(169, 239, 192, 0.9);
 } 
 #navbarItemRight3 {
   text-align:right;
-  background-color: rgba(215, 113, 24, 0.9);
+  background-color: rgba(66, 176, 255, 0.9);
 } 
 #navbarItemRight4 {
   text-align:right;
-  background-color: rgba(195, 113, 24, 0.9);
+  background-color: rgba(102, 102, 102, 0.9);
 } 
 /*.navbar-nav .open .dropdown-menu {
     background-color: white;
@@ -199,6 +199,11 @@ font-family: 'Mrs Sheppards', cursive;
 #sidenavLinks {
   height: auto;
   margin-top: 25px;
+}
+
+
+#sidenavLinks a {
+  padding: 5px 10px 5px 10px;
 }
 
 /* The navigation menu links */
@@ -570,13 +575,17 @@ change the style of the sidenav (less padding and a smaller font size) */
 
 .musicBox {
   /*position: relative;*/
-  display: inline;
+  display: inline-block;
   /*margin-left:63%;*/
   /*margin-bottom: 2%;*/
-  margin-top: 2%;
+  /*margin-top: 2%;*/
   width: 100%;
+  height: auto;
+  padding: 2% 0% 0% 0%;
+  background-color: #fff;
   /*bottom: 110px;*/
   z-index: 4;
+
 }
 
 

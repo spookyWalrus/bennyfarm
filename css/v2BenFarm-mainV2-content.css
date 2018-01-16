@@ -40,16 +40,33 @@
 
 .mainContent {
   position: relative;
-  font-size: 17px;
+  font-size: 18px;
   display: inline-block;
   z-index: 1;
   margin-right: 10%;
-  margin-left: 10%;
+  margin-left: 12%;
+  margin-top: 5%;
   /*margin-top: %;*/
   padding-top:10px;
 
 }
 
+.mainTextDate {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.rowTopBot {
+  margin-top: 3%;
+  margin-bottom:3%;
+}
+
+.rowMTop{
+  margin-top: 3%;
+}
+.rowMBot {
+  margin-bottom:3%;
+}
 
 /*<<<<<<<<<<<<<<<<<<<<<<< content: 1838 - 1944 >>>>>>>>>>>>>*/
 /*<<<<<<<<<<<<<<<<<<<<<<< content: 1838 - 1944 >>>>>>>>>>>>>*/
@@ -82,24 +99,30 @@
 
 }
 
+.farmImage {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+}
+
 .farmImage1 {
   display: inline-block;
   width: 100%;
   height: auto;
-  margin-top: 13%;
   /*float: left;*/
   z-index: 2;
 }
 .farmImage2 {
   display: inline-block;
-  width: 150%;
+  width: 100%;
   height: auto;
   /*float: right;*/
   margin-bottom: 1%;
   z-index: 2;
 }
 .farmImage3 {
-  display: block;
+  display: inline-block;
   width: 100%;
   height: auto;
   z-index: 2;
@@ -125,14 +148,71 @@
   z-index: 2;
   margin-top: 0%;
 }
+
+.farmPadTop {
+  padding-top:5%;
+}
+
+.farmMTop {
+  margin-top:5%;
+}
+
+.farmMTopxx {
+  margin-top:20%;
+}
+
+.farmPadBttm {
+  padding-bottom:5%;
+}
+
+.farmPadBttm {
+  padding-bottom:5%;
+}
+
+.farmMainText {
+  width: auto;
+  height: auto;
+  padding: 1% 6% 1% 6%;
+  background-color: rgba(37, 203, 92, 0.5); 
+}
+
+.farmText{
+  font-size: 17px;
+  text-align: center;
+  font-family: 'Times new roman', serif;
+   width: auto;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 1% 6% 1% 6%;
+  border-radius: 20px;
+}
+
+.farmTextMTop {
+    font-size: 17px;
+    font-family: 'Times new roman', serif;
+    text-align: center;
+   width: auto;
+  height: auto;
+  background-color: rgba(211, 253, 225, 0.6);
+  padding: 1% 5% 1% 5%;
+  margin-top: 10%;
+  border-radius: 20px;
+}
+
+.farmTextPadBtm {
+  bottom: 75px;
+  background-color: rgba(134, 249, 172, 0.5);
+}
+
+
 /*<<<<<<<<<<<<< veterans' community: 1947 - 1990 >>>>>>>>>>>*/
 /*<<<<<<<<<<<<< veterans' community: 1947 - 1990 >>>>>>>>>>>*/
 
 #vetCommy {
   position: relative;
   z-index: 2;
-  background: -webkit-linear-gradient(270deg, #ffffff 10%, #0044c2 84%);
-  background: -moz-linear-gradient(270deg, #ffffff 10%,  #0044c2 40%);
+  background: -webkit-linear-gradient(270deg, #ffffff 10%, #42b0ff 40%);
+  background: -moz-linear-gradient(270deg, #ffffff 10%,  #42b0ff 40%);
 /*  padding-left: 5%;
   padding-right: 8%;
   padding-top: 4%;*/
@@ -157,15 +237,25 @@
 }
 
 #vetCommText{
-	position: relative;
-	right: 23%;
-	color: #000;
+  width: auto;
+  height: auto;
+  padding: 1% 6% 1% 6%;
+  background-color: rgba(0, 68, 194, 1);
+	color: #fff;
 }
 
-.vetImage {
-	width: 100%;
-	height: auto;
-	padding: 0px 0px 15px 0px;
+.vetPadRight {
+  padding-right: 5%;
+}
+
+
+.vetMBott {
+  margin-bottom:5%;
+
+}
+
+.vetMTop {
+  margin-top: 10%;
 }
 
 .vetImage1 {
@@ -175,9 +265,15 @@
   margin-top: 3%;
 }
 
+.vetImage1a {
+  width: 100%;
+  height: auto;
+  padding: 0px 0px 15px 0px;
+}
+
 
 .vetImage2 {
-	width: 80%;
+	width: 100%;
 	height: auto;
 	padding: 0px 0px 15px 0px;
 }
@@ -203,8 +299,8 @@
 #redevStrug {
   position: relative;
   z-index: 2;
-  background: -webkit-linear-gradient(270deg, #ffffff 10%, #c62fda 84%);
-  background: -moz-linear-gradient(270deg, #ffffff 10%,  #c62fda 40%);
+  background: -webkit-linear-gradient(270deg, #ffffff 5%, #666666 20%);
+  background: -moz-linear-gradient(270deg, #ffffff 5%,  #666666 20%);
 /*  padding-left: 5%;
   padding-right: 8%;
   padding-top: 4%;*/
@@ -215,20 +311,72 @@
 #redevStrug:before  {
     content: "";
     position: absolute;
-    top: 90px;
+    top: 0px;
     bottom: 0;
     left: 0;
     right: 0;
     /*z-index: 0;*/
-    background-image: url('../img/1992/bennyNewAerial.jpg');
+    background-image: url('../img/1992/bennyNewAerial2.jpg');
    opacity: 0.08;
    background-repeat: no-repeat;
    background-size: cover;
    background-attachment: fixed;
+   background-position: 100% -14%;
+}
+
+
+.redevMainText {
+  width: auto;
+  height: auto;
+  padding: 1% 4% 1% 4%;
+  background-color: rgba(101, 78, 97, 1); 
+  color: #fff;
 }
 
 .redevTextItal {
   font-style: italic;
+  width: auto;
+  height: auto;
+  padding: 1% 6% 1% 6%;
+  background-color: rgba(209, 209, 209, 0.87);
+  /*background-color: rgba(242, 190, 249, 1); */
+}
+
+.redevTextQte {
+  width: auto;
+  height: auto;
+  padding: 1% 6% 1% 6%;
+  background-color: rgba(252, 205, 254, 0.4);
+  /*background-color: rgba(242, 190, 249, 1); */
+}
+
+.redevMTop {
+  margin-top: 3%;
+}
+
+.redevMTopx {
+  margin-top: 7%;
+}
+
+.redevMTopxx {
+  margin-top: 15%;
+}
+.redevMBttm {
+  margin-bottom: 3%;
+}
+
+.redevNoPad{
+  padding-left:0px;
+  padding-right: 0px;
+}
+
+.redevNoPadL{
+  padding-left:0px;
+}
+
+
+.redevNoPadR{
+  padding-right:0px;
 }
 
 .redevImage {
@@ -237,8 +385,7 @@
   padding: 0px 0px 15px 0px;
 }
 
-.redevImage {
-  width: 100%;
+.redevImage1 {
+  width: 14`0%;
   height: auto;
   padding: 0px 0px 15px 0px;
-}
