@@ -176,6 +176,8 @@
   background-color: rgba(37, 203, 92, 0.5); 
 }
 
+
+
 .farmText{
   font-size: 17px;
   text-align: center;
@@ -244,10 +246,34 @@
 	color: #fff;
 }
 
+.vetTextItal {
+  font-style: italic;
+  width: auto;
+  height: auto;
+  padding: 1% 6% 1% 6%;
+  background-color: rgba(209, 209, 209, 0.87);
+  color: #000;
+ }
+
+.vetTextQte {
+  width: auto;
+  height: auto;
+  padding: 1% 6% 1% 6%;
+  background-color: rgba(250, 254, 252, 0.6);
+  margin-top: 3%;
+  margin-bottom: 3%;
+  color: #000;
+  /*background-color: rgba(242, 190, 249, 1); */
+}
+
 .vetPadRight {
   padding-right: 5%;
 }
 
+.vetNoPad {
+  padding-left: 0px;
+  padding-right: 0px;
+}
 
 .vetMBott {
   margin-bottom:5%;
@@ -290,7 +316,10 @@
 	width: 100%;
 	height: auto;
 	padding: 0px 0px 15px 0px;
-	margin-top: 6%;
+}
+
+.vetAudioControl {
+  width:100%;
 }
 
 /*=========== struggle redevelop: 1991-2000 ========*/
