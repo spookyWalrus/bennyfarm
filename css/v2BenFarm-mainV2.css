@@ -70,6 +70,7 @@ font-family: 'Mrs Sheppards', cursive;
     left: 120px;
     margin-left: 10px;
     padding-left: 20px;
+    color:#fff;
 }
 
 #logo {
@@ -639,10 +640,11 @@ change the style of the sidenav (less padding and a smaller font size) */
     
 }
 
+
 #customFooter {
     background-color: rgba(207, 175, 119, 0.4);
-    height:60vh;
-}
+    height:63vh;
+  }
 
 
 
