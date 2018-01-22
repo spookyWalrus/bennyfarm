@@ -311,7 +311,7 @@ change the style of the sidenav (less padding and a smaller font size) */
     min-height:100%;
     /*top: -99px;*/
     right: 0px;
-    background-image: url('../img/splashpage/splashPage2c.jpg');
+    background-image: url('../img/splashpage/splashPage2.png');
     background-repeat: no-repeat;
     border: none;
     background-size: 100% 100%;
@@ -328,7 +328,7 @@ change the style of the sidenav (less padding and a smaller font size) */
   display:inline-block;
   position:relative;
   margin-top: 2%;
-  margin-left: 22.667%;
+  /*margin-left: 22.667%;*/
 
 }
 
@@ -397,6 +397,7 @@ change the style of the sidenav (less padding and a smaller font size) */
     /*top: 10px;*/
     text-align: center;
     font-size: 20px;
+    font-weight: normal;
     /*background-color: rgba(28 28 28 0.4);*/
     /*border-radius: 15px;*/
     overflow: scroll;
@@ -409,7 +410,7 @@ change the style of the sidenav (less padding and a smaller font size) */
     padding-bottom:10px;
     position: relative;
     top: 10px;
-    background-color: rgba(28, 28, 28, 0.4);
+    background-color: rgba(28, 28, 28, 0.6);
     border-radius: 15px;
     overflow: scroll;
 
