@@ -352,7 +352,7 @@
     left: 0;
     right: 0;
     /*z-index: 0;*/
-    background-image: url('../img/1992/bennyNewAerial.jpg');
+    background-image: url('../img/1992/bennyNewAerial.png');
    opacity: 0.08;
    background-repeat: no-repeat;
    background-size: cover;
@@ -390,7 +390,7 @@
     left: 0;
     right: 0;
     /*z-index: 0;*/
-    background-image: url('../img/2000/bennyNewAerial.jpg');
+    background-image: url('../img/2000/bennyNewAerial.png');
    opacity: 1;
    background-repeat: no-repeat;
    background-size: cover;
