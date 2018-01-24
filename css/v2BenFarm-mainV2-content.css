@@ -183,7 +183,7 @@
 
 
 .farmText{
-  font-size: 17px;
+  font-size: 20px;
   text-align: center;
   font-family: Times, serif;
    width: auto;
@@ -249,6 +249,7 @@
   background-color: rgba(0, 68, 194, 1);
 	color: #fff;
   font-family: Times;
+  font-size: 20px;
 }
 
 .vetTextItal {
@@ -429,6 +430,7 @@
   background-color: rgba(101, 78, 97, 1); 
   color: #fff;
   font-family: Times;
+  font-size: 20px;
 }
 
 .redevTextItal {
