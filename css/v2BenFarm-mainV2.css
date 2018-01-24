@@ -647,7 +647,8 @@ change the style of the sidenav (less padding and a smaller font size) */
 
 #customFooter {
     background-color: rgba(207, 175, 119, 0.4);
-    height:63vh;
+    height:auto;
+    padding-bottom: 20px;
   }
 
 
@@ -660,11 +661,18 @@ change the style of the sidenav (less padding and a smaller font size) */
     width: 9%;
     height: auto;
     display:inline-block;
-    padding-top: 15px;
+    padding-left: 1%;
+
 }
 
 #sponsor2 {
-    padding-left: 10%;
+    padding-left: 2%;
+}
+
+#sponsor3 {
+    width: 23%;
+    height: auto;
+    display:inline-block;
 }
 
 .footerText {
