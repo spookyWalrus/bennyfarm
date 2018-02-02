@@ -14,11 +14,11 @@
       <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
     <!-- vvvvvvvvv   Bootstrap 3.3.7 CDN vvvvvvvvvvv -->
-    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+  <!--   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
         <!-- Latest compiled and minified CSS for boostrap 3.3.7 -->
   <!--   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
     <!-- Latest compiled and minified JavaScript -->
-   <!--  // <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+<!--     // <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
 
  
 
@@ -26,19 +26,36 @@
     <link href="css/starter-template.css" rel="stylesheet">
 
     <!-- Custom or localized styles! -->
-  
-
-    <link href="css/v2BenFarm-mainV2.css" rel="stylesheet">
     <link href="css/v2BenFarm-Crsl.css" rel="stylesheet">
-    <link href="css/v2BenFarm-mainV2-content.css" rel="stylesheet">
+  
+<!--     <link href="css/BenFarm-main.css" rel="stylesheet">
+ -->    <!-- <link href="css/BenFarm-main-mobile.css" rel="stylesheet"> -->
+    <link media="screen and (min-width: 320px)" rel="stylesheet" href="css/BenFarm-main-320px.css" />
+    <link media="screen and (min-width: 320px)" rel="stylesheet" href="css/BenFarm-content-320px.css" />
+    <link media="screen and (min-width: 411px)" rel="stylesheet" href="css/BenFarm-main-411px.css" />
+     <link media="screen and (min-width: 411px)" rel="stylesheet" href="css/BenFarm-content-411px.css" />
+     <link media="screen and (min-width: 768px)" rel="stylesheet" href="css/BenFarm-main-768px.css" />
+     <link media="screen and (min-width: 768px)" rel="stylesheet" href="css/BenFarm-content-768px.css" />
+      <link media="screen and (min-width: 1024px)" rel="stylesheet" href="css/BenFarm-main-1024px.css" />
+     <link media="screen and (min-width: 1024px)" rel="stylesheet" href="css/BenFarm-content-1024px.css" />
+        <link media="screen and (min-width: 1280px)" rel="stylesheet" href="css/BenFarm-main-1280px.css" />
+     <link media="screen and (min-width: 1280px)" rel="stylesheet" href="css/BenFarm-content-1280px.css" />
+
+     <!-- 
+    <link href="css/BenFarm-main.css" rel="stylesheet">
+    <link href="css/BenFarm-content.css" rel="stylesheet"> -->
+
+     <!-- <link href="css/BenFarm-content.css" rel="stylesheet"> -->
+    <!-- <link href="css/BenFarm-content-mobile.css" rel="stylesheet"> -->
+
 
 
     <!-- custom fonts -->
     <link href="https://fonts.googleapis.com/css?family=Grand+Hotel|Molle:400|Mrs+Sheppards|Norican|Sofia" rel="stylesheet">
-    <link href="fonts/" rel="stylesheet">
+    <!-- <link href="fonts/" rel="stylesheet"> -->
 
     <!-- font awesome CDN -->
-    <script src="https://use.fontawesome.com/5a9923c611.js"></script>
+      <script src="https://use.fontawesome.com/5a9923c611.js"></script>
 
 
 
@@ -47,44 +64,16 @@
 
   <body>
 
-    <!-- ============   old navbar / toggle menu ============= -->
-<!-- 
-    <nav class="navbar navbar-inverse navbar-static-top" id="customNavbar">
-      <div class="container">
-        <div class="navbar-header"> -->
-         <!--  <button type="button" id="customNavbarToggle" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button> -->
-         <!--  <a class="navbar-brand navbar-left" id="customNavbar-brand" href="#">
-            <img src="img/logo/NDGlogo1.png" id="logo"></img>
-            <div id="logoText">Atelier d'histoire<br>History workshop</div>
-            
-          </a>
-        </div> -->
-    <!--     <div id="navbar" class="collapse navbar-collapse customNavbarCollapsible">
-          <ul class="nav navbar-nav " id="customNavbarNav">
-              <li id="navbarItemRight1"><a href="#playersWrapper">Community voices</a></li>
-              <li id="navbarItemRight2"><a href="#theBeginning">The beginning: 1833 - 1947</a></li>
-              <li id="navbarItemRight3"><a href="#vetCommunity">The Veterans' Community<br>1947 - 1990</a></li>
-              <li id="navbarItemRight4"><a href="#struggle">The struggle to redevelop <br>Benny Farm 1991-2000</a></li>
-              <li class="navbarItemLeft"><a href="#about">About us</a></li>
-             <li class="navbarItemLeft"><a href="#contact">Contact</a></li>
-          </ul>
-        </div> --><!--/.nav-collapse -->
-   <!--    </div>
-    </nav> -->
+    
 
- <!-- =====================  new sideways nav menu =========== -->
- 
-  <nav class="navbar navbar-inverse navbar-static-top " id="customNavbar">
-    <div class="container" >
-      <div class="newNavbar-header">
+   <!-- =====================  new sideways nav menu =========== -->
+   
+    <nav class="navbar navbar-default navbar-inverse navbar-static-top " id="customNavbar" role="navigation">
+      <div class="container-fluid" id="customSideNavContainer">
+        <div class="newNavbar-header">
           <button type="button" id="sideMenuToggle" onclick="openNav()" class="navbar-toggle collapsed" data-toggle="collapse"  aria-expanded="false" aria-controls="sidenav">
             <!-- <span class="sr-only">Toggle navigation</span> -->
-            <span class="icon-bar"></span>
+            <span class="icon-bar icon-barZ"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
@@ -95,51 +84,43 @@
             </a>
           </div>
         </div>
-    </div>
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" id="closebtn" onclick="closeNav()">&times;</a>
-      <div id="sidenavLinks">
-        <a href="#playersWrapper" id="navbarItemRight1" onclick="closeNav()">Community voices</a>
-        <a href="#theBeginning" id="navbarItemRight2" onclick="closeNav()">The beginning:<br> 1833 - 1947</a>
-        <a href="#vetCommunity" id="navbarItemRight3" onclick="closeNav()">The Veterans' Community 1947 - 1990</a>
-        <a href="#struggle" id="navbarItemRight4" onclick="closeNav()">The struggle to redevelop Benny Farm: 1991-2006</a>
-        <a href="bennyWebAboutUs.html" class="navbarItemLeft" onclick="closeNav()">About us</a>
       </div>
+      <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" id="closebtn" onclick="closeNav()"><span id="buttonX">x</span></a>
+        <div id="sidenavLinks">
+          <a href="#playersWrapper" id="navbarItemRight1" onclick="closeNav()">Community voices</a>
+          <a href="#theBeginning" id="navbarItemRight2" onclick="closeNav()">The beginning:<br> 1833 - 1947</a>
+          <a href="#vetCommunity" id="navbarItemRight3" onclick="closeNav()">The Veterans' Community 1947 - 1990</a>
+          <a href="#struggle" id="navbarItemRight4" onclick="closeNav()">The struggle to redevelop Benny Farm: 1991-2006</a>
+          <a href="bennyWebAboutUs.html" class="navbarItemLeft" onclick="closeNav()">About us</a>
+        <!--   <a href="bennyWebAboutUs.html" id="navCredits" onclick="closeNav()">Credits</a> -->
+          <a href="#top" id="backToTop" onclick="closeNav()">Back to Top</a>
+        </div>
+      </div>
+    </nav>
 
-      <!-- <ul id="customNavbarNav">
-          <li id="navbarItemRight1"><a href="#playersWrapper">Community voices</a></li>
-          <li id="navbarItemRight2"><a href="#theBeginning">The beginning: 1833 - 1947</a></li>
-          <li id="navbarItemRight3"><a href="#vetCommunity">The Veterans' Community<br>1947 - 1990</a></li>
-          <li id="navbarItemRight4"><a href="#struggle">The struggle to redevelop <br>Benny Farm 1991-2000</a></li>
-          <li id="navbarItemRight4"><a href="#about">About us</a></li>
-         <li class="navbarItemLeft"><a href="#contact">Contact</a></li>
-      </ul> -->
-    </div>
-  </nav>
+
 
     <!-- ================  splash page carousel ===============  -->
-    <div id="myCarousel" class="carousel slide bennyCarousel" data-ride="carousel"  data-interval="60000">  <!--  << add: data-interval="false" to halt rotation -->
-      <!-- Indicators -->
-      <!-- <ol class="carousel-indicators" id="bennyCarouselIndic">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li> -->
-        <!-- <li data-target="#myCarousel" data-slide-to="2"></li> -->
-      <!-- </ol> -->
-
+    <div id="myCarousel" class="carousel slide bennyCarousel" data-ride="carousel" data-interval="60000" >  <!-- data-interval="false">   data-interval="60000"-->
       <!-- Wrapper for slides -->
       <div class="carousel-inner" id="carouselPageWrapper">
+
         <div class="item active">
-        <!--   <img src="img/splashpage/splashPage1c.jpg" alt="old benny farm" id="carouselImage1"> -->
-       
           <div  id="splashBennyOld">
-             <div  class="col-xs-6 col-xs-offset-3" id="splashPageText">
-              <h2 id="customH1"><span id="bigH1">Benny<br>Farm</span><br>From the<br>Ground up</h2>
-             </div>
+            <div clas="row">
+              <div  class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3"> 
+                <div id="splashPageText">
+                  <div class="titleBackDrop">
+                     <h2 id="customH1"><span id="bigH1">Benny<br>Farm</span><br>From the<br>Ground up</h2>
+                  </div>
+                </div> 
+              </div>
+            </div>
           </div> 
         </div>
 
         <div class="item">
-        <!--   <img src="img/splashpage/splashPage2c.jpg" alt="new benny farm" id="carouselImage2"> -->
           <div id="splashBennyNew" >
             <div class="row">
               <div class="col-xs-8 col-xs-offset-2">
@@ -153,7 +134,7 @@
             </div>
           </div>
         </div>
-       
+
       </div>
 
       <!-- Left and right controls -->
@@ -167,235 +148,233 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
+  <!-- ==========  >>>>>   main container-fluid >>>>>  ========= -->
+  <!-- ==========  >>>>>   main container-fluid >>>>>  ========= -->
 
- <!-- =========================    Biographies     ============== -->
+    <div class="container-fluid" id="metaContainer">
 
-  <div id="playersWrapper" class="container-fluid">
-      <div class="row">
-        <div class="bioTitles col-xs-4 col-xs-offset-8">Community voices</div>
-      </div>
+      <!-- ===================    Biographies     ============== -->
 
-      <!-- <div class="bioTitles">Community voices</div> -->
-
-      <div class="row thePlayers"> 
-        <div id="player1" class="col-xs-6 bioSpecs">
-          <div class="row">
-            <div class="col-xs-4">
-              <h5 class="playerType">Jason Hughes : The Community Organiser </h5>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-6 col-xs-offset-6">
-              <p class="playerl-xs-offset-6">
-              <p class="playerBio">Raised in Ville Saint-Laurent, Jason Hughes moved to NDG in the late 1980s to work at the NDG Food Depot. He later became the NDG Community Council’s community organiser for Benny Farm, working directly with the CCNDG’s Housing Committee. Hughes was a spokesman for the community-based response to the CMHC’s proposed plan to demolish Benny Farm and sell most of the land to developers. He worked actively on proposals to preserve low-cost housing at Benny Farm during the redevelopment and has remained involved with affordable housing initiatives in NDG. Hughes is currently the director of Project Tango, a non-profit organization offering adapted and affordable housing for people living with physical disabilities at Benny Farm.</p>
-              <!-- <audio class="bioMusicBox" controls>
-                    <source src="audio/champ.mp3" type="audio/mpeg">
-              </audio> -->
-            </div>
-          </div>
+      <div id="playersWrapper" class="container-fluid">
+        <div class="row noRowMargs">
+          <div class="bioTitles col-xs-4 col-sm-4 col-sm-offset-6 col-md-4 col-md-offset-7 col-lg-offset-8">Community voices</div>
         </div>
 
-        <div id="player2" class="col-xs-6 bioSpecs">
-          <div class="row">
-            <div class="col-xs-4 bioNoPadR">
-              <h5 class="playerType">Helen Bolton Guy : The Veteran</h5>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-6 col-xs-offset-6">
-              <p class="playerBio">Helen Bolton Guy comes from a military family and chose a career in the Canadian Armed Forces. It was her military service that made her family eligible for an apartment at Benny Farm in 1965. With a soldierly sense of order, the tenants coordinated themselves by building and Bolton Guy was her building “Captain,” organising sports and social events and looking out for her neighbours. By 1972, Bolton Guy was head of the Benny Farm Tenants’ Association, advocating for tenants’ rights with The Farm’s landlord, the Canadian Mortgage and Housing Corporation (CMHC). She was a leading voice for veterans and Benny Farm tenants rights during the redevelopment and continues to be an organiser and advocate at Benny Farm and in the community.</p>
-              <!-- <audio class="bioMusicBox" controls>
-                    <source src="audio/champ.mp3" type="audio/mpeg">
-              </audio> -->
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row thePlayers2"> 
-        <div id="player3" class="col-xs-6 bioSpecs">
-          <div class="row">
-            <div class="col-xs-4">
-              <h5 class="playerType">Sam Boskey : The City Councilor</h5>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-6 col-xs-offset-6">
-              <p class="playerBio2 ">Born into a family of union organisers and social justice advocates, Sam Boskey was an early activist and community organiser who went on to become a founding member of the progressive municipal party, the MCM (Montreal Citizens’ Movement). He was elected city councilor for the Décarie district from 1982 to 1998, first under the banner of the MCM and later as an independent. During his years in office and after, affordable housing and tenants’ rights were among his top priorities. Boskey’s involvement with Benny Farm began when he joined the NDG Community Council’s Housing Committee and continued throughout the years of its redevelopment. </p>
-             <!--  <audio class="bioMusicBox" controls>
-                <source src="audio/champ.mp3" type="audio/mpeg">
-              </audio> -->
-            </div>
-          </div>
-        </div>
-
-        <div id="player4" class="col-xs-6 bioSpecs">
-          <div class="row">
-            <div class="col-xs-4">
-              <h5 class="playerType">Luba Serge : The Housing Activist</h5>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-6 col-xs-offset-6">
-              <p class="playerBio2">With a background in urban planning and experience with some of Montreal’s major social housing campaigns, including Milton-Parc, Serge came to the Benny Farm redevelopment as a consultant for the NDG Community Council’s Housing Committee in 1998. Along with other key community activists and organizations, she helped to create the Fonds Foncier Benny Farm in order to present a development plan for affordable homeownership and social housing to Canada Lands, which had taken over the property from the CMHC. Serge went on to write her PhD dissertation on Benny Farm and its redevelopment, and continues to be involved with issues of social housing, homelessness and social exclusion. She is currently a commissioner at the Office de consultation publique de Montréal and teaches at John Abbott College.</p>
-             <!--  <audio class="bioMusicBox" controls>
-                    <source src="audio/champ.mp3" type="audio/mpeg">
-              </audio> -->
-            </div>
-        </div>
-      </div>
-
-    </div>  
-
-    <!-- =============== content: 1833-1944 ============== -->
-    <!-- =============== content: 1833-1944 ============== -->
-
-
-    <div  class="contentWrapper container-fluid" id="theBeginning">
-   
-      <div class="row">
-        <div class="contentTitles col-xs-6 col-xs-offset-6">The beginning: 1833 - 1947 
-        </div>
-      </div>
-
-      <div id="benny1833">
-        <div class="mainContent">
-          <div class="row rowTopBot">
-            <div class="col-xs-4">
-              <img class="farmImage" src="img/1833-1944/BennyPortrait.jpg" ></img>
-              <div class="farmMainText farmMTop">
-                  <p>  In 1838, he purchased a parcel of land that stretched from the St-Jacques escarpment to Cote-Saint-Luc Road. The Bennys built a manor house near Upper Lachine Road, while the farmhouse was near Cavendish boulevard.</p>
+        <div class="row thePlayers"> 
+          <div id="player1" class="col-xs-6 col-sm-6 bioSpecs">
+            <div class="row">
+              <div class="col-xs-6 col-sm-6">
+                <h5 class="playerType">Jason Hughes : The Community Organiser </h5>
               </div>
             </div>
-            <div class="col-xs-8">
-              <div  class="farmPadBttm">
-                <div class="farmMainText">
-                  <p class="mainTextDate"><strong>1833 - Farmland</strong></p>
-                  <p > British immigrant Walter Benny began his career in Montreal as a Master-Baker and soon became involved in milling, banking, hardware and other concerns. As member of the city’s wealthy merchant-class, he owned many properties, including a building on St-Joseph Street in Old Montreal that still bears his name.</p>
+            <div class="row">
+              <div class="col-xs-8 col-xs-offset-4 col-sm-8 col-sm-offset-2 col-md-offset-4 col-lg-offset-5">
+                <p class="playerBio">Raised in Ville Saint-Laurent, Jason Hughes moved to NDG in the late 1980s to work at the NDG Food Depot. He later became the NDG Community Council’s community organiser for Benny Farm, working directly with the CCNDG’s Housing Committee. Hughes was a spokesman for the community-based response to the CMHC’s proposed plan to demolish Benny Farm and sell most of the land to developers. He worked actively on proposals to preserve low-cost housing at Benny Farm during the redevelopment and has remained involved with affordable housing initiatives in NDG. Hughes is currently the director of Project Tango, a non-profit organization offering adapted and affordable housing for people living with physical disabilities at Benny Farm.</p>
+              
+              </div>
+            </div>
+          </div>
+
+          <div id="player2" class="col-xs-6 col-sm-6 bioSpecs">
+            <div class="row">
+              <div class="col-xs-7 col-sm-5 bioNoPadR">
+                <h5 class="playerTypeB">Helen Bolton Guy : The Veteran</h5>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-8 col-xs-offset-4 col-sm-8 col-sm-offset-2 col-md-offset-4 col-lg-offset-5">
+                <p class="playerBio">Helen Bolton Guy comes from a military family and chose a career in the Canadian Armed Forces. It was her military service that made her family eligible for an apartment at Benny Farm in 1965. With a soldierly sense of order, the tenants coordinated themselves by building and Bolton Guy was her building “Captain,” organising sports and social events and looking out for her neighbours. By 1972, Bolton Guy was head of the Benny Farm Tenants’ Association, advocating for tenants’ rights with The Farm’s landlord, the Canadian Mortgage and Housing Corporation (CMHC). She was a leading voice for veterans and Benny Farm tenants rights during the redevelopment and continues to be an organiser and advocate at Benny Farm and in the community.</p>
+                <!-- <audio class="bioMusicBox" controls>
+                      <source src="audio/champ.mp3" type="audio/mpeg">
+                </audio> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row thePlayers2"> 
+          <!-- <div class="thePlayers2">  -->
+            <div id="player3" class="col-xs-6 bioSpecs">
+              <div class="row">
+                <div class="col-xs-6">
+                  <h5 class="playerType">Sam Boskey : The City Councilor</h5>
                 </div>
               </div>
               <div class="row">
-                <div class="col-xs-6">
-                  <img class="farmImage3" src="img/1833-1944/bennyField.jpg" ></img>
-                </div>
-                <div class="col-xs-6">
-                  <img class="farmImage3" src="img/1833-1944/bennyTree.jpg" ></img>
+                <div class="col-xs-8 col-xs-offset-4 col-sm-8 col-sm-offset-2 col-md-offset-4 col-lg-offset-5">
+                  <p class="playerBio2 ">Born into a family of union organisers and social justice advocates, Sam Boskey was an early activist and community organiser who went on to become a founding member of the progressive municipal party, the MCM (Montreal Citizens’ Movement). He was elected city councilor for the Décarie district from 1982 to 1998, first under the banner of the MCM and later as an independent. During his years in office and after, affordable housing and tenants’ rights were among his top priorities. Boskey’s involvement with Benny Farm began when he joined the NDG Community Council’s Housing Committee and continued throughout the years of its redevelopment. </p>
+                 <!--  <audio class="bioMusicBox" controls>
+                    <source src="audio/champ.mp3" type="audio/mpeg">
+                  </audio> -->
                 </div>
               </div>
-              <div class="row farmPadTop">
-                <div class="col-xs-6">
-                  <img class="farmImage3" src="img/1833-1944/farmHouse.jpg" ></img>
+            </div>
 
-                </div>
+            <div id="player4" class="col-xs-6 bioSpecs">
+              <div class="row">
                 <div class="col-xs-6">
-                  <img class="farmImage3" src="img/1833-1944/bennyBridge.png" ></img>
+                  <h5 class="playerType">Luba Serge : The Housing Activist</h5>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-8 col-xs-offset-4 col-sm-8 col-sm-offset-2 col-md-offset-4 col-lg-offset-5">
+                  <p class="playerBio2">With a background in urban planning and experience with some of Montreal’s major social housing campaigns, including Milton-Parc, Serge came to the Benny Farm redevelopment as a consultant for the NDG Community Council’s Housing Committee in 1998. Along with other key community activists and organizations, she helped to create the Fonds Foncier Benny Farm in order to present a development plan for affordable homeownership and social housing to Canada Lands, which had taken over the property from the CMHC. Serge went on to write her PhD dissertation on Benny Farm and its redevelopment, and continues to be involved with issues of social housing, homelessness and social exclusion. She is currently a commissioner at the Office de consultation publique de Montréal and teaches at John Abbott College.</p>
                 </div>
               </div>
             </div>
-          </div>
-            
-                   
-         
-          <div class="row rowTopBot">
-            <div class="col-xs-4">
-              <div class="farmMainText">
-                <p class="mainTextDate"><strong>1944 - Federal Land</strong></p>
-                <p class="farmMainText">Intending to build a veterans’ hospital, the MPNH (Minister of Pensions and National Health) buys the remaining undeveloped farmland from the Benny family. </p>
-              </div>
-            </div>
-            <div class="col-xs-6">
-              <img class="farmImage2" src="img/1833-1944/mpnhLogo.jpg"></img>
-            </div>
-            <div class="col-xs-2">
-              <div class="farmMainText"> 
-                <p>Responding to growing anger over a housing crisis for returning veterans, the government opts to build housing instead.</p>
-              </div>
-            </div>
-          </div>
 
-          <div class="row">
-            <div class="col-xs-7">
-              <img class="farmImage1" src="img/1946-47/bennyVetBld.png" ></img>
-            </div>
-            <div class="col-xs-5">  
-              <div class="farmMainText ">  
-                <h4 class="floatR mainTextDate"><strong>1946 ~ 1947 - Who will build housing for veterans?</strong></h4>
-                <p>Federal Government asks private enterprise to get involved in solving veterans’ housing crisis and sells the land to Housing Enterprises of Canada Limited, a consortium of insurance companies. HECL builds a series of veterans' housing complexes across Canada and among those, Benny Farm stands out as a model for post-war housing.</p>
-              </div>
-            </div>
-          </div>
+          <!-- </div> -->
+        </div>  <!-- end of row -->
 
-          <div class="row farmMTop">
-            <div class="col-xs-5">
-              <img class="farmImage3" src="img/1946-47/arch-aerial.png" ></img>
-              <div class="col-xs-12 farmMTop">
-                <div class="musicBox ">
-                  <div class="col-xs-4 farmMTop">
-                    <img class="redevImage" src="img/biography/samThumb.jpg"></img>
+      </div>  <!-- end of bio wrapper -->
+
+      <!-- =============== content: 1833-1944 ============== -->
+      <!-- =============== content: 1833-1944 ============== -->
+
+
+      <div  class="contentWrapper container-fluid" id="theBeginning">
+     
+        <div class="row noRowMargs">
+          <div class="contentTitles col-xs-10 col-sm-7 col-sm-offset-4 col-md-offset-5 col-lg-offset-6" id="farmTitles">The beginning: 1833-1947 
+          </div>
+        </div>
+
+        <div id="benny1833">
+          <div class="mainContent">
+
+            <div class="row rowTopBot">
+              <div class="col-xs-4 col-sm-4 noPadR">
+                <img class="farmImage" src="img/1833-1944/BennyPortrait.jpg" ></img>
+                <div class="farmMainText farmMTop farmPadTop">
+                    <p>  In 1838, he purchased a parcel of land that stretched from the St-Jacques escarpment to Cote-Saint-Luc Road. The Bennys built a manor house near Upper Lachine Road, while the farmhouse was near Cavendish boulevard.</p>
+                </div>
+              </div>
+              <div class="col-xs-8 col-sm-8">
+                <div  class="farmPadBttm">
+                  <div class="farmMainText">
+                    <p class="mainTextDate"><strong>1833 - Farmland</strong></p>
+                    <p > British immigrant Walter Benny began his career in Montreal as a Master-Baker and soon became involved in milling, banking, hardware and other concerns. As member of the city’s wealthy merchant-class, he owned many properties, including a building on St-Joseph Street in Old Montreal that still bears his name.</p>
                   </div>
-                  <div class="col-xs-8 redevNoPad redevMTop">
-                    <audio controls class="col-xs-12 redevNoPadL">
-                        <source src="audio/1883/samGarden.mp3" type="audio/mpeg">
-                    </audio>
-                    <div class="col-xs-12 redevMTop redevNoPadL">  
-                          <p class="redevTextItal">" Garden City... buildings that would encourage community."</p>
+                </div>
+              </div>
+
+              <div class="col-xs-8 col-sm-4">
+                <img class="farmImage3 " src="img/1833-1944/bennyField.jpg" ></img>
+                <img class="farmImage3 farmImage3b farmImage3c" src="img/1833-1944/bennyTree.jpg" ></img>
+              </div>
+              <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0">
+                <img class="farmImage3 farmImage3b" src="img/1833-1944/bennyBridge.png" ></img>
+                <img class="farmImage3 farmImage3 farmImage3c" src="img/1833-1944/farmHouse.png" ></img>
+              </div>       
+            </div>
+                     
+            <div class="row">
+              <div class="col-xs-12 col-sm-4 ">
+                <div class="farmMainText">
+                  <p class="mainTextDate"><strong>1944 - Federal Land</strong></p>
+                  <p>Intending to build a veterans’ hospital, the MPNH (Minister of Pensions and National Health) buys the remaining undeveloped farmland from the Benny family. </p>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-8 col-md-8 farmPadTop">
+                <img class="farmImage2" src="img/1833-1944/mpnhLogo.jpg"></img>
+              </div>
+              <div class="col-xs-12 col-sm-8 col-md-8 farmPadTop">
+                <div class="farmMainText"> 
+                  <p>Responding to growing anger over a housing crisis for returning veterans, the government opts to build housing instead.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row rowMTop">
+              <div class="col-xs-10 col-sm-7">
+                <img class="farmImage1" src="img/1946-47/bennyVetBld.png" ></img>
+              </div>
+              <div class="col-xs-12 col-sm-5">  
+                <div class="farmMainText ">  
+                  <h4 class="floatR mainTextDate"><strong>1946 ~ 1947 - Who will build housing for veterans?</strong></h4>
+                  <p>Federal Government asks private enterprise to get involved in solving veterans’ housing crisis and sells the land to Housing Enterprises of Canada Limited, a consortium of insurance companies. HECL builds a series of veterans' housing complexes across Canada and among those, Benny Farm stands out as a model for post-war housing.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row ">
+              <div class="col-xs-12 col-sm-5">
+                <img class="farmImage3" src="img/1946-47/arch-aerial.png" ></img>
+
+                <div class="col-xs-12 col-sm-12 farmMTop farmNoPad">
+                  <div class="musicBox ">
+                    <div class="col-xs-4 col-sm-6 farmMTop">
+                      <img class="redevImage" src="img/biography/samThumb.jpg"></img>
                     </div>
-                  </div>  
+                    <div class="col-xs-8 col-sm-12 redevMTop">
+                      <audio controls class="col-xs-12 redevNoPadL">
+                          <source src="audio/1883/samGarden.mp3" type="audio/mpeg">
+                      </audio>
+                      <div class="col-xs-12 redevMTop redevNoPadL">  
+                        <p class="redevTextItal">" Garden City... buildings that would encourage community."</p>
+                      </div>
+                    </div>  
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-7 farmPadTop">
+                <div class="farmMainText">
+                      <p>Designed by architect Harold James Doran, Benny Farm is laid out in the Garden City style, which features low scale buildings surrounded by large tracts of common green space. Modernist and functional, Benny Farm's  six-plexes are in contrast to the housing stock in the surrounding neighbourhood. </p>
+                </div>
+                <div class="farmPadTop">
+                  <img class="farmImage3" src="img/1946-47/arch-draw.png" ></img>
                 </div>
               </div>
             </div>
 
-            <div class="col-xs-7">
-              <div class="farmMainText">
-                    <p>Designed by architect Harold James Doran, Benny Farm is laid out in the Garden City style, which features low scale buildings surrounded by large tracts of common green space. Modernist and functional, Benny Farm's  six-plexes are in contrast to the housing stock in the surrounding neighbourhood.  
-</p>
-              </div>
-              <div class="farmPadTop">
-                <img class="farmImage3" src="img/1946-47/arch-draw.png" ></img>
-              </div>
-            </div>
-          </div>
-
-          <div class="row rowMTop">
-            <div class="col-xs-4 farmMTopx">
-              <div class="farmMainText ">
-                <div class="mainTextDate">
-                  <p>1947 - The New Landlord: Central Mortgage and Housing Corporation</p>
+            <div class="row rowMTop ">
+              <div class="col-xs-12 col-sm-4">
+                <div class="farmMainText ">
+                  <div class="mainTextDate">
+                    <p>1947 - The New Landlord: Central Mortgage and Housing Corporation</p>
+                  </div>
+                  <p>In 1946, Benny Farm is purchased by the newly created Central Mortgage and Housing Corporation (CMHC). Veterans’ families are awarded apartments based on a military service points system. The first families move in 1947. </p>
                 </div>
-                <p>In 1946, Benny Farm is purchased by the newly created Central Mortgage and Housing Corporation (CMHC). Veterans’ families are awarded apartments based on a military service points system. The first families move in 1947. </p>
+              </div>
+              <div class="col-xs-12 col-sm-8">
+                <img class="farmImage4" src="img/1946-47/firstBenny.png" ></img>
+                <img class="farmImage4a farmMTop" src="img/1946-47/firstTent.png" ></img>
               </div>
             </div>
-            <div class="col-xs-8">
-              <img class="farmImage4" src="img/1946-47/firstBenny.png" ></img>
-              <img class="farmImage4a farmMTop" src="img/1946-47/firstTent.png" ></img>
-            </div>
+          </div>
+        </div>  <!-- end of content -->
+      </div>  <!--  end of 'beginnings' content wrapper -->
+
+      <!-- ========== content: 1947-1991 veterans community ========= -->
+      <!-- ========== content: 1947-1991 veterans community ========= -->
+
+      <div  class="contentWrapper container-fluid" id="vetCommunity">
+        <div class="row noRowMargs">
+          <div class="contentTitles col-xs-10 col-sm-10 col-sm-offset-1 col-md-offset-3 col-lg-offset-5" id="vetTitles">The Veterans' Community 1947-1990
           </div>
         </div>
-
-      </div>
-    </div>  <!--  content wrapper -->
-
-     <!-- ========== content: 1947-1991 veterans community ========= -->
-     <!-- ========== content: 1947-1991 veterans community ========= -->
-
-    <div  class="contentWrapper container-fluid" id="vetCommunity">
-      <div class="row">
-        <div class="contentTitles col-xs-6 col-xs-offset-5">The Veterans' Community 1947-1990
-        </div>
-      </div>
-      <div id="vetCommy">
-        <div class="mainContent">
-          <div class="row">
-            <div class="col-xs-12">
-              <img class="vetImage1" src="img/1947-1990/bennyFarmer.png"></img>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-7">
-              <div class="col-xs-11">
-                <img class="vetImage2" src="img/1947-1990/bennyHockey.jpg"></img>
-              </div>
+        <div id="vetCommy">
+          <div class="mainContent">
+            <div class="row">
               <div class="col-xs-12">
+                <img class="vetImage1" src="img/1947-1990/bennyFarmer.png"></img>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 ">
+                <img class="vetImage2 vetImage2b" src="img/1947-1990/bennyHockey.jpg"></img>
+              </div>
+              <div class="col-xs-12 col-sm-6">
+                <div id="vetCommText" class="vetMBott">
+                  <p class="mainTextDate"><strong>1947-1990 A Veterans’ Community</strong></p>
+                  <p >For over 40 years, Benny Farm is home to a tight-knit community of families, who share similar backgrounds and life experience. There were at one time over 1500 kids at Benny Farm, participating in the Farm’s sports teams, dance recitals, and community events. All of this was captured in "The Benny Farmer," the Farms's very own newspaper.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-12 col-sm-5 ">
                 <div class="vetTextQte">
                   <p>" Il y avait une cohésion extraordinaire par ce que c’était surtout des vétérans, des gens intelligents. Ils avaient un esprit de solidarité social. 99% des gens étaient des vétérans. " <br>-Jean-Paul Lanoie, Benny Farm resident,   Benny Farm Memory Clinic interview, April 3, 2005</p>
                 </div>
@@ -403,238 +382,238 @@
                   <p>" Nothing happened on Benny Farm without someone seeing it, our children had constant watch dogs. "<br>-Iris Merle Church, Benny Farm resident,   Benny Farm Memory Clinic interview, April 4, 2005</p>
                 </div>
               </div>
-              <div>
-                <img class="vetImage3" src="img/1947-1990/bennyWInners.jpg"></img>
-                
-              </div>
-              
-              <div class="col-xs-12">
-                <img class="vetImage1a" src="img/1947-1990/kingsbeer.png"></img>
+             
+              <div class="col-xs-8 col-xs-offset-2 col-sm-7 col-sm-offset-0 vetPadRight">
+                <img class="vetImage2a vetImage2c" src="img/1947-1990/bennyLadies.jpg"></img>
               </div>
             </div>
-            <div class="col-xs-5" >
-              <div class="col-xs-12 col-xs-pull-1">
-                <div id="vetCommText" class="vetMBott">
-                  <p class="mainTextDate"><strong>1947-1990 A Veterans’ Community</strong></p>
-                  <p >For over 40 years, Benny Farm is home to a tight-knit community of families, who share similar backgrounds and life experience. There were at one time over 1500 kids at Benny Farm, participating in the Farm’s sports teams, dance recitals, and community events. All of this was captured in "The Benny Farmer," the Farms's very own newspaper.</p>
-                </div>
-              </div>
-              <div class="col-xs-12">
-                <img class="vetImage2a" src="img/1947-1990/bennyLadies.jpg"></img>
-                <div class="col-xs-9 col-xs-offset-1">
-                  <img class="vetImage2" src="img/1947-1990/ladyVet.png"></img>
-                </div>
+
+            <div class="row">
+              <div class="col-xs-12 col-sm-8 col-md-8">
+                <img class="vetImage3" src="img/1947-1990/bennyWInners.jpg"></img>
               </div>
 
-              <div class="col-xs-12 col-xs-pull-1 vetNoPad">
+              <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0">
+                <img class="vetImage2 " src="img/1947-1990/ladyVet.png"></img>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-12 col-sm-8 redevMTop">
+                <img class="vetImage1a" src="img/1947-1990/kingsbeer.png"></img>
+              </div>
+
+              <div class="col-xs-9 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-0">
                 <div class="musicBox">
-                  <div class="col-xs-4">
+                  <div class="col-xs-6 col-sm-6 col-md-6">
                     <img class="redevImage" src="img/biography/helenThumb.jpg"></img>
                   </div>
-                  <div class="col-xs-8 redevNoPadL">
+                  <div class="col-xs-12 col-sm-12 col-md-12">
                     <audio controls class="vetAudioControl">
                       <source src="audio/1946-47/helenLotsKid.mp3" type="audio/mpeg">
                     </audio>
                   </div>
-                  <div class="col-xs-8">
+                  <div class="col-xs-12 col-sm-12 col-md-12">
                     <p class="vetTextItal">" Lots of Kids! "</p>
                   </div>
                 </div>
               </div>
-              <div class="col-xs-12">
+              
+              <div class="col-xs-12 col-sm-4 col-md-4 ">
                 <div class="vetTextQte">
                   <p>"  Back in the day, there were a lot of mothers at home, there were a lot of kids. Things were split up by blocks, there were committees for sports and activities in each. "<br>-Helen Bolton Guy, Head of Benny Farm Tenants’ Association,   Benny Farm Memory Clinic interview, April 4, 2005</p>
                 </div>
-                <div class="musicBox">
-                  <div class="col-xs-4">
+              </div>
+
+              <div class="col-xs-12 col-sm-7 col-sm-offset-2 col-md-7 col-md-offset-4">
+                <div class="musicBox vetMsmTop">
+                  <div class="col-xs-4 col-sm-4 col-md-4">
                     <img class="redevImage" src="img/biography/samThumb.jpg"></img>
                   </div>
-                  <div class="col-xs-8 redevNoPadL">
+                  <div class="col-xs-8 col-sm-8">
                     <audio controls class="vetAudioControl">
                       <source src="audio/1946-47/samCommunity.mp3" type="audio/mpeg">
                     </audio>
                     <p class="vetTextItal">" It was a kind of community within a community "</p>
                   </div>
                 </div>
-              </div>
+              </div>  
             </div>
+
+          </div>
+        </div>  <!-- end of vetCommy content -->
+      </div>   <!--  end of vetCom content wrapper -->
+     
+
+      <!-- ====== content: struggle to redevelop 1991 - 2006 ========= -->
+      <!-- ======  content: struggle to redevelop 1991 - 2006 ========= -->
+
+
+      <!-- ============        1991    =========== -->
+      <div  class="contentWrapper container-fluid " id="struggle">
+
+        <div class="row noRowMargs">
+          <div class="contentTitles col-xs-10 col-sm-10 col-sm-offset-1 col-md-offset-3 col-lg-offset-5" id="redevTitle">The struggle to redevelop 1991 - 2006
           </div>
         </div>
-      </div>
-    </div>
- 
+        <div id="redevStrug">
+          <div class="mainContent rowMBot">
 
- <!-- ==============  content: struggle to redevelop 1991 - 2006 ========= -->
- <!-- ==============  content: struggle to redevelop 1991 - 2006 ========= -->
-
-<!-- ============        1991    =========== -->
-
-
-    <div  class="contentWrapper container-fluid " id="struggle">
-      <div class="row">
-        <div class="contentTitles col-xs-6 col-xs-offset-5">The struggle to redevelop 1991 - 2006
-        </div>
-      </div>
-      <div id="redevStrug">
-        <div class="mainContent rowMBot">
-
-          <div class="row">
-            <div class="col-xs-12">
-              <div class="redevMainText">
-                <p class="mainTextDate">1991 - A Proposal That Changes Everything</p>
-                <p>Facing an aging population of veterans living in aging buildings, the Central Mortgage and Housing Corporation, Benny Farm’s federal landlord, proposes to move veterans’ families to new, accessible buildings that would be financed by sale of most of Benny Farm's land to developers.<p>
-              </div>
-            </div>
-          </div>
-          <div class="row redevMTop">
-            <div class="col-xs-6">
-              <img class="redevImage" src="img/1991/helenNews.png"></img>
-            </div>
-            <div class="col-xs-6 redevMTop">
-              <div class="musicBox">
-                <div class="col-xs-3">
-                  <img class="redevImage" src="img/biography/jasonThumb.jpg"></img>
-                </div>
-                <div class="col-xs-9 redevNoPadL">
-                  <audio controls class="redevNoPadL">
-                    <source src="audio/1991/jasonWho.mp3" type="audio/mpeg">
-                  </audio>
-                  <p class="redevTextItal">" Who was the Community Council speaking for? "</p>
-                </div>
-              </div>
-              <div class="musicBox redevMTop">
-                <div class="col-xs-3">
-                  <img class="redevImage" src="img/biography/helenThumb.jpg"></img>
-                </div>
-                <div class="col-xs-9 redevNoPadL">
-                  <audio controls class="redevNoPadL">
-                    <source src="audio/1991/helenCanadaM.mp3" type="audio/mpeg">
-                  </audio>
-                  <p class="redevTextItal">" Canada Mortgage decided it was too much property for us. "</p>
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="redevMainText">
+                  <p class="mainTextDate">1991 - A Proposal That Changes Everything</p>
+                  <p>Facing an aging population of veterans living in aging buildings, the Central Mortgage and Housing Corporation, Benny Farm’s federal landlord, proposes to move veterans’ families to new, accessible buildings that would be financed by sale of most of Benny Farm's land to developers.<p>
                 </div>
               </div>
             </div>
-          </div>
-
-          <div class="row">
-            <div class="col-xs-5">
-              <div class="musicBox">
-                <div class="col-xs-3">
-                  <img class="redevImage" src="img/biography/jasonThumb.jpg"></img>
-                </div>
-                <div class="col-xs-9 redevNoPadL">
-                  <audio controls class="redevNoPadL">
-                    <source src="audio/1991/jasonNeedSell.mp3" type="audio/mpeg">
-                  </audio>
-                  <p class="redevTextItal">" It all followed from an ideological need they had to sell public land "</p>
-                </div>
+            <div class="row redevMTop">
+              <div class="col-xs-12 col-sm-7">
+                <img class="redevImage" src="img/1991/helenNews.png"></img>
               </div>
-              <div class="musicBox redevMTop">
-                <div class="col-xs-3">
-                  <img class="redevImage" src="img/biography/samThumb.jpg"></img>
+              <div class="col-xs-12 col-sm-5 redevMTop">
+                <div class="musicBox">
+                  <div class="col-xs-4 col-sm-4">
+                    <img class="redevImage" src="img/biography/jasonThumb.jpg"></img>
+                  </div>
+                  <div class="col-xs-8 col-sm-8 redevNoPadL">
+                    <audio controls class="col-xs-12 redevAudioControl redevNoPadL">
+                      <source src="audio/1991/jasonWho.mp3" type="audio/mpeg">
+                    </audio>
+                    <p class="redevTextItal">" Who was the Community Council speaking for? "</p>
+                  </div>
                 </div>
-                <div class="col-xs-9 redevNoPadL">
-                  <audio controls class="redevNoPadL">
-                    <source src="audio/1991/samCommSay.mp3" type="audio/mpeg">
-                  </audio>
-                  <p class="redevTextItal">"There was a desire that the community have its say. "</p>
+                <div class="musicBox redevMTop">
+                  <div class="col-xs-4 col-sm-4">
+                    <img class="redevImage" src="img/biography/helenThumb.jpg"></img>
+                  </div>
+                  <div class="col-xs-8 col-sm-8 redevNoPadL">
+                    <audio controls class="col-xs-11 redevNoPadL">
+                      <source src="audio/1991/helenCanadaM.mp3" type="audio/mpeg">
+                    </audio>
+                    <p class="redevTextItal">" Canada Mortgage decided it was too much property for us. "</p>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-xs-7">
-              <div class="col-xs-10 col-xs-offset-2">
+
+            <div class="row">
+              <div class="col-xs-12 col-sm-5">
+                <div class="musicBox">
+                  <div class="col-xs-4 col-sm-4">
+                    <img class="redevImage" src="img/biography/jasonThumb.jpg"></img>
+                  </div>
+                  <div class="col-xs-8 col-sm-8 redevNoPadL">
+                    <audio controls class="col-xs-12">
+                      <source src="audio/1991/jasonNeedSell.mp3" type="audio/mpeg">
+                    </audio>
+                    <p class="redevTextItal">" It all followed from an ideological need they had to sell public land "</p>
+                  </div>
+                </div>
+                <div class="musicBox redevMTop">
+                  <div class="col-xs-4 col-sm-4">
+                    <img class="redevImage" src="img/biography/samThumb.jpg"></img>
+                  </div>
+                  <div class="col-xs-8 col-sm-8redevNoPadL">
+                    <audio controls class="col-xs-12 ">
+                      <source src="audio/1991/samCommSay.mp3" type="audio/mpeg">
+                    </audio>
+                    <p class="redevTextItal">"There was a desire that the community have its say. "</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-7">
                 <div class="redevMainText">
                   <p>The Benny Farm Tenants’ Association and the NDG Community Council’s Housing Committee react strongly to the CMHC’s proposal.</p>
                 </div>
               </div>
-              <div class="col-xs-12  redevMTop">
+              <div class="col-xs-12 col-sm-7 redevMTop">
                 <div class=" redevTextQte2">
                   <p>“ Some of my tenants have lived here since 1945. They would like to stay here and have their windows and electricity replaced and their front doors made more secure ” <br>-Helen Bolton Guy,  The Gazette, October 24, 1991</p>
                 </div>
               </div>
             </div>
-          </div>
 
 
 
-<!-- =====================     1992     ============ -->
+  <!-- =====================     1992     ============ -->
 
-          <div class="row rowMTop">
-            <div class="col-xs-12 redevMBttm">
-              <div class="redevMainText">
-                <p class="mainTextDate">1992 -The CMHC’s Master Plan And Community Responses</p>
-                <p>The CMHC presents its Master Plan which proposes to demolish all 64 buildings on the site, to build four 6 storey buildings for the veterans on 1/3 of the site, and sell the rest to developers, with a suggestion of building high-rise market-value condominiums. The plan is criticized by the Benny Farm Tenants’ Association, the newly formed Neighbors of Benny Farm, the NDG Community Council and some local politicians.<p>
-              </div>
-            </div>
-            
-            <div class="col-xs-6">
-              <div class="musicBox">
-                <div class="col-xs-3">
-                  <img class="redevImage" src="img/biography/jasonThumb.jpg"></img>
+            <div class="row rowMTop">
+              <div class="col-xs-12 redevMBttm">
+                <div class="redevMainText">
+                  <p class="mainTextDate">1992 -The CMHC’s Master Plan And Community Responses</p>
+                  <p>The CMHC presents its Master Plan which proposes to demolish all 64 buildings on the site, to build four 6 storey buildings for the veterans on 1/3 of the site, and sell the rest to developers, with a suggestion of building high-rise market-value condominiums. The plan is criticized by the Benny Farm Tenants’ Association, the newly formed Neighbors of Benny Farm, the NDG Community Council and some local politicians.</p>
                 </div>
-                <div class="col-xs-9 redevNoPadL">
-                  <audio controls class="redevNoPadL">
-                    <source src="audio/1992/jasonProposalHappy.mp3" type="audio/mpeg">
-                  </audio>
-                  <div>
-                    <p class="redevTextItal">" There was a proposal that no one was very happy with..."</p>
+              </div>
+              
+              <div class="col-xs-12 col-sm-6">
+                <div class="musicBox">
+                  <div class="col-xs-4">
+                    <img class="redevImage" src="img/biography/jasonThumb.jpg"></img>
+                  </div>
+                  <div class="col-xs-8 redevNoPadL">
+                    <audio controls class="col-xs-12">
+                      <source src="audio/1992/jasonProposalHappy.mp3" type="audio/mpeg">
+                    </audio>
+                    <div>
+                      <p class="redevTextItal">" There was a proposal that no one was very happy with..."</p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="col-xs-6">
-              <div class="musicBox">
-                <div class="col-xs-3">
-                  <img class="redevImage" src="img/biography/samThumb.jpg"></img>
-                </div>
-                <div class="col-xs-9 redevNoPadL">
-                  <audio controls class="redevNoPadL">
-                    <source src="audio/1992/samGovPenny.mp3" type="audio/mpeg">
-                  </audio>
-                  <div >
-                    <p class="redevTextItal">"The government didn’t want to spend a penny. "</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-11 col-xs-offset-1">
-              <div class="redevMTop">
-                  <img class="redevImage" src="img/1992/masterPlan.jpg"></img>
-              </div>
-            </div>
-          </div>
-          
-           <div class="row rowMTop">
-            <div class="col-xs-4 ">
-              <div class="redevTextQte">
-               <p>" Demolition in this case would be wasteful and environmentally destructive. These buildings should continue to serve the purpose of social housing. " <br>-Lucia Kowaluk, Coordinator of the NDG Community Council  The Gazette, April 16, 1992</p>
-              </div>
-            </div>
-            <div class="col-xs-4 ">
-              <div class="redevTextQte">
-               <p>" We are very afraid that the master plan will change the low-density residential fabric of the neighborhood.” <br>-Jean Martin, president of Neighbors of Benny Farm,  The Gazette, June 18, 1992</p>
-              </div>
-            </div>
-            <div class="col-xs-4">
-              <div class="redevTextQte">
-                <p> " Many tenants desperately need better access to their apartments [...] We are getting a little tired of younger, fitter people telling us what is good for us " <br>-Rosemary Bradley, Benny Farm tenant,  The Gazette, August 27, 1992<p>
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-xs-7 redevMTop">
-              <div class="redevMainText">
-                <p>Working with the CCNDG's Housing Committee, architects Daniel Pearl and Mark Paddubiuk (L’OEUF) propose an anti-demolition Master Plan, where the original buildings are renovated using green technology and new affordable and subsidized housing buildings are added to the site.</p>
-              </div>
-            </div>
-            <div class="col-xs-5">
-              <div class="musicBox ">
+              <div class="col-xs-12 col-sm-6">
+                <div class="musicBox">
                   <div class="col-xs-4">
                     <img class="redevImage" src="img/biography/samThumb.jpg"></img>
                   </div>
-                  <div class="col-xs-8 redevNoPad">
+                  <div class="col-xs-8 redevNoPadL">
+                    <audio controls class="col-xs-12">
+                      <source src="audio/1992/samGovPenny.mp3" type="audio/mpeg">
+                    </audio>
+                    <div >
+                      <p class="redevTextItal">"The government didn’t want to spend a penny. "</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-11 col-sm-offset-1">
+                <div class="redevMTop">
+                    <img class="redevImage" src="img/1992/masterPlan.jpg"></img>
+                </div>
+              </div>
+            </div>
+            
+            <div class="row rowMTop">
+              <div class="col-xs-12 col-sm-4 ">
+                <div class="redevTextQte">
+                 <p>" Demolition in this case would be wasteful and environmentally destructive. These buildings should continue to serve the purpose of social housing. " <br>-Lucia Kowaluk, Coordinator of the NDG Community Council  The Gazette, April 16, 1992</p>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-4 redevMTop">
+                <div class="redevTextQte">
+                 <p>" We are very afraid that the master plan will change the low-density residential fabric of the neighborhood.” <br>-Jean Martin, president of Neighbors of Benny Farm,  The Gazette, June 18, 1992</p>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-4 redevMTop">
+                <div class="redevTextQte">
+                  <p> " Many tenants desperately need better access to their apartments [...] We are getting a little tired of younger, fitter people telling us what is good for us " <br>-Rosemary Bradley, Benny Farm tenant,  The Gazette, August 27, 1992<p>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-12 col-sm-7 redevMTop">
+                <div class="redevMainText">
+                  <p>Working with the CCNDG's Housing Committee, architects Daniel Pearl and Mark Paddubiuk (L’OEUF) propose an anti-demolition Master Plan, where the original buildings are renovated using green technology and new affordable and subsidized housing buildings are added to the site.</p>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-5 redevMTop">
+                <div class="musicBox ">
+                  <div class="col-xs-4 col-sm-5">
+                    <img class="redevImage" src="img/biography/samThumb.jpg"></img>
+                  </div>
+                  <div class="col-xs-8 col-sm-7 redevNoPad">
                     <audio controls class="col-xs-12 redevMTop redevNoPadL">
                       <source src="audio/1992/samArchit.mp3" type="audio/mpeg">
                     </audio>
@@ -643,392 +622,377 @@
                     </div>
                   </div>
                 </div>
-            </div>
-            <div class="col-xs-12 redevMTop">
-              <div class="col-xs-12">
-                <img class="redevImage" src="img/1992/newBennyPlan.jpg"></img>
               </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-xs-3">
-              <div class="redevMainText">
-                <p>The NDG Community Council Housing Committee proposes making  Benny Farm a Land Trust. </p>
-              </div>
-            </div>
-            <div class="col-xs-5">
-              <div class="musicBox">
-                <div class="col-xs-4">
-                  <img class="redevImage" src="img/biography/lubaThumb.jpg"></img>
-                </div>
-                <div class="col-xs-8 redevNoPad">
-                  <audio controls class="col-xs-12 redevMTop redevNoPadL">
-                    <source src="audio/1992/lubaLandTrust.mp3" type="audio/mpeg">
-                  </audio>
-                  <div class="col-xs-12 redevMTop redevNoPadL">
-                    <p class="redevTextItal">" What is a land trust? "</p>
-                  </div>
+              <div class="col-xs-12 redevMTop">
+                <div class="col-sm-12">
+                  <img class="redevImage" src="img/1992/newBennyPlan.jpg"></img>
                 </div>
               </div>
             </div>
-            <div class="col-xs-4">
-              <div class="redevMainText">
-                <p>Tensions rise between neighbours at the Farm as a group of veterans in favour of the CMHC project, The Benny Farm Veterans and Associates, speaks out at community meetings.</p>
-              </div>    
-            </div>
-            <div class="col-xs-11 redevMTop">
-              <img class="redevImage" src="img/1992/nVSn.jpg"></img>
-            </div>
-          </div>
 
-        
-          <div class="row">  
-            <div class="col-xs-12 rowMTop">
-              <div class="col-xs-6">
+            <div class="row">
+              <div class="col-xs-12 col-sm-3">
+                <div class="redevMainText">
+                  <p>The NDG Community Council Housing Committee proposes making  Benny Farm a Land Trust. </p>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-5 redevMTop">
                 <div class="musicBox">
-                  <div class="col-xs-4 redevMTop">
-                      <img class="redevImage" src="img/biography/helenThumb.jpg"></img>
-                  </div>
-                  <audio controls class="col-xs-8 redevNoPadL redevMTop">
-                      <source src="audio/1992/helenWW2.mp3" type="audio/mpeg">
-                  </audio>
-                  <div class="col-xs-8 redevMTop">  
-                    <p class="redevTextItal">" It was like World War 20!"</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xs-6">
-                <div class="musicBox">
-                  <div class="col-xs-4 redevMTop">
-                      <img class="redevImage" src="img/biography/jasonThumb.jpg"></img>
-                  </div>
-                  <audio controls class="col-xs-8 redevNoPadL redevMTop">
-                      <source src="audio/1992/jasonRuckus.mp3" type="audio/mpeg">
-                  </audio>
-                  <div class="col-xs-8 redevMTop">  
-                    <p class="redevTextItal">" Some people felt like he had been brought in to make a ruckus."</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-8 col-xs-offset-2 redevMTop">
-                <img class="redevImage" src="img/1992/bennyNewAerial.jpg"></img>
-            </div>
-          </div>
-
-<!-- ==============      1996    ===================== -->
-
-          <div class="row rowMTop">
-            <div class="col-xs-5 ">
-              <div class="redevMainText">
-                <div class="mainTextDate">
-                  <p>1996 - Phase 1: Wrecking Ball and Construction Crane</p>
-                </div>
-                <p> After many consultations, revisions and the demolition of some of the 64 original buildings on the site, construction begins on two new, accessible buildings for the veterans.</p>
-              </div>
-            </div>
-            <div class="col-xs-7">
-              <img class="redevImage" src="img/1996/bennyConstruction.png">
-            </div>
-          </div>
-          <div class="row rowMTop">
-            <div class="col-xs-7">
-              <div class="musicBox redevMTop">
-                <div class="col-xs-2 ">
-                    <img class="redevImage" src="img/biography/helenThumb.jpg"></img>
-                </div>
-                <div class="col-xs-10 redevNoPad">
-                  <audio controls class="col-xs-12 redevNoPadL" >
-                      <source src="audio/1996/helenProblems.mp3" type="audio/mpeg">
-                  </audio>
-                  <div class="col-xs-12 redevMTop redevNoPadL">  
-                        <p class="redevTextItal">" We knew that we were going to have some problems...  "</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-5">
-              <div class="musicBox redevMTop">
-                <div class="col-xs-3 ">
-                    <img class="redevImage" src="img/biography/helenThumb.jpg"></img>
-                </div>
-                <div class="col-xs-9 redevNoPad">
-                  <audio controls class="col-xs-12 redevNoPadL" >
-                      <source src="audio/1996/helenHouseGo.mp3" type="audio/mpeg">
-                  </audio>
-                  <div class="col-xs-12 redevMTop redevNoPadL">  
-                        <p class="redevTextItal">" When you see your houses go, what are you going to do? "</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-<!-- ===========    1998      ===================== -->
-
-          <div class="row rowMTop">
-            <div class="col-xs-12">
-              <div class="redevMainText ">
-                <div class="mainTextDate">
-                  <p>1998 - Tug of War</p>
-                </div>
-                <p>The CMHC informs the City that it cannot build Phase 2 of the new Veterans’ housing without the revenue from the sale of the remaining 2⁄3 of the land to developers. Veterans in favour of plan call for the city to accept the sale. Opposition councilors denounce it.</p>
-              </div>
-            </div>
-            <!-- <div class="col-xs-4">
-              <div class="musicBox">
-                <div class="col-xs-4 redevMTop">
-                    <img class="redevImage" src="img/biography/jasonThumb.jpg"></img>
-                </div>
-                <div class="col-xs-8 redevNoPad">
-                  <audio controls class="col-xs-12 redevNoPadL">
-                      <source src="audio/champ.mp3" type="audio/mpeg">
-                  </audio>
-                  <div class="col-xs-12 redevMTop redevNoPadL">  
-                        <p class="redevTextItal">" The guacamole wasn't much to write home about."</p>
-                  </div>
-                </div>
-              </div>
-            </div> -->
-          </div>
-
-          <div class="row rowMTop">
-            <div class="col-xs-6 redevMTop">
-              <img class="redevImage" src="img/1996/twoSides.jpg">
-            </div>
-            <div class="col-xs-6">  
-              <img class="redevImage" src="img/1996/schl.png">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-12">
-              <div class="redevMainText">
-                <p> Montreal’s Urban Planning Committee approves the CMHC’s request to demolish all the Benny Farm buildings and sell the land to developers.</p>
-              </div>
-            </div>
-          </div>
-          <div class="row redevMTop">
-            <div class="col-xs-6">
-              <img class="redevImage" src="img/1998/loge384.png">
-            </div>
-            <div class="col-xs-6">
-              <img class="redevImage" src="img/1998/demOk.png">
-            </div>
-          </div>
-
-          <div class="row ">
-           <div class="col-xs-10 col-xs-offset-1">
-              <div class="redevMainText">
-                <p>Architects, politicians, housing activists and neighbours protest the loss of viable public housing and the prospect of high density condominium buildings.</p>
-              </div>
-            </div>
-          </div>
-
-       
-
-<!-- ==========      1999   ================= -->
-
-          <div class="row rowTopBot">
-            <div class="col-xs-4 ">
-              <div class="musicBox">
-                <div class="col-xs-4 redevMTop">
-                  <img class="redevImage" src="img/biography/jasonThumb.jpg"></img>
-                </div>
-                <div class="col-xs-8 redevNoPad">
-                  <audio controls class="col-xs-12 redevNoPadL">
-                      <source src="audio/1999/jasonCanadaLands.mp3" type="audio/mpeg">
-                  </audio>
-                  <div class="col-xs-12 redevMTop redevNoPadL">  
-                        <p class="redevTextItal">" What is Canada Lands? "</p>
-                  </div>
-                </div>
-              </div>
-              <div class="musicBox">
-                <div class="col-xs-4 redevMTop">
-                  <img class="redevImage" src="img/biography/samThumb.jpg"></img>
-                </div>
-                <div class="col-xs-8 redevNoPad">
-                  <audio controls class="col-xs-12 redevNoPadL">
-                      <source src="audio/1999/samWhoDecides.mp3" type="audio/mpeg">
-                  </audio>
-                  <div class="col-xs-12 redevMTop redevNoPadL">  
-                        <p class="redevTextItal">" There was the whole political issue of who was going to decide what happens in NDG. "</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-8 redevMTop">
-              <div class="redevMainText">
-                <div class="mainTextDate">
-                  <p>1999 - Canada Lands Takes Over</p>
-                </div>
-                <p>The Canada Lands Company, a Federal Crown Corporation that specializes in redeveloping federal properties, takes over ownership of Benny Farm from the CMHC. It begins construction on two new buildings for the veterans still awaiting housing.
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-xs-7 ">
-              <img class="redevImage " src="img/1999/smallVic.jpg"></img>
-              <div class="redevMainText">
-                <p>Canada Lands undertakes discussions with local organizations grouped together under the banner of the Benny Farm Community Round Table to discuss possible community projects for the site. The Community Round Table includes representatives from L’OEUF, the Benny Farm veterans, the NDG CLSC, the NDG YMCA, neighbors, community groups and future residents.</p>
-              </div>
-              <div class="musicBox redevMTop">
-                <div class="col-xs-3 redevMTop">
-                  <img class="redevImage" src="img/biography/helenThumb.jpg"></img>
-                </div>
-                <div class="col-xs-8 redevNoPad redevMTop">
-                  <audio controls class="col-xs-12 redevNoPadL">
-                      <source src="audio/1999/helenPushed.mp3" type="audio/mpeg">
-                  </audio>
-                  <div class="col-xs-12 redevMTop redevNoPadL">  
-                        <p class="redevTextItal">" Maybe we felt like we were going to be pushed around "</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-5">
-              <div class="redevMainText">
-                <p>The NDG Community Council reaches an agreement with Canada Lands to do a feasibility study on renovation costs and land use for the remaining 2⁄3 of the Benny Farm land.</p>
-              </div>
-              <img class="redevImage redevMTop" src="img/1999/benDemolition.png">
-            </div>
-          </div>
-
-     <!--    </div> end of redev with gray background
-      </div> -->
-
-<!-- =============        2000    ========== -->
-     <!--  <div id="redevStrug2">
-        <div class="mainContent2 rowMBot" id="redevBack2">
-
- -->
-          <div class="row">
-            <div class="col-xs-5">
-              <div class="redevMainText">
-                <div class="mainTextDate">
-                  <p>2000 - A Community Round Table</p>
-                </div>
-                <p> Benny Farm Community Round Table  submits its report to Canada Lands, including a proposal for the government to sell the remaining Benny Farm land for $1 to a property development corporation set up by the community.</p>
-              </div>
-            </div>
-            <div class="col-xs-7">
-              <div class="col-xs-11 redevNoPad">
-                <div class="musicBox redevMTop">
-                  <div class="col-xs-3 redevMTop">
+                  <div class="col-xs-4 col-sm-5">
                     <img class="redevImage" src="img/biography/lubaThumb.jpg"></img>
                   </div>
-                  <div class="col-xs-9 redevNoPad redevMTop">
-                    <audio controls class="col-xs-12 redevNoPadL">
-                        <source src="audio/2000/lubaOpening.mp3" type="audio/mpeg">
+                  <div class="col-xs-8 col-sm-7 redevNoPad">
+                    <audio controls class="col-xs-12 redevMTop redevNoPadL">
+                      <source src="audio/1992/lubaLandTrust.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="col-xs-12 redevMTop redevNoPadL">
+                      <p class="redevTextItal">" What is a land trust? "</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-4">
+                <div class="redevMainText">
+                  <p>Tensions rise between neighbours at the Farm as a group of veterans in favour of the CMHC project, The Benny Farm Veterans and Associates, speaks out at community meetings.</p>
+                </div>    
+              </div>
+              <div class="col-xs-12 col-sm-11 redevMTop">
+                <img class="redevImage" src="img/1992/nVSn.jpg"></img>
+              </div>
+            </div>
+          
+            <div class="row">  
+              <div class="col-xs-12 rowMTop">
+                <div class="col-xs-12 col-sm-6">
+                  <div class="musicBox">
+                    <div class="col-xs-4 redevMTop">
+                        <img class="redevImage" src="img/biography/helenThumb.jpg"></img>
+                    </div>
+                    <audio controls class="col-xs-8 redevNoPadL redevMTop">
+                        <source src="audio/1992/helenWW2.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="col-xs-8 redevMTop">  
+                      <p class="redevTextItal">" It was like World War 20!"</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                  <div class="musicBox">
+                    <div class="col-xs-4 redevMTop">
+                        <img class="redevImage" src="img/biography/jasonThumb.jpg"></img>
+                    </div>
+                    <audio controls class="col-xs-8 redevNoPadL redevMTop">
+                        <source src="audio/1992/jasonRuckus.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="col-xs-8 redevMTop">  
+                      <p class="redevTextItal">" Some people felt like he had been brought in to make a ruckus."</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-8 col-sm-offset-2 redevMTop">
+                  <img class="redevImage" src="img/1992/bennyNewAerial.jpg"></img>
+              </div>
+            </div>
+
+  <!-- ==============      1996    ===================== -->
+
+            <div class="row rowMTop">
+              <div class="col-xs-12 col-sm-5 ">
+                <div class="redevMainText">
+                  <div class="mainTextDate">
+                    <p>1996 - Phase 1: Wrecking Ball and Construction Crane</p>
+                  </div>
+                  <p> After many consultations, revisions and the demolition of some of the 64 original buildings on the site, construction begins on two new, accessible buildings for the veterans.</p>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-7 redevMTop">
+                <img class="redevImage" src="img/1996/bennyConstruction.png">
+              </div>
+            </div>
+            <div class="row rowMTop">
+              <div class="col-xs-12 col-sm-7">
+                <div class="musicBox redevMTop">
+                  <div class="col-xs-4 col-sm-3 ">
+                      <img class="redevImage" src="img/biography/helenThumb.jpg"></img>
+                  </div>
+                  <div class="col-xs-8 col-sm-8 redevNoPad">
+                    <audio controls class="col-xs-12 redevNoPadL" >
+                        <source src="audio/1996/helenProblems.mp3" type="audio/mpeg">
                     </audio>
                     <div class="col-xs-12 redevMTop redevNoPadL">  
-                          <p class="redevTextItal">" There was an opening on the part of Canada Lands. "</p>
+                          <p class="redevTextItal">" We knew that we were going to have some problems...  "</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-5">
+                <div class="musicBox redevMTop">
+                  <div class="col-xs-4 col-sm-5 ">
+                      <img class="redevImage" src="img/biography/helenThumb.jpg"></img>
+                  </div>
+                  <div class="col-xs-8 col-sm-7 redevNoPad">
+                    <audio controls class="col-xs-12 redevNoPadL" >
+                        <source src="audio/1996/helenHouseGo.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="col-xs-12 redevMTop redevNoPadL">  
+                          <p class="redevTextItal">" When you see your houses go, what are you going to do? "</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+  <!-- ===========    1998      ===================== -->
+
+            <div class="row rowMTop">
+              <div class="col-xs-12">
+                <div class="redevMainText ">
+                  <div class="mainTextDate">
+                    <p>1998 - Tug of War</p>
+                  </div>
+                  <p>The CMHC informs the City that it cannot build Phase 2 of the new Veterans’ housing without the revenue from the sale of the remaining 2⁄3 of the land to developers. Veterans in favour of plan call for the city to accept the sale. Opposition councilors denounce it.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row rowMTop">
+              <div class="col-xs-6 redevMTop">
+                <img class="redevImage" src="img/1996/twoSides.jpg">
+              </div>
+              <div class="col-xs-6">  
+                <img class="redevImage" src="img/1996/schl.png">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="redevMainText">
+                  <p> Montreal’s Urban Planning Committee approves the CMHC’s request to demolish all the Benny Farm buildings and sell the land to developers.</p>
+                </div>
+              </div>
+            </div>
+            <div class="row redevMTop">
+              <div class="col-xs-6">
+                <img class="redevImage" src="img/1998/loge384.png">
+              </div>
+              <div class="col-xs-6">
+                <img class="redevImage" src="img/1998/demOk.png">
+              </div>
+            </div>
+
+            <div class="row ">
+             <div class="col-xs-10 col-xs-offset-1">
+                <div class="redevMainText">
+                  <p>Architects, politicians, housing activists and neighbours protest the loss of viable public housing and the prospect of high density condominium buildings.</p>
+                </div>
+              </div>
+            </div>
+
+         
+
+  <!-- ==========      1999   ================= -->
+
+            <div class="row rowTopBot">
+              <div class="col-xs-12 col-sm-5 redevNoPadR">
+                <div class="musicBox">
+                  <div class="col-xs-4 col-sm-6 redevMTop">
+                    <img class="redevImage" src="img/biography/jasonThumb.jpg"></img>
+                  </div>
+                  <div class="col-xs-8 col-sm-5 redevNoPad">
+                    <audio controls class="col-xs-12 redevNoPadL">
+                        <source src="audio/1999/jasonCanadaLands.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="col-xs-12 redevMTop redevNoPadL">  
+                          <p class="redevTextItal">" What is Canada Lands? "</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="musicBox">
+                  <div class="col-xs-4 col-sm-5 redevMTop">
+                    <img class="redevImage" src="img/biography/samThumb.jpg"></img>
+                  </div>
+                  <div class="col-xs-8 col-sm-7 redevNoPad ">
+                    <audio controls class="col-xs-12 redevNoPadL">
+                        <source src="audio/1999/samWhoDecides.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="col-xs-12 redevMTop redevNoPadL">  
+                          <p class="redevTextItal">" There was the whole political issue of who was going to decide what happens in NDG. "</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-7 redevMTop">
+                <div class="redevMainText">
+                  <div class="mainTextDate">
+                    <p>1999 - Canada Lands Takes Over</p>
+                  </div>
+                  <p>The Canada Lands Company, a Federal Crown Corporation that specializes in redeveloping federal properties, takes over ownership of Benny Farm from the CMHC. It begins construction on two new buildings for the veterans still awaiting housing.
+                </div>
+              </div>
+              
+            </div>
+
+            <div class="row">
+              <div class="col-xs-12 col-sm-7 ">
+                <img class="redevImage " src="img/1999/smallVic.jpg"></img>
+                <div class="redevMainText">
+                  <p>Canada Lands undertakes discussions with local organizations grouped together under the banner of the Benny Farm Community Round Table to discuss possible community projects for the site. The Community Round Table includes representatives from L’OEUF, the Benny Farm veterans, the NDG CLSC, the NDG YMCA, neighbors, community groups and future residents.</p>
+                </div>
+                <div class="musicBox redevMTop">
+                  <div class="col-xs-4 col-sm-3 redevMTop">
+                    <img class="redevImage" src="img/biography/helenThumb.jpg"></img>
+                  </div>
+                  <div class="col-xs-8 redevNoPadL redevMTop">
+                    <audio controls class="col-xs-12 redevNoPad">
+                        <source src="audio/1999/helenPushed.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="col-xs-12 redevMTop redevNoPad">  
+                          <p class="redevTextItal">" Maybe we felt like we were going to be pushed around "</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-5">
+                <div class="redevMainText">
+                  <p>The NDG Community Council reaches an agreement with Canada Lands to do a feasibility study on renovation costs and land use for the remaining 2⁄3 of the Benny Farm land.</p>
+                </div>
+                <img class="redevImage redevMTop" src="img/1999/benDemolition.png">
+              </div>
+            </div>
+
+      
+
+  <!-- =============        2000    ========== -->
+       
+            <div class="row">
+              <div class="col-xs-12 col-sm-5">
+                <div class="redevMainText">
+                  <div class="mainTextDate">
+                    <p>2000 - A Community Round Table</p>
+                  </div>
+                  <p> Benny Farm Community Round Table  submits its report to Canada Lands, including a proposal for the government to sell the remaining Benny Farm land for $1 to a property development corporation set up by the community.</p>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-7">
+                <div class="col-xs-12 col-sm-11 redevNoPad">
+                  <div class="musicBox redevMTop">
+                    <div class="col-xs-4 col-sm-3 redevMTop">
+                      <img class="redevImage" src="img/biography/lubaThumb.jpg"></img>
+                    </div>
+                    <div class="col-xs-8 col-sm-9 redevNoPad redevMTop">
+                      <audio controls class="col-xs-12 redevNoPadL">
+                          <source src="audio/2000/lubaOpening.mp3" type="audio/mpeg">
+                      </audio>
+                      <div class="col-xs-12 redevMTop redevNoPadL">  
+                            <p class="redevTextItal">" There was an opening on the part of Canada Lands. "</p>
+                      </div>
+                    </div>  
+                  </div>
+                </div>
+                <div class="musicBox redevMTop">
+                  <div class="col-xs-4 col-sm-3 redevMTop">
+                    <img class="redevImage" src="img/biography/lubaThumb.jpg"></img>
+                  </div>
+                  <div class=" col-xs-8 col-sm-9 redevNoPad redevMTop">
+                    <audio controls class="col-xs-12 redevNoPadL">
+                        <source src="audio/2000/lubaNotSameP.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="col-xs-12 redevMTop redevNoPadL">  
+                          <p class="redevTextItal">" It was clear they were not on the same page. "</p>
                     </div>
                   </div>  
                 </div>
               </div>
-               <div class="musicBox redevMTop">
-                <div class="col-xs-3 redevMTop">
-                  <img class="redevImage" src="img/biography/lubaThumb.jpg"></img>
-                </div>
-                <div class="col-xs-9 redevNoPad redevMTop">
-                  <audio controls class="col-xs-12 redevNoPadL">
-                      <source src="audio/2000/lubaNotSameP.mp3" type="audio/mpeg">
-                  </audio>
-                  <div class="col-xs-12 redevMTop redevNoPadL">  
-                        <p class="redevTextItal">" It was clear they were not on the same page. "</p>
-                  </div>
-                </div>  
-              </div>
             </div>
-          </div>
 
-          <div class="row">
-            <div class=" col-xs-7 redevMTop">
-              <img class="redevImage" src=" img/2000/groupPlan.jpg"></img>
-            </div>
-            <div class="col-xs-5  redevMTopx">
-              <div class="redevTextQte">
-                <p>" This is land that is currently in the public domain, and we are asking for it to stay in the public domain. "<br>
-                -Lucia Kowalik,  The Gazette, June 8, 2000</p>
+            <div class="row">
+              <div class="col-xs-12 col-sm-7 redevMTop">
+                <img class="redevImage" src=" img/2000/groupPlan.jpg"></img>
               </div>
-            </div>
-            
-            <div class="col-xs-6 col-xs-offset-6">
-              <div class="musicBox redevMTop">
-                <div class="col-xs-3 redevMTop">
-                  <img class="redevImage" src="img/biography/samThumb.jpg"></img>
+              <div class="col-xs-12 col-sm-5 redevMTop">
+                <div class="redevTextQte">
+                  <p>" This is land that is currently in the public domain, and we are asking for it to stay in the public domain. "<br>
+                  -Lucia Kowalik,  The Gazette, June 8, 2000</p>
                 </div>
-                <div class="col-xs-9 redevNoPad redevMTop">
-                  <audio controls class="col-xs-12 redevNoPadL">
-                      <source src="audio/2000/samNonProfit.mp3" type="audio/mpeg">
-                  </audio>
-                  <div class="col-xs-12 redevMTop redevNoPadL">  
-                        <p class="redevTextItal">" It was a non-profit, community-based developer’s proposal"</p>
-                  </div>
-                </div>  
               </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-xs-5 ">
-              <div class="musicBox ">
-                <div class="col-xs-3 redevMTop">
-                  <img class="redevImage" src="img/biography/lubaThumb.jpg"></img>
-                </div>
-                <div class="col-xs-9 redevNoPad redevMTop">
-                  <audio controls class="col-xs-12 redevNoPadL">
-                      <source src="audio/2000/lubaMoneyDev.mp3" type="audio/mpeg">
-                  </audio>
-                  <div class="col-xs-12 redevMTop redevNoPadL">  
-                        <p class="redevTextItal">" Money was made available to us to develop our proposal. "</p>
-                  </div>
-                </div>  
-              </div>
-              <div class="musicBox redevMTop">
-                <div class="col-xs-3 redevMTop">
-                  <img class="redevImage" src="img/biography/lubaThumb.jpg"></img>
-                </div>
-                <div class="col-xs-9 redevNoPad redevMTop">
-                  <audio controls class="col-xs-12 redevNoPadL">
-                      <source src="audio/2000/lubaAgreeSell.mp3" type="audio/mpeg">
-                  </audio>
-                  <div class="col-xs-12 redevMTop redevNoPadL">  
-                        <p class="redevTextItal">" It was kind of like an agreement to eventually sell to us."</p>
-                  </div>
-                </div>  
-              </div>
-            </div>
-            <div class="col-xs-7 redevMTop">
-              <div class="redevMainText">
-                <div class="mainTextDate">
-                  <p>2000 - A Community Development Corporation</p>
-                </div>
-                <p>Responding to positive signals from Canada Lands and a substantial grant to finance its planning, the Benny Farm Community Round Table is dissolved and the Fond Foncier Communautaire Benny Farm (FFCBF) is founded as a Community Development Corporation.</p>
-              </div>
-            </div>
-          </div>
-
-<!-- ============         2001 =========== -->
-
-           <div class="row rowTopBot">
-            <div class="col-xs-3">
-              <div class="redevMainText">
-                <div class="mainTextDate">
-                  <p>2001 - The Fonds Foncier Benny Farm makes a plan</p>
-                </div>
-                <p>Canada Lands signs a six month protocol agreement with Fond Foncier Communautaire Benny Farm to allow them to draw up a proposal for a residential and social redevelopment based on community and land trust models for low-cost housing, with a view to purchasing the land. The NDG CLSC leaves the Fonds Foncier to negotiate on its own for land on Cavendish and Monkland.</p>
-              </div>
-            </div>
-            <div class="col-xs-8 ">
-              <img class="redevImage" src=" img/2001/benny25ml.png"></img>
-              <img class="redevImage redevMTop" src="img/2001/sauvEnc.png">
-              <div class="col-xs-10 col-xs-offset-1">
+              
+              <div class="col-xs-12 col-sm-6 col-sm-offset-6">
                 <div class="musicBox redevMTop">
-                  <div class="col-xs-3 redevMTop">
+                  <div class="col-xs-4 col-sm-4 redevMTop">
+                    <img class="redevImage" src="img/biography/samThumb.jpg"></img>
+                  </div>
+                  <div class="col-xs-8 col-sm-8 redevNoPad redevMTop">
+                    <audio controls class="col-xs-12 redevNoPadL">
+                        <source src="audio/2000/samNonProfit.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="col-xs-12 redevMTop redevNoPadL">  
+                          <p class="redevTextItal">" It was a non-profit, community-based developer’s proposal"</p>
+                    </div>
+                  </div>  
+                </div>
+              </div>
+            </div>
+
+            <div class="row redevMTopsx">
+              <div class="col-xs-12 col-sm-5 ">
+                <div class="musicBox ">
+                  <div class="col-xs-4 col-sm-4 redevMTop">
+                    <img class="redevImage" src="img/biography/lubaThumb.jpg"></img>
+                  </div>
+                  <div class="col-xs-8 col-sm-8 redevNoPad redevMTop">
+                    <audio controls class="col-xs-12 redevNoPadL">
+                        <source src="audio/2000/lubaMoneyDev.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="col-xs-12 redevMTop redevNoPadL">  
+                          <p class="redevTextItal">" Money was made available to us to develop our proposal. "</p>
+                    </div>
+                  </div>  
+                </div>
+
+                <div class="musicBox redevMTop">
+                  <div class="col-xs-4 col-sm-4 redevMTop">
+                    <img class="redevImage" src="img/biography/lubaThumb.jpg"></img>
+                  </div>
+                  <div class="col-xs-8 col-sm-8 redevNoPad redevMTop">
+                    <audio controls class="col-xs-12 redevNoPadL">
+                        <source src="audio/2000/lubaAgreeSell.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="col-xs-12 redevMTop redevNoPadL">  
+                          <p class="redevTextItal">" It was kind of like an agreement to eventually sell to us."</p>
+                    </div>
+                  </div>  
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-7 redevMTop">
+                <div class="redevMainText">
+                  <div class="mainTextDate">
+                    <p>2000 - A Community Development Corporation</p>
+                  </div>
+                  <p>Responding to positive signals from Canada Lands and a substantial grant to finance its planning, the Benny Farm Community Round Table is dissolved and the Fond Foncier Communautaire Benny Farm (FFCBF) is founded as a Community Development Corporation.</p>
+                </div>
+              </div>
+
+            </div>
+
+  <!-- ============         2001 =========== -->
+
+            <div class="row rowTopBot">
+              <div class="col-xs-12 col-sm-5 col-md-5 col-lg-3">
+                <div class="redevMainText">
+                  <div class="mainTextDate">
+                    <p>2001 - The Fonds Foncier Benny Farm makes a plan</p>
+                  </div>
+                  <p>Canada Lands signs a six month protocol agreement with Fond Foncier Communautaire Benny Farm to allow them to draw up a proposal for a residential and social redevelopment based on community and land trust models for low-cost housing, with a view to purchasing the land. The NDG CLSC leaves the Fonds Foncier to negotiate on its own for land on Cavendish and Monkland.</p>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-7 col-md-7 col-lg-8">
+                <img class="redevImage" src=" img/2001/benny25ml.png"></img>
+                <img class="redevImage redevMTop" src="img/2001/sauvEnc.png">
+              </div>
+              <div class="col-xs-12 col-sm-7 col-sm-offset-2 col-md-offset-2 col-lg-7 col-lg-offset-1">
+                <div class="musicBox redevMTop">
+                  <div class="col-xs-4 col-sm-3 redevMTop">
                     <img class="redevImage" src="img/biography/lubaThumb.jpg"></img>
                   </div>
                   <div class="col-xs-8 redevNoPad redevMTop">
@@ -1042,552 +1006,581 @@
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="row">
-            <div class="col-xs-12">
-              <div class="redevMainText">
-                <div class="mainTextDate">
-                  <p>September 2001 - The Plan and the Reaction</p>
-                </div>
-                <p>FFCBF presents its plan to the borough politicians and the public at a rocus Conseil de quartier meeting. The plan includes designs for restored buildings and grounds, new buildings for community organizations, engagement from future tenants and potential buyers, as well as a promise of multi-million dollar funding. After a contentious four hour meeting, two of the three city councillors on the Conseil vote against the FFCBF's proposal to change the zoning to accommodate their plan.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row rowMTop">
-            <div class="col-xs-5">
-              <div class="musicBox redevMTop">
-                <div class="col-xs-4 redevMTop">
-                  <img class="redevImage" src="img/biography/lubaThumb.jpg"></img>
-                </div>
-                <div class="col-xs-8 redevNoPad redevMTop">
-                  <audio controls class="col-xs-12 redevNoPadL">
-                      <source src="audio/2001/lubaFondsFon.mp3" type="audio/mpeg">
-                  </audio>
-                  <div class="col-xs-12 redevMTop redevNoPadL">  
-                        <p class="redevTextItal">" People began to take the Fonds Foncier seriously, and opposition started to form against it "</p>
-                  </div>
-                </div>  
-              </div>
-            </div>
-            <div class="col-xs-7 redevMTop">
-              <div class="redevTextQte">
-                <p>" The social housing project turned out not to be social housing, it’s affordable housing. You have government money to help you pay less. So Mickey Applebaum and I ditched that. It makes no sense to use the most valuable piece of real estate in Quebec for affordable housing. "<br>-Jeremy Searle, City Councilor,  The Montreal Mirror, October, 2001</p>
-              </div>
-            </div>
-          </div>  
-
-          <div class="row ">         
-            <div class="col-xs-8 redevMTop">
-              <img class="redevImage" src="img/2001/newBen.png"></img>
-            </div>
-            <div class="col-xs-4 redevMTopxx">
-              <div class="musicBox redevMTop">
-                <div class="col-xs-4 redevMTop">
-                  <img class="redevImage" src="img/biography/lubaThumb.jpg"></img>
-                </div>
-                <div class="col-xs-8 redevNoPad redevMTop">
-                  <audio controls class="col-xs-12 redevNoPadL">
-                      <source src="audio/2001/lubaMeeting.mp3" type="audio/mpeg">
-                  </audio>
-                  <div class="col-xs-12 redevMTop redevNoPadL">  
-                        <p class="redevTextItal">" I’ve never seen a meeting run the way he ran that meeting. "</p>
-                  </div>
-                </div>  
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-xs-5 redevMTop">
-              <div class="musicBox ">
-                <div class="col-xs-4 redevMTop">
-                  <img class="redevImage" src="img/biography/lubaThumb.jpg"></img>
-                </div>
-                <div class="col-xs-8 redevNoPad redevMTop">
-                  <audio controls class="col-xs-12 redevNoPadL">
-                      <source src="audio/2001/lubaCanadaNoSay.mp3" type="audio/mpeg">
-                  </audio>
-                  <div class="col-xs-12 redevMTop redevNoPadL">  
-                        <p class="redevTextItal">" Canada Lands just had nothing to say to us... "</p>
-                  </div>
-                </div>  
-              </div>
-            </div>
-            <div class="col-xs-7">
-              <div class="redevMainText">
-                <div class="mainTextDate">
-                  <p>October 2001 - Canada Lands Makes Plans</p>
-                </div>
-                <p>  Canada Lands does not renew its protocol with the Fonds Foncier, opting to develop a plan themselves instead of going forward with FFCBF’s proposal.</p>
-              </div>
-            </div>
-            <div class="col-xs-8  redevMTop">
-              <img class="redevImage" src="img/2001/laSIC.jpg"></img>
-            </div>
-            <div class="col-xs-4 redevMTop">
-              <div class="musicBox ">
-                <div class="col-xs-4 redevMTop">
-                  <img class="redevImage" src="img/biography/samThumb.jpg"></img>
-                </div>
-                <div class="col-xs-8 redevNoPad redevMTop">
-                  <audio controls class="col-xs-12 redevNoPadL">
-                      <source src="audio/2001/samStopPhone.mp3" type="audio/mpeg">
-                  </audio>
-                  <div class="col-xs-12 redevMTop redevNoPadL">  
-                        <p class="redevTextItal">" Ultimately, they just stopped answering the phone... "</p>
-                  </div>
-                </div>  
-              </div>
-            </div>
-            
-          </div>
-
-          <div class="row rowMTop">
-            <div class="col-xs-3 redevNoPadR">
-              <img class="redevImage" src=" img/2001/redo.png"></img>
-            </div>
-            <div class="col-xs-9 redevNoPadL">
-              <div class="col-xs-7">
+            <div class="row">
+              <div class="col-xs-12">
                 <div class="redevMainText">
                   <div class="mainTextDate">
-                    <p>2001 - Litigation</p>
+                    <p>September 2001 - The Plan and the Reaction</p>
                   </div>
-                  <p>The Fonds Foncier Benny Farm seeks a court injunction to prevent Canada Lands from selling any part of the Benny Farm property.</p>
+                  <p>FFCBF presents its plan to the borough politicians and the public at a rocus Conseil de quartier meeting. The plan includes designs for restored buildings and grounds, new buildings for community organizations, engagement from future tenants and potential buyers, as well as a promise of multi-million dollar funding. After a contentious four hour meeting, two of the three city councillors on the Conseil vote against the FFCBF's proposal to change the zoning to accommodate their plan.</p>
                 </div>
               </div>
-              <div class="col-xs-5 redevNoPadL">
+            </div>
+
+            <div class="row rowMTop">
+              <div class="col-xs-12 col-sm-5">
                 <div class="musicBox redevMTop">
                   <div class="col-xs-4 redevMTop">
                     <img class="redevImage" src="img/biography/lubaThumb.jpg"></img>
                   </div>
                   <div class="col-xs-8 redevNoPad redevMTop">
                     <audio controls class="col-xs-12 redevNoPadL">
-                        <source src="audio/2001/lubaAfraidSell.mp3" type="audio/mpeg">
+                        <source src="audio/2001/lubaFondsFon.mp3" type="audio/mpeg">
                     </audio>
                     <div class="col-xs-12 redevMTop redevNoPadL">  
-                          <p class="redevTextItal">" We were afraid they would try to sell it right away. "</p>
+                          <p class="redevTextItal">" People began to take the Fonds Foncier seriously, and opposition started to form against it "</p>
                     </div>
                   </div>  
                 </div>
               </div>
-              <div class="col-xs-12">
-                <img class="redevImage redevMTop" src=" img/2001/lesGroupes.png"></img>
+              <div class="col-xs-12 col-sm-7 redevMTop">
+                <div class="redevTextQte">
+                  <p>" The social housing project turned out not to be social housing, it’s affordable housing. You have government money to help you pay less. So Mickey Applebaum and I ditched that. It makes no sense to use the most valuable piece of real estate in Quebec for affordable housing. "<br>-Jeremy Searle, City Councilor,  The Montreal Mirror, October, 2001</p>
+                </div>
               </div>
-            </div>
-          </div>
+            </div>  
 
-  <!-- ============       2002 ================ -->
-          <div class="row">
-            <div class="col-xs-10">
-              <div class="row redevMainText">
-                <div class="col-xs-6 redevNoPadL">
-                  <div class="mainTextDate">
-                    <p>2002 - The Benny Farm Task Force and A Demonstration</p>
+            <div class="row redevMTop">         
+              <div class="col-xs-12 col-sm-8 ">
+                <img class="redevImage" src="img/2001/newBen.png"></img>
+              </div>
+              <div class="col-xs-12 col-sm-4 ">
+                <div class="musicBox">
+                  <div class="col-xs-4 col-sm-6 redevMTop">
+                    <img class="redevImage" src="img/biography/lubaThumb.jpg"></img>
                   </div>
-                </div>
-                <div class="col-xs-6 redevNoPad" >
-                  <p>the Fonds foncier Benny Farm and NDG Community Council join forces with other housing organizations to form the Friends of Benny Farm. They organise a demonstration on the grounds of Benny Farm, along with community members, local politicians and high profile housing activists, to demand that Canada Lands keep low-cost housing in their plan.</p>
+                  <div class="col-xs-8 col-sm-12 ">
+                    <audio controls class="col-xs-12 redevNoPadL">
+                        <source src="audio/2001/lubaMeeting.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="col-xs-12 redevMTop redevNoPadL">  
+                          <p class="redevTextItal">" I’ve never seen a meeting run the way he ran that meeting. "</p>
+                    </div>
+                  </div>  
                 </div>
               </div>
             </div>
-          </div>
-          <div class="row rowMTop">
-            <div class="col-xs-5 redevNoPad">
-              <div class="col-xs-10 col-xs-offset-2 redevNoPadR">
-                <img class="redevImage" src=" img/2002/plaidoyer.png"></img>
-              </div>
-              <img class="redevImage redevMTop" src=" img/2002/protest2.png"></img>
-            </div>
-            <div class="col-xs-7">
-              <img class="redevImage redevMTop" src=" img/2002/protest1.png"></img>
-            </div>
-          </div>
 
-          <div class="row">
-            <div class=" col-xs-4 redevNoPad">
-              <div class="musicBox">
-                <div class="col-xs-4 redevMTop">
-                  <img class="redevImage" src="img/biography/samThumb.jpg"></img>
-                </div>
-                <div class="col-xs-8 redevNoPad redevMTop">
-                  <audio controls class="col-xs-12 redevNoPadL">
-                      <source src="audio/2002/samNotPart.mp3" type="audio/mpeg">
-                  </audio>
-                  <div class="col-xs-12 redevMTop redevNoPadL">  
-                        <p class="redevTextItal">" Most of us really didn’t want to take part."</p>
-                  </div>
-                </div>  
-              </div>
-            </div>
-            <div class="col-xs-8">
-              <div class="redevMainText">
-                <p>Canada Lands calls for a participatory design process. It creates the Benny Farm Task Force, a group of 10 selected individuals from different community groups and organizations, who represent different points of view in the community.</p>
-              </div>
-            </div>
-          </div>
-          <div class="row rowMTop">
-            <div class="col-xs-12">
-              <div class="redevTextQte">
-                <p>" We had a lot of myths to contend with, and a little of the “not in my backyard” syndrome. Canada Lands hired a firm to look into how there might be a way to reconcile some of the conflicting views as to what should happen on this site. So the Task Force was put together to try to come to an agreement... ”<br>  -Gail Tedstone, Member, Benny Farm Task Force,  from a film by Gisele el Gandour Achkar and RM Faizur Rahman, 2008</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row rowMTop">
-            <div class="col-xs-10 col-xs-offset-1">
-              <div class="redevMainText">
-                <div class="mainTextDate">
-                  <p>2002 - The Architectural Competition</p>
-                </div>
-                <p>Canada Lands asks four architectural firms to draw up plans for Benny Farm, taking into account recommendations from the Benny Farm Task Force. After presentations from the four firms, the public is invited to vote on their favorite plan. Canada Lands selects the project submitted by architects Saia Barbarese Topouzanov, and landscape architect Claude Cormier. This project will go on to win the Governor General’s Award for Architecture.</p>
-              </div>
-            </div>
-            <div class="col-xs-6">
-              <img class="redevImage redevMTop" src=" img/2002/archOH3.png"></img>
-              <img class="redevImage redevMTop" src=" img/2002/arch3D.png"></img>
-            </div>
-            <div class="col-xs-6">
-              <img class="redevImage redevMTop" src=" img/2002/archOH2.png"></img>
-              <img class="redevImage redevMTop" src=" img/2002/archOH1.png"></img>
-            </div>
-          </div>
-
-<!-- =========        2003     ===============           -->
-          <div class="row rowMTop">
-            <div class="col-xs-8">
-              <div class="redevMainText">
-                <div class="mainTextDate">
-                  <p>2003 - A New Plan</p>
-                </div>
-                <p>The new redevelopment plan is presented to the Benny Farm Task Force, Benny Farm residents and NDG borough council. 3⁄4 of site is reserved for low and middle-income groups, with 500 to 550 residential units, 2⁄3 of which are rental, 1/3 dedicated to home ownership. The other 1⁄4 of the site is now reserved for two government buildings: a new building for the NDG CLSC and a cultural centre.</p>
-              </div>
-            </div>
-            <div class="col-xs-4 redevMTop">
-              <img class="redevImage" src=" img/2003/finGrr.png"></img>
-            </div>
-          </div>
-          <div class="row rowMTop">
-            <div class="col-xs-6">
-              <img class="redevImage" src=" img/2003/peacePlan.jpg"></img>
-            </div>
-            <div class="col-xs-6">
-              <img class="redevImage" src=" img/2003/plusLoge.png"></img>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class=" col-xs-6 ">
-              <div class="musicBox">
-                <div class="col-xs-4 redevMTop">
-                  <img class="redevImage" src="img/biography/lubaThumb.jpg"></img>
-                </div>
-                <div class="col-xs-8 redevNoPad redevMTop">
-                  <audio controls class="col-xs-12 redevNoPadL">
-                      <source src="audio/2003/lubaAspects.mp3" type="audio/mpeg">
-                  </audio>
-                  <div class="col-xs-12 redevMTop redevNoPadL">  
-                        <p class="redevTextItal">" Aspects of the Fonds Foncier plans were incorporated. "</p>
-                  </div>
-                </div>  
-              </div>
-            </div>
-            <div class=" col-xs-6 ">
-              <div class="musicBox">
-                <div class="col-xs-4 redevMTop">
-                  <img class="redevImage" src="img/biography/samThumb.jpg"></img>
-                </div>
-                <div class="col-xs-8 redevNoPad redevMTop">
-                  <audio controls class="col-xs-12 redevNoPadL">
-                      <source src="audio/2003/samKindChoices.mp3" type="audio/mpeg">
-                  </audio>
-                  <div class="col-xs-12 redevMTop redevNoPadL">  
-                        <p class="redevTextItal">" The kind of choices that motivated us were not those that were put forward in this plan. "</p>
-                  </div>
-                </div>  
-              </div>
-            </div>
-          </div>
-          
-          <div class="row rowMTop">
-            <div class="col-xs-12">
-              <div class="redevTextQte">
-                <p>" It was very emotionally draining, it was a fight. There is no other way of describing it. It was a fight. "<br> -Miriam Green, Member, Benny Farm Task Force,  from Tilting at Windmills, a film by Patrick Otim and Predrag Zivkovic, Video Advocacy Institute, 2008</p>
-              </div>
-            </div>
-          </div>
-
-<!-- =========            2004     =========== -->
-
-          <div class="row rowMTop">
-            <div class="col-xs-7">
-              <div class="redevMainText">
-                <div class="mainTextDate">
-                  <p>2004 - Sustainable Public Housing</p>
-                </div>
-                <p>Founded by NDG housing activists, Les Habitations Communautaires NDG offers a plan for affordable home ownership and competes with private developers to successfully bid on some of the 13 of the original buildings that are to be renovated. The rest are sold to 3 non-profit housing groups: Co-op Zone of Opportunity (Z.O.O), Project Chance II and Co-op Benny Farm. An initiative paid for in part by the City of Montreal’s “Opération Solidarité 5000 logements.”</p>
-              </div>
-            </div>
-            <div class=" col-xs-5 ">
-              <div class="musicBox">
-                <div class="col-xs-4 redevMTop">
-                  <img class="redevImage" src="img/biography/jasonThumb.jpg"></img>
-                </div>
-                <div class="col-xs-8 redevNoPad redevMTop">
-                  <audio controls class="col-xs-12 redevNoPadL">
-                      <source src="audio/2004/jasonAffordHome.mp3" type="audio/mpeg">
-                  </audio>
-                  <div class="col-xs-12 redevMTop redevNoPadL">  
-                        <p class="redevTextItal">"We proposed affordable homeownership."</p>
-                  </div>
-                </div>  
-              </div>
-              <div class="redevMainText redevMTop">
-                <p>Architects Daniel Pearl and Mark Poddubiuk (L’OEUF) are hired to manage the renovation of the original buildings and to design Benny Farm’s Green Energy Plan for these buildings, including geothermal heating, passive solar water heating and grey water reuse.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row rowMTop">
-            <div class="col-xs-11">
-              <img class="redevImage" src="img/2004/devDur.jpg"></img>
-            </div>
-            <div class="col-xs-6 redevMTopx">
-              <div class="musicBox">
-                <div class="col-xs-3 redevMTop">
-                  <img class="redevImage" src="img/biography/samThumb.jpg"></img>
-                </div>
-                <div class="col-xs-8 redevNoPad redevMTop">
-                  <audio controls class="col-xs-12 redevNoPadL">
-                      <source src="audio/2004/samCanadaLands.mp3" type="audio/mpeg">
-                  </audio>
-                  <div class="col-xs-12 redevMTop redevNoPadL">  
-                        <p class="redevTextItal">"Canada Lands incorporated some aspects of the Land Trust proposal"</p>
-                  </div>
-                </div>  
-              </div>
-              <div class="redevMTop">
+            <div class="row redevMTop">
+              <div class="col-xs-12 col-sm-5 redevMTop">
                 <div class="musicBox ">
-                  <div class="col-xs-3 redevMTop">
-                    <img class="redevImage" src="img/biography/helenThumb.jpg"></img>
+                  <div class="col-xs-4 col-sm-5 redevMTop">
+                    <img class="redevImage" src="img/biography/lubaThumb.jpg"></img>
+                  </div>
+                  <div class="col-xs-8 col-sm-7 redevNoPad redevMTop">
+                    <audio controls class="col-xs-12 redevNoPadL">
+                        <source src="audio/2001/lubaCanadaNoSay.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="col-xs-12 redevMTop redevNoPadL">  
+                          <p class="redevTextItal">" Canada Lands just had nothing to say to us... "</p>
+                    </div>
+                  </div>  
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-7">
+                <div class="redevMainText">
+                  <div class="mainTextDate">
+                    <p>October 2001 - Canada Lands Makes Plans</p>
+                  </div>
+                  <p>  Canada Lands does not renew its protocol with the Fonds Foncier, opting to develop a plan themselves instead of going forward with FFCBF’s proposal.</p>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-8  redevMTop">
+                <img class="redevImage" src="img/2001/laSIC.jpg"></img>
+              </div>
+              <div class="col-xs-12 col-sm-4 redevMTop">
+                <div class="musicBox ">
+                  <div class="col-xs-4 col-sm-6 col-md-5 redevMTop">
+                    <img class="redevImage" src="img/biography/samThumb.jpg"></img>
+                  </div>
+                  <div class="col-xs-8 col-sm-12 col-md-7 redevMTop">
+                    <audio controls class="col-xs-12 redevNoPadL">
+                        <source src="audio/2001/samStopPhone.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="col-xs-12 redevMTop redevNoPadL">  
+                          <p class="redevTextItal">" Ultimately, they just stopped answering the phone... "</p>
+                    </div>
+                  </div>  
+                </div>
+              </div>
+            </div>
+
+            <div class="row redevMTop">
+              <div class="col-xs-10 col-xs-offset-1 col-sm-3 col-sm-offset-0 col-md-3 redevNoPadR">
+                <img class="redevImage1" src=" img/2001/redo.png"></img>
+              </div>
+              <div class="col-xs-12 col-sm-9 redevNoPadR">
+                <div class="col-xs-12 col-sm-7">
+                  <div class="redevMainText">
+                    <div class="mainTextDate">
+                      <p>2001 - Litigation</p>
+                    </div>
+                    <p>The Fonds Foncier Benny Farm seeks a court injunction to prevent Canada Lands from selling any part of the Benny Farm property.</p>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-5 ">
+                  <div class="musicBox redevMTop">
+                    <div class="col-xs-4 col-sm-7 col-md-5 redevMTop">
+                      <img class="redevImage" src="img/biography/lubaThumb.jpg"></img>
+                    </div>
+                    <div class="col-xs-8 col-sm-12  redevMTop">
+                      <audio controls class="col-xs-12 redevNoPadL">
+                          <source src="audio/2001/lubaAfraidSell.mp3" type="audio/mpeg">
+                      </audio>
+                      <div class="col-xs-12 redevMTop redevNoPadL">  
+                            <p class="redevTextItal">" We were afraid they would try to sell it right away. "</p>
+                      </div>
+                    </div>  
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-sm-pull-2 col-md-12 col-md-pull-0 ">
+                  <img class="redevImage redevMTop" src=" img/2001/lesGroupes.png"></img>
+                </div>
+              </div>
+            </div>
+
+    <!-- ============       2002 ================ -->
+            <div class="row">
+              <div class="col-xs-11 col-sm-10 redevMLR">
+                <div class="row redevMainText">
+                  <div class="col-xs-12 col-sm-6 redevNoPadL">
+                    <div class="mainTextDate">
+                      <p>2002 - The Benny Farm Task Force and A Demonstration</p>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 redevNoPad" >
+                    <p>the Fonds foncier Benny Farm and NDG Community Council join forces with other housing organizations to form the Friends of Benny Farm. They organise a demonstration on the grounds of Benny Farm, along with community members, local politicians and high profile housing activists, to demand that Canada Lands keep low-cost housing in their plan.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row rowMTop">
+              <div class="col-xs-12 col-sm-5 redevNoPad">
+                <div class="col-xs-12 col-sm-10 col-sm-offset-2 ">
+                  <img class="redevImage" src=" img/2002/plaidoyer.png"></img>
+                </div>
+                <div class="col-xs-12 ">
+                  <img class="redevImage redevMTop" src=" img/2002/protest2.png"></img>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-7">
+                <img class="redevImage redevMTop" src=" img/2002/protest1.png"></img>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-12  col-sm-4 ">
+                <div class="musicBox">
+                  <div class="col-xs-4 col-sm-6 redevMTop">
+                    <img class="redevImage" src="img/biography/samThumb.jpg"></img>
+                  </div>
+                  <div class="col-xs-8 col-sm-6 redevNoPad redevMTop">
+                    <audio controls class="col-xs-12 redevNoPadL">
+                        <source src="audio/2002/samNotPart.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="col-xs-12 redevMTop redevNoPadL">  
+                          <p class="redevTextItal">" Most of us really didn’t want to take part."</p>
+                    </div>
+                  </div>  
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-8 redevMTop">
+                <div class="redevMainText">
+                  <p>Canada Lands calls for a participatory design process. It creates the Benny Farm Task Force, a group of 10 selected individuals from different community groups and organizations, who represent different points of view in the community.</p>
+                </div>
+              </div>
+            </div>
+            <div class="row rowMTop">
+              <div class="col-xs-12">
+                <div class="redevTextQte">
+                  <p>" We had a lot of myths to contend with, and a little of the “not in my backyard” syndrome. Canada Lands hired a firm to look into how there might be a way to reconcile some of the conflicting views as to what should happen on this site. So the Task Force was put together to try to come to an agreement... ”<br>  -Gail Tedstone, Member, Benny Farm Task Force,  from a film by Gisele el Gandour Achkar and RM Faizur Rahman, 2008</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row rowMTop">
+              <div class="col-xs-10 col-xs-offset-1">
+                <div class="redevMainText">
+                  <div class="mainTextDate">
+                    <p>2002 - The Architectural Competition</p>
+                  </div>
+                  <p>Canada Lands asks four architectural firms to draw up plans for Benny Farm, taking into account recommendations from the Benny Farm Task Force. After presentations from the four firms, the public is invited to vote on their favorite plan. Canada Lands selects the project submitted by architects Saia Barbarese Topouzanov, and landscape architect Claude Cormier. This project will go on to win the Governor General’s Award for Architecture.</p>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6">
+                <img class="redevImage redevMTop" src=" img/2002/archOH3.png"></img>
+                <img class="redevImage redevMTop" src=" img/2002/arch3D.png"></img>
+              </div>
+              <div class="col-xs-12 col-sm-6">
+                <img class="redevImage redevMTop" src=" img/2002/archOH2.png"></img>
+                <img class="redevImage redevMTop" src=" img/2002/archOH1.png"></img>
+              </div>
+            </div>
+
+  <!-- =========        2003     ===============           -->
+            <div class="row rowMTop">
+              <div class="col-xs-12 col-sm-8">
+                <div class="redevMainText">
+                  <div class="mainTextDate">
+                    <p>2003 - A New Plan</p>
+                  </div>
+                  <p>The new redevelopment plan is presented to the Benny Farm Task Force, Benny Farm residents and NDG borough council. 3⁄4 of site is reserved for low and middle-income groups, with 500 to 550 residential units, 2⁄3 of which are rental, 1/3 dedicated to home ownership. The other 1⁄4 of the site is now reserved for two government buildings: a new building for the NDG CLSC and a cultural centre.</p>
+                </div>
+              </div>
+              <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 redevMTop">
+                <img class="redevImage" src=" img/2003/finGrr.png"></img>
+              </div>
+            </div>
+            <div class="row rowMTop">
+              <div class="col-xs-12 col-sm-6">
+                <img class="redevImage" src=" img/2003/peacePlan.jpg"></img>
+              </div>
+              <div class="col-xs-12 col-sm-6">
+                <img class="redevImage" src=" img/2003/plusLoge.png"></img>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-12  col-sm-6 ">
+                <div class="musicBox">
+                  <div class="col-xs-4 col-sm-4 redevMTop">
+                    <img class="redevImage" src="img/biography/lubaThumb.jpg"></img>
                   </div>
                   <div class="col-xs-8 redevNoPad redevMTop">
                     <audio controls class="col-xs-12 redevNoPadL">
-                        <source src="audio/2004/helenDoWant.mp3" type="audio/mpeg">
+                        <source src="audio/2003/lubaAspects.mp3" type="audio/mpeg">
                     </audio>
                     <div class="col-xs-12 redevMTop redevNoPadL">  
-                          <p class="redevTextItal">"You guys do what you want."</p>
+                          <p class="redevTextItal">" Aspects of the Fonds Foncier plans were incorporated. "</p>
                     </div>
                   </div>  
                 </div>
               </div>
-           
-            </div>
-            <div class="col-xs-6">
-              <div class="redevMTop">
-                <img class="redevImage" src="img/2004/nuBenny.png"></img>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-12 redevMTop">
-              <img class="redevImage" src="img/2004/benGroup.png"></img>
-            </div>
-          </div>
-
-<!-- =============         2005     =============== -->
-         <!--  <div class="row rowMTop">
-            <div class="col-xs-3">
-              <div class="redevMainText">
-                <div class="mainTextDate">
-                  <p>2005 - Looking Back</p>
-                </div>
-                <p>Canada Lands commissions a commemoration of the history of Benny Farm, including oral history interviews with longtime Benny Farm residents, an exhibition and displays in the Veterans’ buildings.</p>
-              </div>
-            </div>
-            <div class="col-xs-9">
-              <img class="redevImage" src="img/2005/placeHolder2005.jpg"> ^^^ This is place holder for 'invitation' image.  ^^</img>
-            </div>
-          </div> -->
-
-<!-- ============            2006    ============= -->
-
-          <div class="row rowMTop">
-            <div class="col-xs-6">
-              <div class="redevMainText">
-                <div class="mainTextDate">
-                  <p>2006 - Construction and Innovation</p>
-                </div>
-                <p>Construction and renovation continues as the various parts of the new Benny Farm come together: veterans’ housing, subsidized and low-cost housing and condos. L’Oeuf, the architectural firm that had imagined a Green and sustainable plan for Benny Farm in 1992, wins the North American and Global HOLCIM Foundation for Sustainable Construction awards in 2005 and 2006. The project a whole wins the 2006 Urban Leadership Award, City Renewal category, from the Canadian Urban Institute.</p>
-              </div>
-              <div class="redevMTop">
-                <img class="redevImage" src="img/2006/nouVie.jpg"></img>
-              </div>
-            </div>
-            <div class="col-xs-6">
-              <img class="redevImage" src="img/2006/prixInt.png"></img>
-              <img class="redevImage redevMTop" src="img/2006/benRen.png"></img>
-            </div>
-          </div>
-
-          <div class="row rowTopBot">
-            <div class="col-xs-12">
-              <div class="redevMainText">
-                <div class="mainTextDate">
-                  <p>Conclusion: “How do you feel about Benny Farm now?”</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-4 redevMTop">
-              <div class="redevTextQte ">
-                <p>" I learned a lot. I mean I learned that things don’thappen from one day to the next. It’s a long fight, you have to have a lot of patience, you have to deal with a lot ofpeople, and you have to have the community behind you. " <br> -Miriam Green, Member, Benny Farm Task Force,  Tilting at Windmills, a film by Patrick Otim and Predrag Zivkovic, Video Advocacy Institute, 2008</p>
-              </div>
-            </div>
-            <div class="col-xs-4 redevMTop">
-              <div class="redevTextQte  ">
-                <p>" I think it’s a wonderful mix of people. The challenge is of course getting all these people to have a sense of community and a sense of belonging. Not only to Benny Farm, but to the whole community."<br>-Gail Tedstone, Member, Benny Farm Task Force,  from a film by Gisele el Gandour Achkar and RM Faizur Rahman, Video Advocacy Institute, 2008</p>
-              </div>
-            </div>
-            <div class="col-xs-4 redevMTop">
-              <div class="redevTextQte">
-                <p>" If people share a certain vision, and they form a group and they are willing to work together through certain difficulties and challenges, things will happen, not exactly as we would have like them to, but it’s a lot better than what was foreseen. "<br> -Claudette Demers-Godley, former City Councilor and activist,  from a film by Anne Kanyi and Abena Kuriu, Video Advocacy Institute, 2008</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row rowMTopBot">
-            <div class="col-xs-6 ">
-              <div class="musicBox">
-                <div class="col-xs-3 redevMTop">
-                  <img class="redevImage" src="img/biography/jasonThumb.jpg"></img>
-                </div>
-                <div class="col-xs-9 redevNoPad redevMTop">
-                  <audio controls class="col-xs-12 redevNoPadL">
-                      <source src="audio/final/jasonVictory.mp3" type="audio/mpeg">
-                  </audio>
-                  <div class="col-xs-12 redevMTop redevNoPadL">  
-                        <p class="redevTextItal">"It was a victory of sorts, and a lot of people have affordable housing now."</p>
+              <div class="col-xs-12  col-sm-6 ">
+                <div class="musicBox">
+                  <div class="col-xs-4 redevMTop">
+                    <img class="redevImage" src="img/biography/samThumb.jpg"></img>
                   </div>
-                </div>  
-              </div>
-            </div>
-            <div class="col-xs-6 ">
-              <div class="musicBox">
-                <div class="col-xs-3 redevMTop">
-                  <img class="redevImage" src="img/biography/lubaThumb.jpg"></img>
+                  <div class="col-xs-8 redevNoPad redevMTop">
+                    <audio controls class="col-xs-12 redevNoPadL">
+                        <source src="audio/2003/samKindChoices.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="col-xs-12 redevMTop redevNoPadL">  
+                          <p class="redevTextItal">" The kind of choices that motivated us were not those that were put forward in this plan. "</p>
+                    </div>
+                  </div>  
                 </div>
-                <div class="col-xs-9 redevNoPad redevMTop">
-                  <audio controls class="col-xs-12 redevNoPadL">
-                      <source src="audio/final/lubaYay.mp3" type="audio/mpeg">
-                  </audio>
-                  <div class="col-xs-12 redevMTop redevNoPadL">  
-                        <p class="redevTextItal">"I go back and forth."</p>
-                  </div>
-                </div>  
               </div>
             </div>
-          </div>
+            
+            <div class="row rowMTop">
+              <div class="col-xs-12">
+                <div class="redevTextQte">
+                  <p>" It was very emotionally draining, it was a fight. There is no other way of describing it. It was a fight. "<br> -Miriam Green, Member, Benny Farm Task Force,  from Tilting at Windmills, a film by Patrick Otim and Predrag Zivkovic, Video Advocacy Institute, 2008</p>
+                </div>
+              </div>
+            </div>
 
-          <div class="row rowTopBott">
-            <div class="col-xs-6 ">
-              <div class="musicBox">
-                <div class="col-xs-3 redevMTop">
-                  <img class="redevImage" src="img/biography/helenThumb.jpg"></img>
-                </div>
-                <div class="col-xs-9 redevNoPad redevMTop">
-                  <audio controls class="col-xs-12 redevNoPadL">
-                      <source src="audio/final/helenGreatPlace.mp3" type="audio/mpeg">
-                  </audio>
-                  <div class="col-xs-12 redevMTop redevNoPadL">  
-                        <p class="redevTextItal">"It’s a great place to live, a great place to bring up your kids and great place to die."</p>
-                  </div>
-                </div>  
-              </div>
-            </div>
-            <div class="col-xs-6 ">
-              <div class="musicBox">
-                <div class="col-xs-3 redevMTop">
-                  <img class="redevImage" src="img/biography/samThumb.jpg"></img>
-                </div>
-                <div class="col-xs-9 redevNoPad redevMTop">
-                  <audio controls class="col-xs-12 redevNoPadL">
-                      <source src="audio/final/samGoBat.mp3" type="audio/mpeg">
-                  </audio>
-                  <div class="col-xs-12 redevMTop redevNoPadL">  
-                        <p class="redevTextItal">"It’s a mixed legacy, but it’s always important that people go to bat for certain social issues"</p>
-                  </div>
-                </div>  
-              </div>
-            </div>
-          </div>
+  <!-- =========            2004     =========== -->
 
+            <div class="row rowMTop">
+              <div class="col-xs-6 col-sm-7">
+                <div class="redevMainText">
+                  <div class="mainTextDate">
+                    <p>2004 - Sustainable Public Housing</p>
+                  </div>
+                  <p>Founded by NDG housing activists, Les Habitations Communautaires NDG offers a plan for affordable home ownership and competes with private developers to successfully bid on some of the 13 of the original buildings that are to be renovated. The rest are sold to 3 non-profit housing groups: Co-op Zone of Opportunity (Z.O.O), Project Chance II and Co-op Benny Farm. An initiative paid for in part by the City of Montreal’s “Opération Solidarité 5000 logements.”</p>
+                </div>
+              </div>
+              <div class="col-xs-6  col-sm-5 ">
+                <div class="musicBox">
+                  <div class="col-xs-10 col-sm-5 redevMTop">
+                    <img class="redevImage" src="img/biography/jasonThumb.jpg"></img>
+                  </div>
+                  <div class="col-xs-12 col-sm-7 redevNoPad redevMTop">
+                    <audio controls class="col-xs-12 redevNoPadL">
+                        <source src="audio/2004/jasonAffordHome.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="col-xs-12 redevMTop redevNoPadL">  
+                          <p class="redevTextItal">"We proposed affordable homeownership."</p>
+                    </div>
+                  </div>  
+                </div>
+              </div>
+              <div class="col-xs-5">
+                <div class="redevMainText redevMTop">
+                  <p>Architects Daniel Pearl and Mark Poddubiuk (L’OEUF) are hired to manage the renovation of the original buildings and to design Benny Farm’s Green Energy Plan for these buildings, including geothermal heating, passive solar water heating and grey water reuse.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row rowMTop">
+              <div class="col-xs-12 col-sm-11">
+                <img class="redevImage" src="img/2004/devDur.jpg"></img>
+              </div>
+              <div class="col-xs-12 col-sm-6 redevMTopx">
+                <div class="musicBox">
+                  <div class="col-xs-4 col-sm-4 redevMTop">
+                    <img class="redevImage" src="img/biography/samThumb.jpg"></img>
+                  </div>
+                  <div class="col-xs-8 redevNoPad redevMTop">
+                    <audio controls class="col-xs-12 redevNoPadL">
+                        <source src="audio/2004/samCanadaLands.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="col-xs-12 redevMTop redevNoPadL">  
+                          <p class="redevTextItal">"Canada Lands incorporated some aspects of the Land Trust proposal"</p>
+                    </div>
+                  </div>  
+                </div>
+                <div class="redevMTop">
+                  <div class="musicBox ">
+                    <div class="col-xs-4 col-sm-4 redevMTop">
+                      <img class="redevImage" src="img/biography/helenThumb.jpg"></img>
+                    </div>
+                    <div class="col-xs-8 redevNoPad redevMTop">
+                      <audio controls class="col-xs-12 redevNoPadL">
+                          <source src="audio/2004/helenDoWant.mp3" type="audio/mpeg">
+                      </audio>
+                      <div class="col-xs-12 redevMTop redevNoPadL">  
+                            <p class="redevTextItal">"You guys do what you want."</p>
+                      </div>
+                    </div>  
+                  </div>
+                </div>
+             
+              </div>
+              <div class="col-xs-12 col-sm-6">
+                <div class="redevMTop">
+                  <img class="redevImage" src="img/2004/nuBenny.png"></img>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 redevMTop">
+                <img class="redevImage" src="img/2004/benGroup.png"></img>
+              </div>
+            </div>
+
+  
+
+  <!-- ============            2006    ============= -->
+
+            <div class="row rowMTop">
+              <div class="col-xs-12 col-sm-6">
+                <div class="redevMainText">
+                  <div class="mainTextDate">
+                    <p>2006 - Construction and Innovation</p>
+                  </div>
+                  <p>Construction and renovation continues as the various parts of the new Benny Farm come together: veterans’ housing, subsidized and low-cost housing and condos. L’Oeuf, the architectural firm that had imagined a Green and sustainable plan for Benny Farm in 1992, wins the North American and Global HOLCIM Foundation for Sustainable Construction awards in 2005 and 2006. The project as a whole wins the 2006 Urban Leadership Award, City Renewal category, from the Canadian Urban Institute.</p>
+                </div>
+                
+                <div class="col-xs-12 col-sm-12 redevMTop">
+                      <img class="redevImage" src="img/2006/nouVie.jpg"></img>
+                </div>
+              </div>
               
+              <div class="col-xs-12 col-sm-6 redevMTop">
+                <img class="redevImage" src="img/2006/prixInt.png"></img>
+                <img class="redevImage redevMTop" src="img/2006/benRen.png"></img>
+              </div>
+            </div>
 
-          <!-- end of mainContent -->
+            <div class="row rowTopBot">
+              <div class="col-xs-12">
+                <div class="redevMainText">
+                  <div class="mainTextDate">
+                    <p>Conclusion: “How do you feel about Benny Farm now?”</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-4 redevMTop">
+                <div class="redevTextQte ">
+                  <p>" I learned a lot. I mean I learned that things don’thappen from one day to the next. It’s a long fight, you have to have a lot of patience, you have to deal with a lot ofpeople, and you have to have the community behind you. " <br> -Miriam Green, Member, Benny Farm Task Force,  Tilting at Windmills, a film by Patrick Otim and Predrag Zivkovic, Video Advocacy Institute, 2008</p>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-4 redevMTop">
+                <div class="redevTextQte  ">
+                  <p>" I think it’s a wonderful mix of people. The challenge is of course getting all these people to have a sense of community and a sense of belonging. Not only to Benny Farm, but to the whole community."<br>-Gail Tedstone, Member, Benny Farm Task Force,  from a film by Gisele el Gandour Achkar and RM Faizur Rahman, Video Advocacy Institute, 2008</p>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-4 redevMTop">
+                <div class="redevTextQte">
+                  <p>" If people share a certain vision, and they form a group and they are willing to work together through certain difficulties and challenges, things will happen, not exactly as we would have like them to, but it’s a lot better than what was foreseen. "<br> -Claudette Demers-Godley, former City Councilor and activist,  from a film by Anne Kanyi and Abena Kuriu, Video Advocacy Institute, 2008</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row rowMTopBot">
+              <div class="col-xs-12 col-sm-6 ">
+                <div class="musicBox">
+                  <div class="col-xs-4 col-sm-3 redevMTop">
+                    <img class="redevImage" src="img/biography/jasonThumb.jpg"></img>
+                  </div>
+                  <div class="col-xs-8 col-sm-9 redevNoPad redevMTop">
+                    <audio controls class="col-xs-12 redevNoPadL">
+                        <source src="audio/final/jasonVictory.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="col-xs-12 redevMTop redevNoPadL">  
+                          <p class="redevTextItal">"It was a victory of sorts, and a lot of people have affordable housing now."</p>
+                    </div>
+                  </div>  
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 ">
+                <div class="musicBox">
+                  <div class="col-xs-4 col-sm-3 redevMTop">
+                    <img class="redevImage" src="img/biography/lubaThumb.jpg"></img>
+                  </div>
+                  <div class="col-xs-8 col-sm-9 redevNoPad redevMTop">
+                    <audio controls class="col-xs-12 redevNoPadL">
+                        <source src="audio/final/lubaYay.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="col-xs-12 redevMTop redevNoPadL">  
+                          <p class="redevTextItal">"I go back and forth."</p>
+                    </div>
+                  </div>  
+                </div>
+              </div>
+            </div>
+
+            <div class="row rowTopBott">
+              <div class="col-xs-12 col-sm-6 ">
+                <div class="musicBox">
+                  <div class="col-xs-4 col-sm-3 redevMTop">
+                    <img class="redevImage" src="img/biography/helenThumb.jpg"></img>
+                  </div>
+                  <div class="col-xs-8 col-sm-9 redevNoPad redevMTop">
+                    <audio controls class="col-xs-12 redevNoPadL">
+                        <source src="audio/final/helenGreatPlace.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="col-xs-12 redevMTop redevNoPadL">  
+                          <p class="redevTextItal">"It’s a great place to live, a great place to bring up your kids and great place to die."</p>
+                    </div>
+                  </div>  
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 ">
+                <div class="musicBox">
+                  <div class="col-xs-4 col-sm-3 redevMTop">
+                    <img class="redevImage" src="img/biography/samThumb.jpg"></img>
+                  </div>
+                  <div class="col-xs-8 col-sm-9 redevNoPad redevMTop">
+                    <audio controls class="col-xs-12 redevNoPadL">
+                        <source src="audio/final/samGoBat.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="col-xs-12 redevMTop redevNoPadL">  
+                          <p class="redevTextItal">"It’s a mixed legacy, but it’s always important that people go to bat for certain social issues"</p>
+                    </div>
+                  </div>  
+                </div>
+              </div>
+            </div>
+            
+          </div>  <!-- end of mainContent -->
         </div>
-      </div>
+      </div>    <!-- end of redevelop Content Wrapper -->
 
+      <!-- ============   footer ==================== -->
 
-  <!-- ============   footer ==================== -->
-
-    <div class="footer" >
-      <div class="container-fluid" id="customFooter">
-        <div class="row">
-          <div class="col-xs-8 footerText">
-            <div class="col-xs-12">
-              <p>Resources:</p>
+      <div class="footer" >
+        <div class="container-fluid" id="customFooter">
+          <div class="row">
+            
+            <div class="col-xs-8 footerText">
+              <div class="col-xs-12">
+                <p>Resources:</p>
+              </div>
+              <div class="col-xs-4">
+                <p>Archives of the NDG Community Council<br>Archives du Centre<br>Canadien d’Architecture<br>Archives du Centre d’histoire de Montréal<br>Archives du Musée McCord<br>Archives de la Ville de Montréal<br>Archives de la BanQ<br>Canada Lands Company<br>The Benny Farmer, Helen Guy collection</p>
+              </div>
+              <div class="col-xs-6">
+                <p>Benny Farm: The State, The Community, and The Conflict. PhD dissertation by Luba Serge<br>Catalogue des Concours Canadiens (ccu.umontréal.ca)<br>Centre for Oral History and Digital Storytelling, Concordia University<br>“Hope. Effort. Family.” The Benny Farm Community Then ... and Now? By Erin Silver<br>l'Office de la consultation publique de Montréal.<br>L’Office de l’éclectisme urbain et fonctionnel (L’OEUF)<br>http://www.loeuf.com/en/projects/benny-farm/<br>Video Advocacy Institute, short films on Benny Farm, 2008<br><br>
+                Font Awesome by Dave Gandy - http://fontawesome.io <br><br>
+                This website is powered by Bootstrap 3.3.7
+              </div>
             </div>
-            <div class="col-xs-4">
-              <p>Archives of the NDG Community Council<br>Archives du Centre<br>Canadien d’Architecture<br>Archives du Centre d’histoire de Montréal<br>Archives du Musée McCord<br>Archives de la Ville de Montréal<br>Archives de la BanQ<br>Canada Lands Company<br>The Benny Farmer, Helen Guy collection</p>
+
+            <div class="col-xs-4 footerText">
+              <div class="col-xs-12">
+                <p>Thank You: 
+              </div>
+              <div class="col-xs-12">
+                <p>Sharon Sweeney, Coordinator, NDG Arts Round Table<br>Halah Al-Ubadai, Director, NDG Community Council<br>Community Foundations of Canada<br>Centre for Oral History and Digital Storytelling, Concordia University<br>Paul Scriver, Zen Nakamura, Sylvie Bérard, Jason Hughes, Helen Bolton Guy, Sam Boskey, Luba Serge, Jason Prince, Mark Poddubiuk, Arlyle Waring, Catherine Charlebois, John McKay, Liz Miller, Marlo Turner-Ritchie</p><br>
+                <p>Research, writing and interviews: Nathalie Senécal<br>
+                Audio engineering: Paul Scriver<br>Website concept: Nathalie Senécal, Zen Nakamura and Sylvie Bérard<br>Website design: Zen Nakamura</p>
+              </div>
             </div>
-            <div class="col-xs-6">
-              <p>Benny Farm: The State, The Community, and The Conflict. PhD dissertation by Luba Serge<br>Catalogue des Concours Canadiens (ccu.umontréal.ca)<br>Centre for Oral History and Digital Storytelling, Concordia University<br>“Hope. Effort. Family.” The Benny Farm Community Then ... and Now? By Erin Silver<br>l'Office de la consultation publique de Montréal.<br>L’Office de l’éclectisme urbain et fonctionnel (L’OEUF)<br>http://www.loeuf.com/en/projects/benny-farm/<br>Video Advocacy Institute, short films on Benny Farm, 2008<br><br>
-              Font Awesome by Dave Gandy - http://fontawesome.io <br><br>
-              This website is powered by Bootstrap 3.3.7
+
+          </div>
+
+          <div clas="row ">
+            <div class="col-sm-12 sponsorLogos footerPadTop">
+              <div class="col-xs-6 col-sm-4 col-sm-offset-1">
+                <img src="img/footer/COHDS_Logo.png" alt="sponsor3" id="sponsor3"></img>
+              </div>
+              <div class="col-xs-6 col-sm-4 col-sm-push-2">
+                <img src="img/footer/sponsorLogos.png" alt="sponsor1" id="sponsor1"></img>
+              </div>
+              <img src="img/footer/sponsor2.png" alt="sponsor2" id="sponsor2"></img>
+              </div>
             </div>
           </div>
-          <div class="col-xs-4 footerText">
-            <div class="col-xs-12">
-              <p>Thank You: 
-            </div>
-            <div class="col-xs-12">
-              <p>Sharon Sweeney, Coordinator, NDG Arts Round Table<br>Halah Al-Ubadai, Director, NDG Community Council<br>Community Foundations of Canada<br>Centre for Oral History and Digital Storytelling, Concordia University<br>Paul Scriver, Zen Nakamura, Sylvie Bérard, Jason Hughes, Helen Bolton Guy, Sam Boskey, Luba Serge, Jason Prince, Mark Poddubiuk, Arlyle Waring, Catherine Charlebois, John McKay, Liz Miller, Marlo Turner-Ritchie</p><br>
-              <p>Research, writing and interviews: Nathalie Senécal<br>
-              Audio engineering: Paul Scriver<br>Website concept: Nathalie Senécal, Zen Nakamura and Sylvie Bérard<br>Website design: Zen Nakamura</p>
-            </div>
-          </div>
-        </div>
-        <div clas="row ">
-          <div class="col-xs-12 sponsorLogos">
-             <img src="img/footer/COHDS_Logo.png" alt="sponsor3" id="sponsor3"></img>
-           
-            <img src="img/footer/sponsor2.png" alt="sponsor2" id="sponsor2"></img>
-             <img src="img/footer/sponsorLogos.png" alt="sponsor1" id="sponsor1"></img>
-          </div>
 
-        </div>
-      </div>
-    </div> 
+        </div>  <!-- >>> end of footer container -->
+      </div>  <!-- >>> end of footer -->
+
+
+
+    <!-- ======== >>> end of main container-fluid >>>>>>>>>   ========== -->
+    <!-- ======== >>> end of main container-fluid >>>>>>>>>   ========== -->
+    </div>   
+
 
     <!-- ==========    Bootstrap core JavaScript ==================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-   <script
-        src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
+
+    <!-- my local jquery and bootstrap js -->
+     <script src="js/jquery-3.2.1.js"></script>
+     <script src="bootstrap/js/bootstrap.min.js"></script>
+<!-- 
+     links to external js sources -->
+
+    <!-- // <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+    
+    <!-- // <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script> -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
    
-<!-- ======================  my own JS here ========= -->
+   
+    <!-- ======================  my own JS here ========= -->
     <script>
 
       // ==============   open or close side nav menu upon click
         function openNav() {
+          if (window.matchMedia("(min-width: 320px) and (max-width: 410px)").matches) {
+              document.getElementById("mySidenav").style.width = "57%";
+            document.getElementById("sideMenuToggle").style.visibility = "hidden";
+          } 
+          else if (window.matchMedia("(min-width: 411px) and (max-width: 767px)").matches) {
+              document.getElementById("mySidenav").style.width = "45%";
+            document.getElementById("sideMenuToggle").style.visibility = "hidden";
+          
+          } 
+          else if (window.matchMedia("(min-width: 768px) and (max-width: 1023px)").matches){
+              document.getElementById("mySidenav").style.width = "35%";
+            document.getElementById("sideMenuToggle").style.visibility = "hidden";
+          } 
+          
+          else {
             document.getElementById("mySidenav").style.width = "17%";
             document.getElementById("sideMenuToggle").style.visibility = "hidden";
+          }
         }
+
 
         function closeNav() {
             document.getElementById("mySidenav").style.width = "0";
@@ -1595,57 +1588,8 @@
 
         }
 
-  // ==================   change bg color of side menu toggle 'X' based on screen position
-
-        //   window.onscroll = doThisStuffOnScroll;
-
-
-        // var didScroll = false;
-
-        // function doThisStuffOnScroll() {
-        //     didScroll = true;
-        //   }
-
-        // setInterval(function() {
-        //     if(didScroll) {
-        //         didScroll = false;
-        //         // alert('You scrolled');
-        //         chngBtnBg();
-        //     }
-        // },50);
-
-        // function bgBrown() {
-        //   document.getElementById("closebtn").style.backgroundColor = "rgba(186, 139, 63, 1)";
-        // }
-
-        // function bgWhite() {
-        //   document.getElementById("closebtn").style.backgroundColor = "#fff";
-        // }
-
-      // var clBtn = document.getElementById("closebtn");
-
-      // this is to check if chngBtn function is fired once, then stop firing
-       // var chngBtnBg = function() {
-       //   var win = window.pageYOffset,
-       //     fired = false;
-
-       //  if (win >= 84 && fired === false) 
-       //    {
-            // clBtn.style.backgroundColor("#fff");
-          //   bgWhite();
-          //   fired = true;
-          //   } 
-          // else if (win < 84) {
-              // clBtn.style.backgroundColor("rgba(165, 113, 24, 0.7)");
-        //       bgBrown();
-        //       fired = false;
-        //   }
-        // };
-
 
       
-
-
     </script>
 
   </body>

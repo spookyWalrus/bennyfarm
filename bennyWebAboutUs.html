@@ -21,94 +21,68 @@
    <!--  // <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
 
     <!-- Custom styles! -->
-    
-    <link href="css/v2BenFarm-mainV2.css" rel="stylesheet">
+   <link href="css/starter-template.css" rel="stylesheet">
+
+    <!-- Custom or localized styles! -->
     <link href="css/v2BenFarm-Crsl.css" rel="stylesheet">
-    <link href="css/v2BenFarm-mainV2-content.css" rel="stylesheet">
+  
+<!--     <link href="css/BenFarm-main.css" rel="stylesheet">
+ -->    <!-- <link href="css/BenFarm-main-mobile.css" rel="stylesheet"> -->
+    <link media="screen and (min-width: 320px)" rel="stylesheet" href="css/BenFarm-main-320px.css" />
+    <link media="screen and (min-width: 320px)" rel="stylesheet" href="css/BenFarm-content-320px.css" />
+    <link media="screen and (min-width: 411px)" rel="stylesheet" href="css/BenFarm-main-411px.css" />
+     <link media="screen and (min-width: 411px)" rel="stylesheet" href="css/BenFarm-content-411px.css" />
+     <link media="screen and (min-width: 768px)" rel="stylesheet" href="css/BenFarm-main-768px.css" />
+     <link media="screen and (min-width: 768px)" rel="stylesheet" href="css/BenFarm-content-768px.css" />
+      <link media="screen and (min-width: 1024px)" rel="stylesheet" href="css/BenFarm-main-1024px.css" />
+     <link media="screen and (min-width: 1024px)" rel="stylesheet" href="css/BenFarm-content-1024px.css" />
+     <link media="screen and (min-width: 1280px)" rel="stylesheet" href="css/BenFarm-main-1280px.css" />
+     <link media="screen and (min-width: 1280px)" rel="stylesheet" href="css/BenFarm-content-1280px.css" />
 
 
     <!-- custom fonts -->
     <link href="https://fonts.googleapis.com/css?family=Grand+Hotel|Molle:400|Mrs+Sheppards|Norican|Sofia" rel="stylesheet">
-    <link href="fonts/" rel="stylesheet">
-
+<!--     <link href="fonts/" rel="stylesheet">
+ -->
     <!-- font awesome CDN -->
     <script src="https://use.fontawesome.com/5a9923c611.js"></script>
-
-
-
-
   </head>
 
   <body>
 
-    <!-- ============   old navbar / toggle menu ============= -->
-<!-- 
-    <nav class="navbar navbar-inverse navbar-static-top" id="customNavbar">
-      <div class="container">
-        <div class="navbar-header"> -->
-         <!--  <button type="button" id="customNavbarToggle" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button> -->
-         <!--  <a class="navbar-brand navbar-left" id="customNavbar-brand" href="#">
-            <img src="img/logo/NDGlogo1.png" id="logo"></img>
-            <div id="logoText">Atelier d'histoire<br>History workshop</div>
-            
-          </a>
-        </div> -->
-    <!--     <div id="navbar" class="collapse navbar-collapse customNavbarCollapsible">
-          <ul class="nav navbar-nav " id="customNavbarNav">
-              <li id="navbarItemRight1"><a href="#playersWrapper">Community voices</a></li>
-              <li id="navbarItemRight2"><a href="#theBeginning">The beginning: 1833 - 1947</a></li>
-              <li id="navbarItemRight3"><a href="#vetCommunity">The Veterans' Community<br>1947 - 1990</a></li>
-              <li id="navbarItemRight4"><a href="#struggle">The struggle to redevelop <br>Benny Farm 1991-2000</a></li>
-              <li class="navbarItemLeft"><a href="#about">About us</a></li>
-             <li class="navbarItemLeft"><a href="#contact">Contact</a></li>
-          </ul>
-        </div> --><!--/.nav-collapse -->
-   <!--    </div>
-    </nav> -->
+   
 
  <!-- =====================  new sideways nav menu =========== -->
  
-  <nav class="navbar navbar-inverse navbar-static-top " id="customNavbar">
-    <div class="container" >
-      <div class="newNavbar-header">
+    <nav class="navbar navbar-inverse navbar-static-top " id="customNavbar">
+      <div class="container-fluid" id="customSideNavContainer">
+        <div class="newNavbar-header">
           <button type="button" id="sideMenuToggle" onclick="openNav()" class="navbar-toggle collapsed" data-toggle="collapse"  aria-expanded="false" aria-controls="sidenav">
-            <!-- <span class="sr-only">Toggle navigation</span> -->
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand navbar-left" id="customNavbar-brand" href="#">
-            <img src="img/logo/NDGlogo1.png" id="logo"></img>
-            <div id="logoText">Atelier d'histoire<br>History workshop</div>
-            
-          </a>
+          <div class="navbar-brand navbar-left" id="customNavbar-brand" >
+            <a href="#top"><img src="img/logo/NDGlogo1.png" id="logo"></img></a>
+            <a href="bennyWebAboutUs.html" id="logoText">
+              Atelier d'histoire<br>History workshop
+            </a>
+          </div>
         </div>
-    </div>
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" id="closebtn" onclick="closeNav()">&times;</a>
-      <div id="sidenavLinks">
-        <a href="index.html#playersWrapper" id="navbarItemRight1" onclick="closeNav()">Community voices</a>
-        <a href="index.html#theBeginning" id="navbarItemRight2" onclick="closeNav()">The beginning:<br> 1833 - 1947</a>
-        <a href="index.html#vetCommunity" id="navbarItemRight3" onclick="closeNav()">The Veterans' Community 1947 - 1990</a>
-        <a href="index.html#struggle" id="navbarItemRight4" onclick="closeNav()">The struggle to redevelop Benny Farm: 1991-2006</a>
-        <a href="index.html#top" class="navbarItemLeft" onclick="closeNav()">Back to Main Page</a>
       </div>
-
-      <!-- <ul id="customNavbarNav">
-          <li id="navbarItemRight1"><a href="#playersWrapper">Community voices</a></li>
-          <li id="navbarItemRight2"><a href="#theBeginning">The beginning: 1833 - 1947</a></li>
-          <li id="navbarItemRight3"><a href="#vetCommunity">The Veterans' Community<br>1947 - 1990</a></li>
-          <li id="navbarItemRight4"><a href="#struggle">The struggle to redevelop <br>Benny Farm 1991-2000</a></li>
-          <li id="navbarItemRight4"><a href="#about">About us</a></li>
-         <li class="navbarItemLeft"><a href="#contact">Contact</a></li>
-      </ul> -->
-    </div>
-  </nav>
+      <div id="mySidenav" class="sidenav">
+         <!--  <a href="javascript:void(0)" id="closebtn" onclick="closeNav()">&times;</a> -->
+          <a href="javascript:void(0)" id="closebtn" onclick="closeNav()"><span id="buttonX">x</span></a>
+        <div id="sidenavLinks">
+          <a href="index.html#playersWrapper" id="navbarItemRight1" onclick="closeNav()">Community voices</a>
+          <a href="index.html#theBeginning" id="navbarItemRight2" onclick="closeNav()">The beginning:<br> 1833 - 1947</a>
+          <a href="index.html#vetCommunity" id="navbarItemRight3" onclick="closeNav()">The Veterans' Community 1947 - 1990</a>
+          <a href="index.html#struggle" id="navbarItemRight4" onclick="closeNav()">The struggle to redevelop Benny Farm: 1991-2006</a>
+          <a href="index.html#top" class="navbarItemLeft" onclick="closeNav()">Back to Main Page</a>
+        </div>
+      
+      </div>
+    </nav>
    
     <!-- =============== about us ============== -->
 
@@ -118,31 +92,63 @@
         <div class="aboutContent"  >
 
           <div class="row upFront">
-            <div class="col-xs-6 col-xs-offset-3">
-              <div class="col-xs-9 col-xs-offset-3">
-                <div class="mainTextDate" id="aboutTitleText">
+            <div class="col-xs-8 col-xs-offset-2 aboutUsBack">
+                <div id="aboutTitleText">
                    <p>About Us</p>
-                 </div>
-              </div>
-              <div id="aboutMainText">
-               <p>The NDG History Workshop explores the stories and the history of all of NDG.<br><br>L’Atelier d’histoire NDG explore l’histoire et les histoires de tout Notre-Dame-de-Grace. </p>
-                <br>
+                </div>
+              <div class="aboutMainText">
+                <div class="col-xs-12">
+                  <p>The NDG History Workshop explores the stories and the history of all of NDG.<br><br>L’Atelier d’histoire NDG explore l’histoire et les histoires de tout Notre-Dame-de-Grace. </p>
+                </div>
               </div>
             </div>
           </div>
 
+          <div class="row rowMTop">
+            <div class="col-xs-10 col-xs-offset-1 aboutUsBack">
+              <div id="aboutTitleText">
+                   <p>Resources</p>
+              </div>
+              <div class="creditText">
+                <div class="col-xs-12">
+                  <p>Archives of the NDG Community Council.<br>Archives du Centre Canadien d’Architecture.<br>Archives du Centre d’histoire de Montréal.<br>Archives du Musée McCord.<br>Archives de la Ville de Montréal.<br>Archives de la BanQ.<br>Canada Lands Company.<br>The Benny Farmer, Helen Guy collection.</p>
+                </div>
+                <div class="col-xs-12">
+                  <p>Benny Farm: The State, The Community, and The Conflict. PhD dissertation by Luba Serge.<br>Catalogue des Concours Canadiens (ccu.umontréal.ca).<br>Centre for Oral History and Digital Storytelling, Concordia University.<br>“Hope. Effort. Family.” The Benny Farm Community Then ... and Now? By Erin Silver.<br>L'Office de la consultation publique de Montréal.<br>L’Office de l’éclectisme urbain et fonctionnel (L’OEUF).<br>http://www.loeuf.com/en/projects/ benny-farm/<br>Video Advocacy Institute, short films on Benny Farm, 2008.<br><br>
+                  Font Awesome by Dave Gandy - http://fontawesome.io <br><br>
+                  This website is powered by Bootstrap 3.3.7</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row rowMTop">
+            <div class="col-xs-10 col-xs-offset-1 aboutUsBack">
+              <div  id="aboutTitleText">
+                 <p>Thank You</p>
+              </div>
+              <div class="creditText">
+                <div class="col-xs-12">
+                    <p>Sharon Sweeney, Coordinator, NDG Arts Round Table.<br>Halah Al-Ubadai, Director, NDG Community Council.<br>Community Foundations of Canada.<br>Centre for Oral History and Digital Storytelling, Concordia University.<br>Paul Scriver, Zen Nakamura, Sylvie Bérard, Jason Hughes, Helen Bolton Guy, Sam Boskey, Luba Serge, Jason Prince, Mark Poddubiuk, Arlyle Waring, Catherine Charlebois, John McKay, Liz Miller, Marlo Turner-Ritchie</p><br>
+                    <p>Research, writing and interviews: Nathalie Senécal.<br><br>
+                    Audio engineering: Paul Scriver.<br><br>Website concept: Nathalie Senécal, Zen Nakamura and Sylvie Bérard.<br><br>Website design: Zen Nakamura</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- end of Credits row   -->
+
         </div><!-- end of mainContent -->
       </div>
-
-
     </div>  <!-- end of wrapper  
  -->
 
   <!-- ============   footer ==================== -->
 
     <div class="footer" >
-      <div class="container-fluid" id="customFooter">
+      <div class="container-fluid " id="customFooter">
         <div class="row">
+
           <div class="col-xs-8 footerText">
             <div class="col-xs-12">
               <p>Resources:</p>
@@ -156,6 +162,7 @@
               This website is powered by Bootstrap 3.3.7
             </div>
           </div>
+
           <div class="col-xs-4 footerText">
             <div class="col-xs-12">
               <p>Thank You: 
@@ -166,33 +173,62 @@
               Audio engineering: Paul Scriver<br>Website concept: Nathalie Senécal, Zen Nakamura and Sylvie Bérard<br>Website design: Zen Nakamura</p>
             </div>
           </div>
-        </div>
-        <div clas="row ">
-          <div class="col-xs-12 sponsorLogos">
-            <img src="img/footer/COHDS_Logo.png" alt="sponsor3" id="sponsor3"></img>
-            <img src="img/footer/sponsor2.png" alt="sponsor2" id="sponsor2"></img>
-             <img src="img/footer/sponsorLogos.png" alt="sponsor1" id="sponsor1"></img>
-          </div>
 
         </div>
+
+        <div clas="row ">
+          <div class="col-sm-12 sponsorLogos footerPadTop">
+            <div class="col-xs-6 col-sm-4 col-sm-offset-1">
+              <img src="img/footer/COHDS_Logo.png" alt="sponsor3" id="sponsor3"></img>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-sm-push-1 col-lg-push-2">
+              <img src="img/footer/sponsorLogos.png" alt="sponsor1" id="sponsor1"></img>
+            </div>
+            <img src="img/footer/sponsor2.png" alt="sponsor2" id="sponsor2"></img>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div> 
 
     <!-- ==========    Bootstrap core JavaScript ==================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- my local jquery and bootstrap js -->
+     <script src="js/jquery-3.2.1.js"></script>
+     <script src="bootstrap/js/bootstrap.min.js"></script>
+
+ <!--   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script> -->
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+  <!--   // <script src="bootstrap/js/ie10-viewport-bug-workaround.js"></script> -->
 <!-- ======================  my own JS here ========= -->
     <script>
 
       // ==============   open or close side nav menu upon click
         function openNav() {
+           if (window.matchMedia("(min-width: 320px) and (max-width: 410px)").matches) {
+              document.getElementById("mySidenav").style.width = "57%";
+            document.getElementById("sideMenuToggle").style.visibility = "hidden";
+          } 
+          else if (window.matchMedia("(min-width: 411px) and (max-width: 767px)").matches) {
+              document.getElementById("mySidenav").style.width = "45%";
+            document.getElementById("sideMenuToggle").style.visibility = "hidden";
+          
+          } 
+          else if (window.matchMedia("(min-width: 768px) and (max-width: 1023px)").matches){
+              document.getElementById("mySidenav").style.width = "35%";
+            document.getElementById("sideMenuToggle").style.visibility = "hidden";
+          } 
+          
+          else {
             document.getElementById("mySidenav").style.width = "17%";
             document.getElementById("sideMenuToggle").style.visibility = "hidden";
+          }
         }
+
 
         function closeNav() {
             document.getElementById("mySidenav").style.width = "0";

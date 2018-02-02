@@ -1,0 +1,825 @@
+@media (min-width: 411px) and (max-width: 767px){
+
+
+
+body {
+  padding-top: 0px;
+  /*padding-bottom:50px;*/
+  height: 100%;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+@font-face {
+
+font-family: 'Grand Hotel', cursive;
+font-family: 'Norican', cursive;
+font-family: 'Sofia', cursive;
+font-family: 'Molle', cursive;
+font-family: 'Mrs Sheppards', cursive;
+/**/
+
+ font-family: 'Rundk';
+  src: url('../fonts/Rundkursiv.ttf') format('truetype');
+  font-weight: normal;
+    font-style: normal;
+ /* font-family: mrs-sheppards;
+  src: url('../fonts/mrs-sheppards.regular.ttf') format('truetype');
+*/ 
+  font-family: 'Nautilus';
+  src: url('../fonts/Nautilus.ttf') format('truetype');
+  font-weight: normal;
+    font-style: normal;
+  font-family: 'Airconditioner';
+  src: url('../fonts/airconditioner.ttf') format('truetype');
+  font-weight: normal;
+    font-style: normal;
+  font-family: 'advertising';
+  src: url('../fonts/advertising-script-monoline-trail.ttf') format('truetype');
+  font-weight: normal;
+    font-style: normal;
+  font-family: 'playball';
+  src: url('../fonts/Playball.ttf') format('truetype');
+  font-weight: normal;
+    font-style: normal;
+
+}
+
+/*>>>>>>>>>>>>>>>>> original navbar >>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*>>>>>>>>>>>>>>>>> original navbar >>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+#customNavbar {
+    background-color: rgba(165, 113, 24, 0.8);
+    border-color: #fff;
+
+    margin-bottom: 0px;
+    height: 65px;
+}
+
+#customSideNavContainer{
+  padding: 0px;
+}/*  >>>> !!! new id*/
+
+#customNavbar-brand {
+    color: #fff;
+    width: 270px;
+    display: inline-block;
+    position: static;
+
+    padding-left: 10px;
+
+}
+
+#logoText{
+    float: right;
+    position: absolute;
+    color:#fff;
+
+    margin-left: 15%;
+    padding-left: 5%;
+    font-size: 15px;
+}
+
+#logo {
+  position: absolute;  /*<<< change to fixed for @media>720px*/
+
+  width:17%;
+}
+
+#customNavbarToggle{
+    margin-top:25px;
+}
+
+.customNavbarCollapsible {
+    margin-top: 18px;
+}
+
+#customNavbarNav{
+    margin-top:0px;
+    float: right;
+    background-color: rgba(165, 113, 24, 0.7);
+    width: 20%;
+    font-size: 16px;
+}
+
+.navbarItemLeft {
+  text-align:left;
+
+  background-color: rgba(126, 92, 53,1);
+}
+
+#leftSide {
+  text-align: left;)
+}
+
+#rightSide {
+  text-align: right;
+}
+
+.bennyChev {
+  font-size: 36px;
+  color: #ffda05;
+}
+
+/*>>>>> all background opacity for links are 100%*/
+#navbarItemRight1 {
+  text-align:right;
+  background-color: rgba(255, 139, 82, 1);
+} 
+
+#navbarItemRight2 {
+  text-align:right;
+  background-color: rgba(169, 239, 192, 1);
+} 
+#navbarItemRight3 {
+  text-align:right;
+  background-color: rgba(66, 176, 255, 1);
+} 
+#navbarItemRight4 {
+  text-align:right;
+  background-color: rgba(102, 102, 102, 1);
+  } 
+
+  #backToTop{
+  text-align:left;
+
+  background-color: rgba(106, 72, 53,1);
+  display: visible; /* <<<  changed this to hidden for bigger @media */
+
+  }
+
+  #navCredits {
+      background-color: rgba(141, 70, 33,1);
+  display:visible; /* <<<  changed this to hidden for bigger @media*/
+}
+
+  #backToTop{
+  text-align:left;
+
+  background-color: rgba(106, 72, 53,1);
+  display: visible; /* <<<  changed this to hidden for bigger @media */
+
+  }
+
+
+/*>>>>>>>>>>>>>>>>  new side navbar >>>>>>>>>>>>>>>>*/
+/*>>>>>>>>>>>>>>>>  new side navbar >>>>>>>>>>>>>>>>*/
+
+
+
+#newNav {
+    background-color:  rgba(165, 213, 124, 1);
+
+}
+
+.newNavbar-header {
+
+}
+
+#newNav {
+  float:right;
+  position: fixed;
+  z-index: 3;
+  /*margin:15px;*/
+  /*padding:15px;*/
+  width: 25px;
+  height: 25px;
+  top: -100px;
+}
+
+#sideMenuToggle {
+  position: fixed;
+  right: 0;
+  z-index: 4;
+  background-color: rgba(165, 113, 24, 1);
+  background-image: none;
+  border: 1px solid #fff;
+  border-radius: 4px;
+
+  margin-right: 24px;
+  padding: 7px;
+  margin-top: 3.5%;
+  margin-bottom: 7px;
+}
+
+.sidenav {
+    height: auto; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 6; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.15s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+#sidenavLinks {
+  height: auto;
+
+  margin-top: 5px;
+}
+
+
+#sidenavLinks a {
+  padding: 5px 10px 5px 10px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+
+    font-size: 15px;
+
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #000;
+}
+
+/* Position and style the close button (top right corner) */
+#closebtn {
+   position: absolute;
+    top: 0%;
+    right: 0px;
+    font-size: 36px;
+    margin-left: 0px;
+  padding-right: 10px;
+  padding-left: 0px;
+  margin-top: 6%;
+  margin-bottom: 8px;
+  padding-top:0px;
+  padding-bottom: 0px;
+  color: #000;
+  /*background-color: rgba(255, 255, 255, 0);*/
+
+  width:19%;
+    height: 10%;
+  margin-right: 14%;
+  margin-top: 6%;
+  padding-left: 11px;
+  border-radius: 9px;
+    background-color: rgba(255, 255, 255, 1);
+
+  }
+
+ #buttonX {
+    bottom:12px;
+    left:0px;
+    padding-bottom: 7px;
+    position: relative;
+    font-size: 27px;
+  }
+
+  
+
+
+
+
+/* On smaller screens, where height is less than 450px, 
+change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+/*<<<<<<<<<<<<<<<<<<<<<< splash page >>>>>>>>>>>>>>>>>>>>>>>>*/
+/*<<<<<<<<<<<<<<<<<<<<<< splash page >>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+
+
+#customSplashContainer {
+    padding: 0px;
+    position: relative;
+   height: 100%;
+}
+
+#splashPageWrapper{
+    padding:0px;
+
+}
+
+
+#splashBennyOld {
+    position: relative;
+    min-width: 1024px;
+    min-height: 100%;
+    width: 100%;
+    height: 100vh;
+    /*top: -57px;*/
+    /*opacity: 0.7;*/
+    /*float: left;*/
+    z-index: 1;
+    /*top: -249px;*/
+    left: 0px;
+    background-image: url('../img/splashpage/splashPage1.jpg');
+    background-repeat: no-repeat;
+    border: none;
+    background-size: 100% 100%;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+      -o-background-size: cover;
+
+      background-position: 27% 0%;
+      z-index: 1;
+}
+
+#splashBennyNew{
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 100vh;
+    /*opacity: 0.7;*/
+    /*float: right;*/
+    min-height:100%;
+    /*top: -99px;*/
+    right: 0px;
+    background-image: url('../img/splashpage/splashPage2.png');
+    background-repeat: no-repeat;
+    border: none;
+    background-size: 100% 100%;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+      -o-background-size: cover;
+
+      background-position: 26% 64%;
+      z-index: 1;
+
+}
+
+#splashPageText2 {
+  display:inline-block;
+  position:relative;
+  margin-top: 2%;
+  /*margin-left: 22.667%;*/
+
+  background-color: rgba(28, 28, 28, 0.6);
+  border-radius: 15px;
+  margin-top:12%;
+
+
+}
+
+
+#splashPageText {
+    z-index: 3;
+    position: relative;
+    display: inline-block;
+    margin-top: 10%;
+    text-align: center;
+
+    margin-left:7%;
+}
+
+#splashText2 {
+    display: block;
+    position: absolute;
+    width: 100%;
+
+    background-color: rgba(28, 28, 28, 0.6);
+    border-radius: 15px;
+    margin-top:12%;
+}
+
+#customH1 {
+    font-family: 'Mrs sheppards', 'Grand Hotel',cursive;
+    /*src: url('../fonts/mrs-sheppards.regular.ttf') format('truetype');*/
+    /*top: 165px;*/
+    position: relative;
+    display: block;
+    /*left: 0%;*/
+    /*font-style: bold;*/
+    font-size: 55px;
+    /*color: rgba(224, 122, 0, 1);*/
+    /*color: rgba(255, 112, 10, 1);*/
+    color: rgba(230, 0, 0, 1);
+    text-shadow: 1.5px 1px 0px #000;
+
+}
+#bigH1 {
+  font-size: 80px
+}
+
+.customH2 {
+    position: relative;
+    display: block;
+   font-style: normal;
+    text-align: center;
+    color: rgba(228, 70, 2, 1);
+    text-shadow: 1.5px 1px 0px #fff;
+    bottom: 0px;
+
+    /*background-color: rgba(28, 28, 28, 0.6);*/
+    font-size: 30px;
+
+
+}
+
+#customLead {
+    padding-right: 10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    color: #fff;
+    text-align: center;
+    font-weight: normal;
+    overflow: scroll;
+
+    font-size: 16px;
+
+}
+
+.leadBackDrop {
+     padding-left: 20px;
+    padding-bottom:10px;
+    position: relative;
+    /*background-color: rgba(28, 28, 28, 0.6);*/
+    /*border-radius: 15px;*/
+    overflow: scroll;
+
+    padding-top:0px;
+    padding-right: 10px;
+    height: 70vh;
+    top: 0px;
+
+  }
+
+  .titleBackDrop {
+     padding-left: 20px;
+    padding-bottom:10px;
+    position: relative;
+    background-color: transparent;
+    border-radius: 15px;
+    overflow: scroll;
+
+    padding-top:0px;
+    padding-right: 10px;
+    height: 70vh;
+    top: 0px;
+
+  }
+
+
+/*<<<<<<<<<<<<<<<<<<<<<<<  biographies   >>>>>>>>>>>>>>>>>*/
+/*<<<<<<<<<<<<<<<<<<<<<<<  biographies   >>>>>>>>>>>>>>>>>*/
+
+
+
+.bioNoPadR {
+  padding-right: 0px;
+}
+
+#playersWrapper {
+    top:0px;  /* top is -98px for non-carousel version!*/
+    position: relative;
+    padding: 0px;
+}
+
+
+
+.bioTitles {
+    text-align: center;
+    display: block;
+    width: auto;
+    color: rgba(255, 112, 10, 1);
+    z-index: 5;
+
+    height: 65px;
+    font-size: 24px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+   padding-left:30px;
+    padding-top: 15px;
+}
+
+.thePlayers {
+    display: block;
+    width:100%;
+    /*top: 66px;*/
+    position: relative;
+    margin: 0px;
+    padding:0px;
+
+    height: auto;
+
+}
+
+.thePlayers2 {
+    display: inline-block;
+    width:100%;
+    /*top: 66px;*/
+    position: relative;
+    margin: 0px;
+    padding:0px;
+
+    height: auto;
+
+}
+.playerType {
+    background-color: rgba(50, 50, 50, 0.5);
+    color: #fff;
+    padding: 5px 10px 10px 15px;
+
+    font-size: 18px;
+    width: 100%;
+    margin-top: 10%;
+
+}
+
+.playerTypeB {
+    background-color: rgba(50, 50, 50, 0.5);
+    color: #fff;
+    padding: 5px 10px 10px 15px;
+
+    font-size: 18px;
+    width: 100%;
+    margin-top: 10%;
+
+}
+
+.playerType2 {
+    top: 0px;
+    position: relative;
+    background-color: rgba(50, 50, 50, 0.5);
+    color: #fff;
+    width: 31%;
+    font-size: 20px;
+    padding: 5px 10px 5px 15px;
+    margin-top: 14%;
+
+}
+
+.playerBio {
+    display: block;
+    background-color: rgba(50, 50, 50, 0.5);
+    color: #fff;
+    width: 100%;
+    height: auto;
+    max-height:30vh; 
+    padding: 10px 15px 15px 15px;
+    overflow: scroll;
+
+    margin-top: 90%;
+    font-size: 16px;
+}
+
+
+.playerBio2 {
+    /*top: -46px;*/
+    /*position: relative;*/
+    display: block;
+    background-color: rgba(50, 50, 50, 0.5);
+    color: #fff;
+    width: 100%;
+    height: auto;
+    max-height:30vh; 
+    padding: 10px 15px 15px 15px;
+    overflow: scroll;
+
+    margin-top: 138%;
+    font-size: 16px;
+
+}
+
+.playerBioL {
+    top: 56px;
+    position: relative;
+    background-color: rgba(50, 50, 50, 0.5);
+    color: #fff;
+    width: 35%;
+    font-size: 16px;
+    padding-right: 25px;
+    padding-left: 20px;
+    float:left;
+}
+
+.bioSpecs {
+    display: block;
+    position: relative;
+    float:left;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+    padding-top: 0px;
+    top: 0px;
+    margin:0px;
+
+    width: 100%;
+}
+
+#player1 {
+    background-image: url('../img/biography/JasonHughes2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-position: 37% 0%;
+    padding-bottom: 0px;
+}
+
+#player2 {
+  
+    background-image: url('../img/biography/HelenGuy2.jpg');
+    background-size: cover;
+      background-repeat: no-repeat;
+
+    background-position: 37% 0%;
+
+
+}
+#player3 {
+    background-image: url('../img/biography/SamBoskey3.jpg');
+    background-size: cover;
+      background-repeat: no-repeat;
+
+    background-position: 37% 0%;
+
+}
+
+#player4 {
+    background-image: url('../img/biography/LubaSerge2.jpg');
+    background-size: cover;
+      background-repeat: no-repeat;
+
+    background-position: 37% 0%;
+
+}
+
+/*#player2 {
+    display: block;
+    position: absolute;
+    float:right;
+    width: 50%;
+    height: 596px;
+    padding:0px;
+    top: 0px;
+    background-image: url('../img/interviewees/player1.png');
+    background-size: 100%;*/
+    /*  -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: 100%;
+      -o-background-size: cover;*/
+  /*    background-position: 100% 100%;
+      background-repeat: no-repeat;
+
+}*/
+
+.bioMusicBox {
+  /*position: relative;*/
+  display: inline-block;
+  /*margin-left:63%;*/
+  /*margin-bottom: 2%;*/
+  /*margin-top: 2%;*/
+  width: 100%;
+  height: auto;
+  padding: 2% 0% 0% 0%;
+  background-color: transparent;
+  /*bottom: 110px;*/
+  z-index: 4;
+
+}
+
+.musicBox {
+  /*position: relative;*/
+  display: inline-block;
+  /*margin-left:63%;*/
+  /*margin-bottom: 2%;*/
+  /*margin-top: 2%;*/
+  width: 100%;
+  height: auto;
+  padding: 2% 0% 0% 0%;
+  background-color: #fff;
+  /*bottom: 110px;*/
+  z-index: 4;
+
+  }
+
+
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<   footer >>>>>>>>>>>>>>>>>>>>> */
+/*<<<<<<<<<<<<<<<<<<<<<<<<   footer >>>>>>>>>>>>>>>>>>>>> */
+
+
+
+.footer {
+    
+}
+
+
+#customFooter {
+    background-color: rgba(207, 175, 119, 0.4);
+    height:auto;
+
+    padding-bottom: 10px;
+    padding-top:10px;
+  }
+
+
+
+.sponsorLogos {
+    display: inline;
+    padding: 0px;
+}
+
+#sponsor1 {  /*<<< NDG logo*/
+   
+    height: auto;
+    display:inline-block;
+    padding-left: 1%;
+
+     width: 90%;
+}
+
+#sponsor2 {   /*Canada 150 Logo*/
+    padding-left: 2%;
+
+    width: 100%;
+    padding-top: 5%;
+    padding-right: 2%;
+}
+
+#sponsor3 {     /*Centre Oral History Logo*/
+    height: auto;
+    display:inline-block;
+
+    width: 100%;
+
+}
+
+.footerText {
+  padding-top:7px;
+  font-size: 12px;
+  font-family: Helvetica;
+
+  display: none;  /* <<<<<<  change for bigger @media */
+  }
+
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+
+  #logo {
+  position: absolute;  /*<<< change to fixed for @media>720px*/
+
+  width:12%;
+}
+
+#logoText{
+ margin-left: 9%;
+ }
+
+ #closebtn {
+  width:14%;
+  margin-right: 9%;
+}
+
+#buttonX {
+  bottom:14px;
+}
+
+#splashBennyOld {
+  background-position: 47% 0%;
+}
+
+  #splashPageText {
+    z-index: 3;
+    position: relative;
+    display: inline-block;
+    margin-top: 15%;
+    text-align: center;
+
+    margin-left:15%;
+}
+
+  #splashPageText2 {
+  height: 80vh;
+}
+
+#bigH1 {
+  font-size: 100px
+}
+
+#customH1 {
+   font-size: 55px;
+   }
+
+.leadBackDrop {
+   height: 73vh;
+ }
+
+
+
+}

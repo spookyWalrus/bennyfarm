@@ -1,0 +1,1985 @@
+
+
+/*>>>>>>>>>>>>>>>>>>>>> @media 320px   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*>>>>>>>>>>>>>>>>>>>>>>> @media 320px   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>> @media 320px   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+
+
+/*>>>>>>>>>>>>>  general content styling >>>>>*/
+/*>>>>>>>>>>>>>  general content styling >>>>>*/
+
+@media screen (min-width: 320px) and (max-width: 410px;) {  /*<<<< everything below 410px*/
+
+.contentTitles {
+    /*text-align: center;*/
+    display: block;
+
+    color: rgba(255, 112, 10, 1);
+    z-index: 5;
+ 
+  text-align: left;
+    width: 60%;
+    height: 65px;
+    font-size: 24px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+   padding-left:30px;
+    padding-top: 15px;
+
+}
+
+
+
+.floatR {
+	text-align: right;
+	/*padding: 10px;*/
+}
+.floatL{
+	text-align: left;
+}
+
+
+.contentWrapper {
+    position: relative;  
+	padding: 0px;
+}
+
+.mainContent {
+  position: relative;
+  display: inline-block;  
+  z-index: 1;
+  margin-top: 5%;
+
+  font-size: 16px;
+  margin-right: 4%;
+  margin-left: 4%;
+  padding-top:0px;
+
+}
+
+
+.mainTextDate {
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+
+  font-size: 26px;
+  margin-bottom:0px;
+  padding-top: 5px;
+
+}
+
+
+.rowTopBot {
+  margin-top: 3%;
+  margin-bottom:3%;
+}
+
+.rowMTop{
+  margin-top: 3%;
+}
+.rowMBot {
+  margin-bottom:3%;
+}
+
+.noPadL {
+  padding-left: 0px;
+}
+
+.noPadR {
+  padding-right: 0px;
+}
+
+.noPadLR {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<<< content: 1838 - 1944 >>>>>>>>>>>>>*/
+/*<<<<<<<<<<<<<<<<<<<<<<< content: 1838 - 1944 >>>>>>>>>>>>>*/
+
+#benny1833 {
+  position: relative;
+  z-index: 2;
+  background: -webkit-linear-gradient(270deg, #ffffff 5%, #a9efc0 25%);
+  background: -moz-linear-gradient(270deg, #ffffff 5%,  #a9efc0 25%);
+/*  padding-left: 5%;
+  padding-right: 8%;
+  padding-top: 4%;*/
+  padding-bottom: 40px;
+}
+
+#benny1833:before  {
+    content: "";
+    position: absolute;
+    top: 20px;
+    bottom: 0;
+    left: 0;
+    right: 10px;
+    /*z-index: 0;*/
+    background-image: url('../img/1833-1944/farmHouse1.jpg');
+   opacity: 0.08;
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-attachment: fixed;
+   background-position: 100% 91%;
+
+}
+
+.farmImage {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+}
+
+.farmImage1 {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  /*float: left;*/
+  z-index: 2;
+}
+.farmImage2 {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  /*float: right;*/
+  margin-bottom: 1%;
+  z-index: 2;
+}
+.farmImage3 {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+}
+.farmImage3a {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: -13%;
+  z-index: 2;
+}
+.farmImage4 {
+  display: block;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+  margin-top: 7%;
+}
+.farmImage4a {
+  display: block;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+  margin-top: 0%;
+}
+
+.farmPadTop {
+  padding-top:5%;
+}
+
+.farmPadLR {    /*>>>> new for @media 320px*/
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.farmMTop {
+  margin-top:5%;
+}
+
+.farmMTopxx {
+  margin-top:20%;
+}
+
+.farmPadBttm {
+  padding-bottom:5%;
+}
+
+.farmPadBttm {
+  padding-bottom:5%;
+}
+
+.farmMainText {
+  width: auto;
+  height: auto;
+  background-color: rgba(37, 203, 92, 0.5); 
+  font-family: Times;
+
+    padding-right: 6%;
+    padding-left:  6%;
+
+}
+
+
+.farmText{
+  font-size: 20px;
+  text-align: center;
+  font-family: Times, serif;
+   width: auto;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 1% 6% 1% 6%;
+  border-radius: 20px;
+}
+
+.farmTextMTop {
+    font-size: 17px;
+    font-family: 'Times new roman', serif;
+    text-align: center;
+   width: auto;
+  height: auto;
+  background-color: rgba(211, 253, 225, 0.6);
+  padding: 1% 5% 1% 5%;
+  margin-top: 10%;
+  border-radius: 20px;
+}
+
+.farmTextPadBtm {
+  bottom: 75px;
+  background-color: rgba(134, 249, 172, 0.5);
+}
+
+
+/*<<<<<<<<<<<<< veterans' community: 1947 - 1990 >>>>>>>>>>>*/
+/*<<<<<<<<<<<<< veterans' community: 1947 - 1990 >>>>>>>>>>>*/
+
+#vetTitles {
+  width: 90%;
+  padding-left:20px
+}
+
+#vetCommy {
+  position: relative;
+  z-index: 2;
+  background: -webkit-linear-gradient(270deg, #ffffff 10%, #42b0ff 40%);
+  background: -moz-linear-gradient(270deg, #ffffff 10%,  #42b0ff 40%);
+/*  padding-left: 5%;
+  padding-right: 8%;
+  padding-top: 4%;*/
+  color: #fff;
+  padding-bottom: 40px;
+}
+
+#vetCommy:before  {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top:1px;
+    /*z-index: 0;*/
+    background-image: url('../img/1947-1990/playground.jpg');
+   opacity: 0.08;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100%;
+   background-position: 100% 100%;
+}
+
+#vetCommText{
+  width: auto;
+  height: auto;
+  padding: 1% 6% 1% 6%;
+  background-color: rgba(0, 68, 194, 1);
+	color: #fff;
+  font-family: Times;
+
+  font-size: 16px;
+}
+
+.vetTextItal {
+  font-style: italic;
+  width: auto;
+  height: auto;
+  padding: 1% 6% 1% 6%;
+  background-color: rgba(209, 209, 209, 0.87);
+  color: #000;
+ }
+
+.vetTextQte {
+  width: auto;
+  height: auto;
+  padding: 1% 6% 1% 6%;
+  background-color: rgba(250, 254, 252, 0.6);
+  margin-top: 3%;
+  margin-bottom: 3%;
+  color: #000;
+  font-style: italic;
+
+
+}
+
+.vetPadLR {   /*<<<<<<<<  new for @media 320px*/
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.vetPadRight {
+  padding-right: 5%;
+}
+
+.vetNoPad {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.vetMBott {
+  margin-bottom:5%;
+
+}
+
+.vetMTop {
+  margin-top: 10%;
+}
+
+.vetImage1 {
+  width: 100%;
+  height: auto;
+  padding: 0px 0px 15px 0px;
+  margin-top: 3%;
+}
+
+.vetImage1a {
+  width: 100%;
+  height: auto;
+  padding: 0px 0px 15px 0px;
+}
+
+
+.vetImage2 {
+	width: 100%;
+	height: auto;
+	padding: 0px 0px 15px 0px;
+}
+
+.vetImage2a {
+	width: 100%;
+	height: auto;
+	padding: 0px 0px 15px 0px;
+	margin-left: 2%;
+
+}
+
+.vetImage3 {
+	width: 100%;
+	height: auto;
+	padding: 0px 0px 15px 0px;
+}
+
+.vetAudioControl {
+  width:100%;
+}
+
+/*=========== struggle redevelop: 1991-2000 ========*/
+/*=========== struggle redevelop: 1991-2000 ========*/
+
+#redevTitle {
+  width: 90%;
+  padding-left: 20px;
+}
+
+#redevStrug {
+  position: relative;
+  z-index: 2;
+  background: -webkit-linear-gradient( #ffffff 5%, #666666 20%);
+  background: -moz-linear-gradient(270deg, #ffffff 5%,  #666666 20%);
+  color: #000;
+  padding-bottom: 0px;
+
+  margin-top:7%;
+}
+
+#redevStrug:before  {
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /*z-index: 0;*/
+    background-image: url('../img/1992/bennyNewAerial.png');
+   opacity: 0.08;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: 100% 0%;
+}
+
+/*vvvvv   used for last section for color to transparent background  */
+
+
+#redevStrug2 {
+  position: relative;
+    min-width: 1024px;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+
+
+}
+
+#redevStrug2:before  {
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /*z-index: 0;*/
+    background-image: url('../img/2000/bennyNewAerial.png');
+   opacity: 1;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: 100% 0%;
+}
+
+
+
+.mainContent2 {
+  position: relative;
+  font-size: 18px;
+   margin-right: 10%;
+  margin-left: 12%;
+  display: inline-block;
+  z-index: 1;
+}
+ #redevBack2 {
+    position: relative;
+    min-width: 1024px;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    background-color: #545454;
+     background: -webkit-linear-gradient(270deg, #ffffff 5%, #666666 35%);
+  background: -moz-linear-gradient(270deg, rgba(84, 84, 84, 0.7) 75%, transparent 95%);
+    opacity: 1;
+  }
+
+/*^^^^^^^^^^^   for funky background   */
+
+.redevMainText {
+  width: auto;
+  height: auto;
+  padding: 1% 4% 1% 4%;
+  background-color: rgba(101, 78, 97, 1); 
+  color: #fff;
+  font-family: Times;
+  font-size: 16px;
+}
+
+.redevTextItal {
+  font-style: italic;
+  width: auto;
+  height: auto;
+  padding: 1% 6% 1% 6%;
+  background-color: rgba(209, 209, 209, 0.87);
+  /*background-color: rgba(242, 190, 249, 1); */
+}
+
+.redevTextQte2 {
+  width: auto;
+  height: auto;
+  font-style: italic;
+  padding: 1% 6% 1% 6%;
+  background-color: rgba(252, 205, 254, 0.7);
+  /*background-color: rgba(242, 190, 249, 1); */
+}
+
+.redevTextQte {
+  width: auto;
+  height: auto;
+  font-style: italic;
+  padding: 1% 6% 1% 6%;
+  background-color: rgba(251, 210, 253, 0.9);
+  /*background-color: rgba(242, 190, 249, 1); */
+}
+
+.redevMTop {
+  margin-top: 3%;
+}
+
+.redevMTopx {
+  margin-top: 7%;
+}
+
+.redevMTopxx {
+  margin-top: 15%;
+}
+.redevMBttm {
+  margin-bottom: 3%;
+}
+
+
+
+.redevNoPad{
+  padding-left:0px;
+  padding-right: 0px;
+}
+
+.redevNoPadL{
+  /*padding-left:0px;*/
+}
+
+
+.redevNoPadR{
+  padding-right:0px;
+}
+
+.redevImage {
+  width: 100%;
+  height: auto;
+  padding: 0px 0px 15px 0px;
+}
+
+.redevImage1 {
+  width: 14`0%;
+  height: auto;
+  padding: 0px 0px 15px 0px;
+
+}
+
+
+.redevMLR {
+  margin-left:5%;
+  margin-right:5%;
+}
+  /*================= about us   ========*/
+
+
+
+  #backgnd1 {
+    position: relative;
+    min-width: 1024px;
+    min-height: 100%;
+    width: 100%;
+    height: 65vh;
+/*   background: -webkit-linear-gradient(270deg, #ffffff 5%, #666666 35%);
+  background: -moz-linear-gradient(270deg,  #545454 15%, transparent 40%);*/
+
+    
+    /*top: -57px;*/
+    /*opacity: 0.5;*/
+    /*float: left;*/
+    z-index: 1;
+    /*top: -249px;*/
+ 
+}
+
+
+#backgnd1:before  {
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    background-image: url('../img/1992/bennyNewAerial.jpg');
+   opacity: 1;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: 100% 0%;
+}
+
+
+
+
+#aboutTitleText {
+     color: rgba(228, 70, 2, 1);
+    text-shadow: 1.5px 1px 0px #fff;
+
+}
+
+.aboutContent {
+  position: relative;
+  height: auto;
+  font-size: 18px;
+  display: inline-block;
+  z-index: 1;
+  margin-right: 10%;
+  margin-left: 12%;
+  margin-top: 5%;
+  /*margin-top: %;*/
+  /*padding-top:10px;*/
+
+}
+
+#aboutMainText {
+      padding-left: 20px;
+    padding-right: 10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    position: relative;
+    top: 10px;
+    color: #fff;
+    opacity: 1;
+    background-color: rgba(28, 28, 28, 0.7);
+    border-radius: 15px;
+    overflow: scroll;
+}
+
+/*  #backgnd2 {
+    position: relative;
+    min-width: 1024px;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    background-color: #545454;
+     background: -webkit-linear-gradient(270deg, #ffffff 5%, #666666 35%);
+  background: -moz-linear-gradient(270deg, rgba(84, 84, 84, 0.7) 75%, transparent 95%);
+    opacity: 1;
+}*/
+
+/*
+#backgnd2:before  {
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    background-image: url('../img/1992/bennyNewAerial.jpg');
+   opacity: 0.9;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: 100% 0%;
+}*/
+
+/*#backgnd3 {
+    position: relative;
+    min-width: 1024px;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    background-color: #545454;*/
+     /*background: -webkit-linear-gradient(270deg, #666666 35%, transparent 0%);
+     background: -moz-linear-gradient(270deg,  #545454 1%, transparent 90%);*/
+    /*top: -57px;*/
+    /*opacity: 1;*/
+    /*float: left;*/
+    /*z-index: 1;*/
+    /*top: -249px;*/
+/*}*/
+
+}
+
+
+
+/*>>>>>>>>>>>>>>>>>>>>> @media 411px   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*>>>>>>>>>>>>>>>>>>>>>>> @media 411px   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>> @media 411px   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+/*>>>>>>>>>>>>>  general content styling >>>>>*/
+/*>>>>>>>>>>>>>  general content styling >>>>>*/
+
+@media screen (min-width: 411px) and (max-width: 719px) {
+
+.contentTitles {
+    /*text-align: center;*/
+    display: block;
+    color: rgba(255, 112, 10, 1);
+    z-index: 5;
+ 
+  text-align: left;
+    width: 60%;
+    height: 65px;
+    font-size: 24px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+   padding-left:30px;
+    padding-top: 15px;
+
+}
+
+
+
+.floatR {
+  text-align: right;
+  /*padding: 10px;*/
+}
+.floatL{
+  text-align: left;
+}
+
+
+.contentWrapper {
+    position: relative;  
+  padding: 0px;
+}
+
+.mainContent {
+  position: relative;
+  display: inline-block;  
+  z-index: 1;
+  margin-top: 5%;
+
+  font-size: 16px;
+  margin-right: 4%;
+  margin-left: 4%;
+  padding-top:0px;
+
+}
+
+
+.mainTextDate {
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+
+  font-size: 26px;
+  margin-bottom:0px;
+  padding-top: 5px;
+
+}
+
+
+.rowTopBot {
+  margin-top: 3%;
+  margin-bottom:3%;
+}
+
+.rowMTop{
+  margin-top: 3%;
+}
+.rowMBot {
+  margin-bottom:3%;
+}
+
+.noPadL {
+  padding-left: 0px;
+}
+
+.noPadR {
+  padding-right: 0px;
+}
+
+.noPadLR {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<<< content: 1838 - 1944 >>>>>>>>>>>>>*/
+/*<<<<<<<<<<<<<<<<<<<<<<< content: 1838 - 1944 >>>>>>>>>>>>>*/
+
+#benny1833 {
+  position: relative;
+  z-index: 2;
+  background: -webkit-linear-gradient(270deg, #ffffff 5%, #a9efc0 25%);
+  background: -moz-linear-gradient(270deg, #ffffff 5%,  #a9efc0 25%);
+/*  padding-left: 5%;
+  padding-right: 8%;
+  padding-top: 4%;*/
+  padding-bottom: 40px;
+}
+
+#benny1833:before  {
+    content: "";
+    position: absolute;
+    top: 20px;
+    bottom: 0;
+    left: 0;
+    right: 10px;
+    /*z-index: 0;*/
+    background-image: url('../img/1833-1944/farmHouse1.jpg');
+   opacity: 0.08;
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-attachment: fixed;
+   background-position: 100% 91%;
+
+}
+
+.farmImage {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+}
+
+.farmImage1 {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  /*float: left;*/
+  z-index: 2;
+}
+.farmImage2 {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  /*float: right;*/
+  margin-bottom: 1%;
+  z-index: 2;
+}
+.farmImage3 {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+}
+.farmImage3a {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: -13%;
+  z-index: 2;
+}
+.farmImage4 {
+  display: block;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+  margin-top: 7%;
+}
+.farmImage4a {
+  display: block;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+  margin-top: 0%;
+}
+
+.farmPadTop {
+  padding-top:5%;
+}
+
+.farmPadLR {    /*>>>> new for @media 320px*/
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.farmMTop {
+  margin-top:5%;
+}
+
+.farmMTopxx {
+  margin-top:20%;
+}
+
+.farmPadBttm {
+  padding-bottom:5%;
+}
+
+.farmPadBttm {
+  padding-bottom:5%;
+}
+
+.farmMainText {
+  width: auto;
+  height: auto;
+  background-color: rgba(37, 203, 92, 0.5); 
+  font-family: Times;
+
+    padding-right: 6%;
+    padding-left:  6%;
+
+}
+
+
+.farmText{
+  font-size: 20px;
+  text-align: center;
+  font-family: Times, serif;
+   width: auto;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 1% 6% 1% 6%;
+  border-radius: 20px;
+}
+
+.farmTextMTop {
+    font-size: 17px;
+    font-family: 'Times new roman', serif;
+    text-align: center;
+   width: auto;
+  height: auto;
+  background-color: rgba(211, 253, 225, 0.6);
+  padding: 1% 5% 1% 5%;
+  margin-top: 10%;
+  border-radius: 20px;
+}
+
+.farmTextPadBtm {
+  bottom: 75px;
+  background-color: rgba(134, 249, 172, 0.5);
+}
+
+
+/*<<<<<<<<<<<<< veterans' community: 1947 - 1990 >>>>>>>>>>>*/
+/*<<<<<<<<<<<<< veterans' community: 1947 - 1990 >>>>>>>>>>>*/
+
+#vetTitles {
+  width: 90%;
+  padding-left:20px
+}
+
+#vetCommy {
+  position: relative;
+  z-index: 2;
+  background: -webkit-linear-gradient(270deg, #ffffff 10%, #42b0ff 40%);
+  background: -moz-linear-gradient(270deg, #ffffff 10%,  #42b0ff 40%);
+/*  padding-left: 5%;
+  padding-right: 8%;
+  padding-top: 4%;*/
+  color: #fff;
+  padding-bottom: 40px;
+}
+
+#vetCommy:before  {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top:1px;
+    /*z-index: 0;*/
+    background-image: url('../img/1947-1990/playground.jpg');
+   opacity: 0.08;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100%;
+   background-position: 100% 100%;
+}
+
+#vetCommText{
+  width: auto;
+  height: auto;
+  padding: 1% 6% 1% 6%;
+  background-color: rgba(0, 68, 194, 1);
+  color: #fff;
+  font-family: Times;
+
+  font-size: 16px;
+}
+
+.vetTextItal {
+  font-style: italic;
+  width: auto;
+  height: auto;
+  padding: 1% 6% 1% 6%;
+  background-color: rgba(209, 209, 209, 0.87);
+  color: #000;
+ }
+
+.vetTextQte {
+  width: auto;
+  height: auto;
+  padding: 1% 6% 1% 6%;
+  background-color: rgba(250, 254, 252, 0.6);
+  margin-top: 3%;
+  margin-bottom: 3%;
+  color: #000;
+  font-style: italic;
+
+
+}
+
+.vetPadLR {   /*<<<<<<<<  new for @media 320px*/
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.vetPadRight {
+  padding-right: 5%;
+}
+
+.vetNoPad {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.vetMBott {
+  margin-bottom:5%;
+
+}
+
+.vetMTop {
+  margin-top: 10%;
+}
+
+.vetImage1 {
+  width: 100%;
+  height: auto;
+  padding: 0px 0px 15px 0px;
+  margin-top: 3%;
+}
+
+.vetImage1a {
+  width: 100%;
+  height: auto;
+  padding: 0px 0px 15px 0px;
+}
+
+
+.vetImage2 {
+  width: 100%;
+  height: auto;
+  padding: 0px 0px 15px 0px;
+}
+
+.vetImage2a {
+  width: 100%;
+  height: auto;
+  padding: 0px 0px 15px 0px;
+  margin-left: 2%;
+
+}
+
+.vetImage3 {
+  width: 100%;
+  height: auto;
+  padding: 0px 0px 15px 0px;
+}
+
+.vetAudioControl {
+  width:100%;
+}
+
+/*=========== struggle redevelop: 1991-2000 ========*/
+/*=========== struggle redevelop: 1991-2000 ========*/
+
+#redevTitle {
+  width: 90%;
+  padding-left: 20px;
+}
+
+#redevStrug {
+  position: relative;
+  z-index: 2;
+  background: -webkit-linear-gradient( #ffffff 5%, #666666 20%);
+  background: -moz-linear-gradient(270deg, #ffffff 5%,  #666666 20%);
+  color: #000;
+  padding-bottom: 0px;
+
+  margin-top:7%;
+}
+
+#redevStrug:before  {
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /*z-index: 0;*/
+    background-image: url('../img/1992/bennyNewAerial.png');
+   opacity: 0.08;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: 100% 0%;
+}
+
+/*vvvvv   used for last section for color to transparent background  */
+
+
+#redevStrug2 {
+  position: relative;
+    min-width: 1024px;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+
+
+}
+
+#redevStrug2:before  {
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /*z-index: 0;*/
+    background-image: url('../img/2000/bennyNewAerial.png');
+   opacity: 1;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: 100% 0%;
+}
+
+
+
+.mainContent2 {
+  position: relative;
+  font-size: 18px;
+   margin-right: 10%;
+  margin-left: 12%;
+  display: inline-block;
+  z-index: 1;
+}
+ #redevBack2 {
+    position: relative;
+    min-width: 1024px;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    background-color: #545454;
+     background: -webkit-linear-gradient(270deg, #ffffff 5%, #666666 35%);
+  background: -moz-linear-gradient(270deg, rgba(84, 84, 84, 0.7) 75%, transparent 95%);
+    opacity: 1;
+  }
+
+/*^^^^^^^^^^^   for funky background   */
+
+.redevMainText {
+  width: auto;
+  height: auto;
+  padding: 1% 4% 1% 4%;
+  background-color: rgba(101, 78, 97, 1); 
+  color: #fff;
+  font-family: Times;
+  font-size: 16px;
+}
+
+.redevTextItal {
+  font-style: italic;
+  width: auto;
+  height: auto;
+  padding: 1% 6% 1% 6%;
+  background-color: rgba(209, 209, 209, 0.87);
+  /*background-color: rgba(242, 190, 249, 1); */
+}
+
+.redevTextQte2 {
+  width: auto;
+  height: auto;
+  font-style: italic;
+  padding: 1% 6% 1% 6%;
+  background-color: rgba(252, 205, 254, 0.7);
+  /*background-color: rgba(242, 190, 249, 1); */
+}
+
+.redevTextQte {
+  width: auto;
+  height: auto;
+  font-style: italic;
+  padding: 1% 6% 1% 6%;
+  background-color: rgba(251, 210, 253, 0.9);
+  /*background-color: rgba(242, 190, 249, 1); */
+}
+
+.redevMTop {
+  margin-top: 3%;
+}
+
+.redevMTopx {
+  margin-top: 7%;
+}
+
+.redevMTopxx {
+  margin-top: 15%;
+}
+.redevMBttm {
+  margin-bottom: 3%;
+}
+
+
+
+.redevNoPad{
+  padding-left:0px;
+  padding-right: 0px;
+}
+
+.redevNoPadL{
+  /*padding-left:0px;*/
+}
+
+
+.redevNoPadR{
+  padding-right:0px;
+}
+
+.redevImage {
+  width: 100%;
+  height: auto;
+  padding: 0px 0px 15px 0px;
+}
+
+.redevImage1 {
+  width: 14`0%;
+  height: auto;
+  padding: 0px 0px 15px 0px;
+
+}
+
+
+.redevMLR {
+  margin-left:5%;
+  margin-right:5%;
+}
+  /*================= about us   ========*/
+
+
+
+  #backgnd1 {
+    position: relative;
+    min-width: 1024px;
+    min-height: 100%;
+    width: 100%;
+    height: 65vh;
+/*   background: -webkit-linear-gradient(270deg, #ffffff 5%, #666666 35%);
+  background: -moz-linear-gradient(270deg,  #545454 15%, transparent 40%);*/
+
+    
+    /*top: -57px;*/
+    /*opacity: 0.5;*/
+    /*float: left;*/
+    z-index: 1;
+    /*top: -249px;*/
+ 
+}
+
+
+#backgnd1:before  {
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    background-image: url('../img/1992/bennyNewAerial.jpg');
+   opacity: 1;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: 100% 0%;
+}
+
+
+
+
+#aboutTitleText {
+     color: rgba(228, 70, 2, 1);
+    text-shadow: 1.5px 1px 0px #fff;
+
+}
+
+.aboutContent {
+  position: relative;
+  height: auto;
+  font-size: 18px;
+  display: inline-block;
+  z-index: 1;
+  margin-right: 10%;
+  margin-left: 12%;
+  margin-top: 5%;
+  /*margin-top: %;*/
+  /*padding-top:10px;*/
+
+}
+
+#aboutMainText {
+      padding-left: 20px;
+    padding-right: 10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    position: relative;
+    top: 10px;
+    color: #fff;
+    opacity: 1;
+    background-color: rgba(28, 28, 28, 0.7);
+    border-radius: 15px;
+    overflow: scroll;
+}
+
+/*  #backgnd2 {
+    position: relative;
+    min-width: 1024px;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    background-color: #545454;
+     background: -webkit-linear-gradient(270deg, #ffffff 5%, #666666 35%);
+  background: -moz-linear-gradient(270deg, rgba(84, 84, 84, 0.7) 75%, transparent 95%);
+    opacity: 1;
+}*/
+
+/*
+#backgnd2:before  {
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    background-image: url('../img/1992/bennyNewAerial.jpg');
+   opacity: 0.9;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: 100% 0%;
+}*/
+
+/*#backgnd3 {
+    position: relative;
+    min-width: 1024px;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    background-color: #545454;*/
+     /*background: -webkit-linear-gradient(270deg, #666666 35%, transparent 0%);
+     background: -moz-linear-gradient(270deg,  #545454 1%, transparent 90%);*/
+    /*top: -57px;*/
+    /*opacity: 1;*/
+    /*float: left;*/
+    /*z-index: 1;*/
+    /*top: -249px;*/
+/*}*/
+
+}
+
+
+/*              >>>>>>>>>>>>  > 720px >>>>>>>>>>>>>>>>>>>>*/
+/*        >>>>>>>>>>>>  > 720px >>>>>>>>>>>>>>>>>>>>*/
+/*   >>>>>>>>>>>>  > 720px >>>>>>>>>>>>>>>>>>>>*/
+
+
+
+
+@media (min-width: 720px) {
+
+.contentTitles {
+    font-size: 39px;
+    text-align: center;
+     /*position: absolute;*/
+    display: block;
+    padding-top: 7px;
+    padding-right: 5px;
+/*    margin-left: 0%;
+    margin-right: 0%;*/
+    height: 85px;
+    width: auto;
+    color: rgba(255, 112, 10, 1);
+    /*text-shadow: 1.5px 1px 0px #fff;*/
+    z-index: 5;
+    /*background-color: rgba(234, 217, 67, 0.8);*/
+  /*  background: -webkit-linear-gradient(270deg, transparent 9%, #4a3512 149%);
+    background: -moz-linear-gradient(270deg, transparent 9%, #4a3512 149%);*/
+    /*background: -webkit-linear-gradient(270deg, transparent 9%, #4a3512 149%);*/
+
+
+}
+
+
+
+.floatR {
+  text-align: right;
+  /*padding: 10px;*/
+}
+.floatL{
+  text-align: left;
+}
+
+
+.contentWrapper {
+    position: relative;  
+  padding: 0px;
+}
+
+.mainContent {
+  position: relative;
+  font-size: 20px;
+  display: inline-block;
+  z-index: 1;
+  margin-right: 10%;
+  margin-left: 12%;
+  margin-top: 5%;
+  /*margin-top: %;*/
+  padding-top:10px;
+
+}
+
+#metaContainer {
+  padding-left: 0px;
+  padding-right: 0px;
+  width:100%;
+}
+
+
+.mainTextDate {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+}
+
+.noRowMargs {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+
+.rowTopBot {
+  margin-top: 3%;
+  margin-bottom:3%;
+}
+
+.rowMTop{
+  margin-top: 3%;
+}
+.rowMBot {
+  margin-bottom:3%;
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<<< content: 1838 - 1944 >>>>>>>>>>>>>*/
+/*<<<<<<<<<<<<<<<<<<<<<<< content: 1838 - 1944 >>>>>>>>>>>>>*/
+
+#benny1833 {
+  position: relative;
+  z-index: 2;
+  background: -webkit-linear-gradient(270deg, #ffffff 5%, #a9efc0 25%);
+  background: -moz-linear-gradient(270deg, #ffffff 5%,  #a9efc0 25%);
+/*  padding-left: 5%;
+  padding-right: 8%;
+  padding-top: 4%;*/
+  padding-bottom: 40px;
+}
+
+#benny1833:before  {
+    content: "";
+    position: absolute;
+    top: 20px;
+    bottom: 0;
+    left: 0;
+    right: 10px;
+    /*z-index: 0;*/
+    background-image: url('../img/1833-1944/farmHouse1.jpg');
+   opacity: 0.08;
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-attachment: fixed;
+   background-position: 100% 91%;
+
+}
+
+.farmImage {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+}
+
+.farmImage1 {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  /*float: left;*/
+  z-index: 2;
+}
+.farmImage2 {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  /*float: right;*/
+  margin-bottom: 1%;
+  z-index: 2;
+}
+.farmImage3 {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+}
+.farmImage3a {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: -13%;
+  z-index: 2;
+}
+.farmImage4 {
+  display: block;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+  margin-top: 7%;
+}
+.farmImage4a {
+  display: block;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+  margin-top: 0%;
+}
+
+.farmPadTop {
+  padding-top:5%;
+}
+
+.farmMTop {
+  margin-top:5%;
+}
+
+.farmMTopxx {
+  margin-top:20%;
+}
+
+.farmPadBttm {
+  padding-bottom:5%;
+}
+
+.farmPadBttm {
+  padding-bottom:5%;
+}
+
+.farmMainText {
+  width: auto;
+  height: auto;
+  padding: 1% 6% 1% 6%;
+  background-color: rgba(37, 203, 92, 0.5); 
+  font-family: Times;
+}
+
+
+
+.farmText{
+  font-size: 20px;
+  text-align: center;
+  font-family: Times, serif;
+   width: auto;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 1% 6% 1% 6%;
+  border-radius: 20px;
+}
+
+.farmTextMTop {
+    font-size: 17px;
+    font-family: 'Times new roman', serif;
+    text-align: center;
+   width: auto;
+  height: auto;
+  background-color: rgba(211, 253, 225, 0.6);
+  padding: 1% 5% 1% 5%;
+  margin-top: 10%;
+  border-radius: 20px;
+}
+
+.farmTextPadBtm {
+  bottom: 75px;
+  background-color: rgba(134, 249, 172, 0.5);
+}
+
+
+/*<<<<<<<<<<<<< veterans' community: 1947 - 1990 >>>>>>>>>>>*/
+/*<<<<<<<<<<<<< veterans' community: 1947 - 1990 >>>>>>>>>>>*/
+
+#vetCommy {
+  position: relative;
+  z-index: 2;
+  background: -webkit-linear-gradient(270deg, #ffffff 10%, #42b0ff 40%);
+  background: -moz-linear-gradient(270deg, #ffffff 10%,  #42b0ff 40%);
+/*  padding-left: 5%;
+  padding-right: 8%;
+  padding-top: 4%;*/
+  color: #fff;
+  padding-bottom: 40px;
+}
+
+#vetCommy:before  {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top:1px;
+    /*z-index: 0;*/
+    background-image: url('../img/1947-1990/playground.jpg');
+   opacity: 0.08;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100%;
+   background-position: 100% 100%;
+}
+
+#vetCommText{
+  width: auto;
+  height: auto;
+  padding: 1% 6% 1% 6%;
+  background-color: rgba(0, 68, 194, 1);
+  color: #fff;
+  font-family: Times;
+  font-size: 20px;
+}
+
+.vetTextItal {
+  font-style: italic;
+  width: auto;
+  height: auto;
+  padding: 1% 6% 1% 6%;
+  background-color: rgba(209, 209, 209, 0.87);
+  color: #000;
+ }
+
+.vetTextQte {
+  width: auto;
+  height: auto;
+  padding: 1% 6% 1% 6%;
+  background-color: rgba(250, 254, 252, 0.6);
+  margin-top: 3%;
+  margin-bottom: 3%;
+  color: #000;
+  font-style: italic;
+  /*background-color: rgba(242, 190, 249, 1); */
+}
+
+.vetPadRight {
+  padding-right: 5%;
+}
+
+.vetNoPad {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.vetMBott {
+  margin-bottom:5%;
+
+}
+
+.vetMTop {
+  margin-top: 10%;
+}
+
+.vetImage1 {
+  width: 100%;
+  height: auto;
+  padding: 0px 0px 15px 0px;
+  margin-top: 3%;
+}
+
+.vetImage1a {
+  width: 100%;
+  height: auto;
+  padding: 0px 0px 15px 0px;
+}
+
+
+.vetImage2 {
+  width: 100%;
+  height: auto;
+  padding: 0px 0px 15px 0px;
+}
+
+.vetImage2a {
+  width: 100%;
+  height: auto;
+  padding: 0px 0px 15px 0px;
+  margin-left: 2%;
+
+}
+
+.vetImage3 {
+  width: 100%;
+  height: auto;
+  padding: 0px 0px 15px 0px;
+}
+
+.vetAudioControl {
+  width:100%;
+}
+
+/*=========== struggle redevelop: 1991-2000 ========*/
+/*=========== struggle redevelop: 1991-2000 ========*/
+
+#redevStrug {
+  position: relative;
+  z-index: 2;
+  background: -webkit-linear-gradient( #ffffff 5%, #666666 20%);
+  /*background: -moz-linear-gradient( #ffffff 5%,  #666666 20%);*/
+  background: -moz-linear-gradient(270deg, #ffffff 5%,  #666666 20%);
+/*  padding-left: 5%;
+  padding-right: 8%;
+  padding-top: 4%;*/
+  color: #000;
+  padding-bottom: 0px;
+}
+
+#redevStrug:before  {
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /*z-index: 0;*/
+    background-image: url('../img/1992/bennyNewAerial.png');
+   opacity: 0.08;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: 100% 0%;
+}
+
+/*vvvvv   used for last section for color to transparent background  */
+
+
+#redevStrug2 {
+  position: relative;
+    min-width: 1024px;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+
+/*
+  position: relative;
+  z-index: 2;
+  background: -webkit-linear-gradient( #666666 10%, transparent 40%);
+  background: -moz-linear-gradient( #666666 10%, rgba(102,102,102,0.3) 40%);*/
+/*  padding-left: 5%;
+  padding-right: 8%;
+  padding-top: 4%;*/
+/*  color: #000;
+  padding-bottom: 0px;*/
+}
+
+#redevStrug2:before  {
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /*z-index: 0;*/
+    background-image: url('../img/2000/bennyNewAerial.png');
+   opacity: 1;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: 100% 0%;
+}
+
+
+
+.mainContent2 {
+  position: relative;
+  font-size: 18px;
+   margin-right: 10%;
+  margin-left: 12%;
+  display: inline-block;
+  z-index: 1;
+}
+ #redevBack2 {
+    position: relative;
+    min-width: 1024px;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    background-color: #545454;
+     background: -webkit-linear-gradient(270deg, #ffffff 5%, #666666 35%);
+  background: -moz-linear-gradient(270deg, rgba(84, 84, 84, 0.7) 75%, transparent 95%);
+    opacity: 1;
+  }
+
+/*^^^^^^^^^^^   for funky background   */
+
+.redevMainText {
+  width: auto;
+  height: auto;
+  padding: 1% 4% 1% 4%;
+  background-color: rgba(101, 78, 97, 1); 
+  color: #fff;
+  font-family: Times;
+  font-size: 20px;
+}
+
+.redevTextItal {
+  font-style: italic;
+  width: auto;
+  height: auto;
+  padding: 1% 6% 1% 6%;
+  background-color: rgba(209, 209, 209, 0.87);
+  /*background-color: rgba(242, 190, 249, 1); */
+}
+
+.redevTextQte2 {
+  width: auto;
+  height: auto;
+  font-style: italic;
+  padding: 1% 6% 1% 6%;
+  background-color: rgba(252, 205, 254, 0.7);
+  /*background-color: rgba(242, 190, 249, 1); */
+}
+
+.redevTextQte {
+  width: auto;
+  height: auto;
+  font-style: italic;
+  padding: 1% 6% 1% 6%;
+  background-color: rgba(251, 210, 253, 0.9);
+  /*background-color: rgba(242, 190, 249, 1); */
+}
+
+.redevMTop {
+  margin-top: 3%;
+}
+
+.redevMTopx {
+  margin-top: 7%;
+}
+
+.redevMTopxx {
+  margin-top: 15%;
+}
+.redevMBttm {
+  margin-bottom: 3%;
+}
+
+.redevNoPad{
+  padding-left:0px;
+  padding-right: 0px;
+}
+
+.redevNoPadL{
+  padding-left:0px;
+}
+
+
+.redevNoPadR{
+  padding-right:0px;
+}
+
+.redevImage {
+  width: 100%;
+  height: auto;
+  padding: 0px 0px 15px 0px;
+}
+
+.redevImage1 {
+  width: 14`0%;
+  height: auto;
+  padding: 0px 0px 15px 0px;
+}
+
+  /*================= about us   ========*/
+
+
+
+  #backgnd1 {
+    position: relative;
+    min-width: 1024px;
+    min-height: 100%;
+    width: 100%;
+    height: 65vh;
+/*   background: -webkit-linear-gradient(270deg, #ffffff 5%, #666666 35%);
+  background: -moz-linear-gradient(270deg,  #545454 15%, transparent 40%);*/
+
+    
+    /*top: -57px;*/
+    /*opacity: 0.5;*/
+    /*float: left;*/
+    z-index: 1;
+    /*top: -249px;*/
+ 
+}
+
+
+#backgnd1:before  {
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    background-image: url('../img/1992/bennyNewAerial.jpg');
+   opacity: 1;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: 100% 0%;
+}
+
+
+
+
+#aboutTitleText {
+     color: rgba(228, 70, 2, 1);
+    text-shadow: 1.5px 1px 0px #fff;
+
+}
+
+.aboutContent {
+  position: relative;
+  height: auto;
+  font-size: 18px;
+  display: inline-block;
+  z-index: 1;
+  margin-right: 10%;
+  margin-left: 12%;
+  margin-top: 5%;
+  /*margin-top: %;*/
+  /*padding-top:10px;*/
+
+}
+
+#aboutMainText {
+      padding-left: 20px;
+    padding-right: 10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    position: relative;
+    top: 10px;
+    color: #fff;
+    opacity: 1;
+    background-color: rgba(28, 28, 28, 0.7);
+    border-radius: 15px;
+    overflow: scroll;
+}
+
+/*  #backgnd2 {
+    position: relative;
+    min-width: 1024px;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    background-color: #545454;
+     background: -webkit-linear-gradient(270deg, #ffffff 5%, #666666 35%);
+  background: -moz-linear-gradient(270deg, rgba(84, 84, 84, 0.7) 75%, transparent 95%);
+    opacity: 1;
+}*/
+
+/*
+#backgnd2:before  {
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    background-image: url('../img/1992/bennyNewAerial.jpg');
+   opacity: 0.9;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: 100% 0%;
+}*/
+
+/*#backgnd3 {
+    position: relative;
+    min-width: 1024px;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    background-color: #545454;*/
+     /*background: -webkit-linear-gradient(270deg, #666666 35%, transparent 0%);
+     background: -moz-linear-gradient(270deg,  #545454 1%, transparent 90%);*/
+    /*top: -57px;*/
+    /*opacity: 1;*/
+    /*float: left;*/
+    /*z-index: 1;*/
+    /*top: -249px;*/
+/*}*/
+
+}

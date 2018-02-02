@@ -1,0 +1,264 @@
+
+/*--- -------------  general splash page styles  ----------- ----*/
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+@font-face {
+	font-family: "Mrs Sheppards", cursive;
+	src: url('../fonts/mrs-sheppards.regular.ttf') format('truetype');
+    font-style: normal;
+
+}
+
+/*--------   glow on hover ------*/
+.hov:hover {
+	cursor: pointer;
+	/*box-shadow: 0 0 5px 3px rgba(0, 140, 186, 0.5);*/
+
+}
+
+/*---- wrapper ---*/
+
+.splashWrap {
+	height: 500px;
+	margin-top: 0%;
+	margin-bottom: 5%;
+}
+
+.splashBox {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	/*overflow: ;*/
+	z-index: 33;
+
+}
+	/*
+.splash { 
+  position: relative;
+  height: 660px;*/
+  /*background-color: green;*/
+
+/*}*/
+
+/*  -----------  header content ----------     */
+#bootstrap-overrides h3 {
+	font-family: "Mrs Sheppards", 'Open sans', Arial, sans-serif;
+	font-size: 6em;
+	color: rgba(224, 122, 0, 1);
+	margin-left: -27%;
+}
+
+#bootstrap-overrides h4{
+	font-family: "Mrs Sheppards", 'Open sans', Arial, sans-serif;
+	font-size: 3em;
+	color: #a35200;
+	margin-left: -27%;
+	margin-top: -3%;
+	z-index: 3;
+}
+
+/*---------------    ben farm styles ---------------*/
+
+	#benFarm {
+		width: 73%;
+		height: 99%;
+		top: 0px;
+		right: 20%;
+		border-radius: 5px;
+		position: absolute;
+		display: block;
+		background-image: url("../img/bFarm1.jpg");
+		border-radius: 5px;
+		background-size: 100% 100%;
+		  /*-webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  background-size: 100%;
+		  -o-background-size: cover;
+		  background-position: 50% 76%;*/
+		/*cursor: pointer;*/
+		z-index: 1;
+	}
+
+	#benFarmStop {
+		top: 30px;
+		left: 756px;
+		position: absolute;
+		z-index: 2;
+	}
+
+	/*----- benportrait styles ----*/
+	#benPor {
+		width: 29%;
+		height: 95%;
+		top: 5%;
+		right: 0%;
+		border-radius: 5px;
+		position: absolute;
+		display: block;
+		background-image: url("../img/BennyPortrait.jpg");
+		border-radius: 5px;
+     	background-repeat: no-repeat;
+		background-position: 50% 76%;
+		background-size: 100% 100%;
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  background-size: 85%;
+		  -o-background-size: cover;
+		/*
+		transform: rotate(16deg);
+		  -webkit-transform: rotate(16deg);
+	     -moz-transform: rotate(16deg);
+    	 -ms-transform: rotate(16deg);
+   		 -o-transform: rotate(16deg);*/
+		/*cursor: pointer;*/
+		z-index: 2;
+	}
+
+	#benPorStop {
+		top: 18%;
+		right: 8%;
+		position: absolute;
+		z-index: 22;
+	}
+
+	
+	#benLogo1 { 
+	width: 42%;
+	height: 46%;
+	top: 7%;
+	left: 30%;
+	border-radius: 5px;
+	position: absolute;
+	display: block;
+	background-image: url("../img/bFarmLogo2.jpg");
+	border-radius: 5px;
+ 	background-repeat: no-repeat;
+
+	background-size: 100% 100%;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  background-size: 68%;
+	  -o-background-size: cover;
+	  background-position: 100% 121%;
+
+	/*transform: rotate(16deg);
+		  -webkit-transform: rotate(16deg);
+	     -moz-transform: rotate(16deg);
+    	 -ms-transform: rotate(16deg);
+   		 -o-transform: rotate(16deg);*/
+	/*cursor: pointer;*/
+	z-index: 1;
+
+	}
+
+	#benLogoStop1 {
+		bottom: 1%;
+		left: 20%;
+		position: absolute;
+		z-index: 2;
+	
+	}
+
+
+	#benHouse1 { 
+	top: 3%;
+	width: 40%;
+	height: 45%;
+	left: 5%;
+	border-radius: 5px;
+	position: absolute;
+	display: block;
+	background-image: url("../img/farmHouse.jpg");
+	border-radius: 5px;
+ 	background-repeat: no-repeat;
+ 	border: 5px solid white;
+
+	background-size: 100% 100%;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  background-size: 106%;
+	  -o-background-size: cover;
+	  background-position: 100% 100%;
+
+	/*transform: rotate(-8deg);
+		  -webkit-transform: rotate(-8deg);
+	     -moz-transform: rotate(-8deg);
+    	 -ms-transform: rotate(-8deg);
+   		 -o-transform: rotate(-8deg);*/
+	/*cursor: pointer;*/
+	z-index: 2;
+
+	}
+
+	#benHouse1Stop {
+		top: 20%;
+		left: 8%;
+		position: absolute;
+		z-index: 2;
+	}
+
+	#benAerial1 {
+	/*top: -2%;*/
+	bottom: 0%;
+	width: 39%;
+	height: 55%;
+	left: 7%;
+	border-radius: 5px;
+	position: absolute;
+	display: block;
+	background-image: url("../img/splashpage/benny-splashPic1.jpg");
+	border-radius: 5px;
+ 	background-repeat: no-repeat;
+ 	border: 5px solid white;
+
+	background-size: 100% 100%;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  background-size: 107%;
+	  -o-background-size: cover;
+	  background-position: 100% 82%;
+
+	/*transform: rotate(-8deg);
+		  -webkit-transform: rotate(-8deg);
+	     -moz-transform: rotate(-8deg);
+    	 -ms-transform: rotate(-8deg);
+   		 -o-transform: rotate(-8deg);*/
+	/*cursor: pointer;*/
+	z-index: 2;
+
+	}
+
+	#benAerial2{
+	/*top: -2%;*/
+	width: 36%;
+	height: 53%;
+	right: 18%;
+	bottom: 0%;
+	/*left: 5%;*/
+	border-radius: 5px;
+	position: absolute;
+	display: block;
+	background-image: url("../img/splashpage/benny-splashPic2.jpg");
+	border-radius: 5px;
+ 	background-repeat: no-repeat;
+ 	border: 5px white solid;
+	background-size: 100% 100%;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  background-size: 100%;
+	  -o-background-size: cover;
+	  background-position: 100% 100%;
+
+	/*transform: rotate(-8deg);
+		  -webkit-transform: rotate(-8deg);
+	     -moz-transform: rotate(-8deg);
+    	 -ms-transform: rotate(-8deg);
+   		 -o-transform: rotate(-8deg);*/
+	/*cursor: pointer;*/
+	z-index: 2;
+
+	}
