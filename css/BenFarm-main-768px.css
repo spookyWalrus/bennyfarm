@@ -782,13 +782,17 @@ change the style of the sidenav (less padding and a smaller font size) */
     text-overflow: hidden;
     overflow: scroll;
 }
-/*
+
+.titleBackDrop{
+    overflow: none;
+}
+
 #splashBennyOld {
   background-position: 47% 0%;
 }
 
  #splashPageText {
-  margin-top:27%;
+  margin-top:8%;
   margin-left:19%;
 }
 
@@ -798,11 +802,11 @@ change the style of the sidenav (less padding and a smaller font size) */
 }
 
 #bigH1 {
-  font-size: 128px
+  font-size: 105px
 }
-*/
+
 #customH1{
-    overflow: unset;
+    /*overflow: unset;*/
 }
 
 .playerBio {
