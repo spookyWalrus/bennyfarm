@@ -399,6 +399,7 @@ change the style of the sidenav (less padding and a smaller font size) */
     /*color: rgba(255, 112, 10, 1);*/
     color: rgba(230, 0, 0, 1);
     text-shadow: 1.5px 1px 0px #000;
+    overflow: unset;
 
 }
 #bigH1 {
@@ -777,7 +778,11 @@ change the style of the sidenav (less padding and a smaller font size) */
 }
 
 @media (min-width: 800px) and (max-width: 1023px) {
-
+#splashPageText2{
+    text-overflow: hidden;
+    overflow: scroll;
+}
+/*
 #splashBennyOld {
   background-position: 47% 0%;
 }
@@ -795,12 +800,17 @@ change the style of the sidenav (less padding and a smaller font size) */
 #bigH1 {
   font-size: 128px
 }
+*/
+#customH1{
+    overflow: unset;
+}
+
 .playerBio {
-  margin-top: 275%;
+  margin-top: 127%;
   margin-left: 7%;
 }
 .playerBio2 {
-  margin-top: 275%;
+  margin-top: 127%;
   margin-left: 7%;
 }
 
