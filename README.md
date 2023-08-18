@@ -1,4 +1,7 @@
-# A website describing the history, development and community of the unique building complex known as Benny Farm in the neighbourhood of Notre-Dame de Grace in Montreal, Quebec.
+# The history and development of Benny Farms.
 
-## Presented by the NDG History workshop.
-http://ndg.ca/en/atelier-histoire-ndg
+## This website describes the history, development and community of the unique building complex known as Benny Farm in the neighbourhood of Notre-Dame de Grace in Montreal, Quebec.
+
+### Implements HTML, CSS and Bootstrap.
+
+### Presented by the [NDG History workshop.](http://ndg.ca/en/atelier-histoire-ndg)
