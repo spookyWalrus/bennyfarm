@@ -5,3 +5,5 @@
 ### Implements HTML, CSS and Bootstrap.
 
 ### Presented by the [NDG History workshop.](http://ndg.ca/en/atelier-histoire-ndg)
+
+### [See the page live here.](http://atelierhistoirendg.ca/)
